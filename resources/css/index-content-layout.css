@@ -21,6 +21,12 @@ div#image {
     font-weight: bold;
 }
 
+#sub-title2 {
+    color: #e5760d;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
     #content {
