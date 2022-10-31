@@ -111,33 +111,33 @@ const indexes = [
         style: `style="background-color: #cc0000;"`,
         page: "bilinguism.html",
         content: `
-        <h1 id="sub-title">Bilinguismo</h1>
+            <h1 id="sub-title">Bilinguismo</h1>
 
-        Il bilinguismo sembra un fenomeno così lontano da noi! In realtà è molto più comune di quanto crediamo. Infatti le <span id="sub-title">persone che parlano più di una lingua nella propria giornata</span> sono molte: c’è la famiglia con la mamma italiana e il papà spagnolo, c’è la famiglia francese migrata in Cina, c’è chi usa quotidianamente l’inglese per lavoro e ci sono gli anziani che parlano il proprio dialetto durante le partite a bocce.<br /><br />
-        
-        <span id="sub-title">Il bilinguismo costituisce un vantaggio o uno svantaggio per i nostri piccoli parlatori?</span>
-        Non c'è ombra di dubbio … conoscere e riuscire ad utilizzare più lingue porta diversi <span id="sub-title">vantaggi</span>:<br />
-        -	a livello sociale, perché la seconda lingua è uno strumento in più per comunicare;<br />
-        -	a livello cerebrale: il continuo passaggio da una lingua all'altra allena la capacità di alternare compiti diversi, aumenta la capacità di controllo, così come l'abilità di concentrarsi su un'attività e non lasciarsi distrarre;<br />
-        -	a livello dell'attenzione e della creatività: i bambini bilingui ricevono continui stimoli differenti e sono incentivati a ricercare novità intorno a loro.<br /><br />
-        
-        <span id="sub-title">La presenza di due lingue diverse può confondere i nostri bambini?<br />
-        Assolutamente no!</span> I nostri piccoli non correranno nessun rischio perché sanno perfettamente che sono due strumenti diversi e sanno persino in che situazioni utilizzarli.<br />
-        Non è sinonimo di fatica l'utilizzo di entrambe le lingue all'interno della stessa frase: è del tutto normale nell'apprendimento. Facciamo alcuni esempi:<br />
-        
-        "Andiamo via mamma? Torniamo a … maison?"<br />
-        Due lingue utilizzate: italiano (torniamo a) e francese (maison)<br />
-        In questo caso il bambino ha sfruttato un vocabolo francese per esprimere il significato di una parola che non sa nella lingua italiana o che non ricorda.<br /><br />
-        
-        "Voglio questo! Ho choosato quello blu"<br />
-        Due lingue utilizzate: italiano (la forma -ato per il participio passato) e inglese (il verbo “choose” che significa scegliere)<br />
-        Il bambino coniuga il verbo secondo le regole della lingua italiana, ma utilizza il verbo inglese "choose".<br /><br />
-        
-        Questi sono fenomeni che con il passare del tempo spariranno da soli quando il bambino avrà il pieno controllo di entrambe le lingue e sarà lui a decidere l'espressione più adatta da usare nelle diverse situazioni.<br /><br />
-        
-        Attenzione! Non c'è confusione tra le lingue, ma <span id="sub-title">è normale che ci sia qualche settimana</span> di silenzio in cui il bambino ascolta la nuova lingua: prima di provare qualcosa dobbiamo averla almeno osservata o ascoltata!<br /><br />
-        
-        BIBLIOGRAFIA: Marini et al., 2019
+            Il bilinguismo sembra un fenomeno così lontano da noi! In realtà è molto più comune di quanto crediamo. Infatti le <span id="sub-title">persone che parlano più di una lingua nella propria giornata</span> sono molte: c’è la famiglia con la mamma italiana e il papà spagnolo, c’è la famiglia francese migrata in Cina, c’è chi usa quotidianamente l’inglese per lavoro e ci sono gli anziani che parlano il proprio dialetto durante le partite a bocce.<br /><br />
+            
+            <span id="sub-title">Il bilinguismo costituisce un vantaggio o uno svantaggio per i nostri piccoli parlatori?</span>
+            Non c'è ombra di dubbio … conoscere e riuscire ad utilizzare più lingue porta diversi <span id="sub-title">vantaggi</span>:<br />
+            -	a livello sociale, perché la seconda lingua è uno strumento in più per comunicare;<br />
+            -	a livello cerebrale: il continuo passaggio da una lingua all'altra allena la capacità di alternare compiti diversi, aumenta la capacità di controllo, così come l'abilità di concentrarsi su un'attività e non lasciarsi distrarre;<br />
+            -	a livello dell'attenzione e della creatività: i bambini bilingui ricevono continui stimoli differenti e sono incentivati a ricercare novità intorno a loro.<br /><br />
+            
+            <span id="sub-title">La presenza di due lingue diverse può confondere i nostri bambini?<br />
+            Assolutamente no!</span> I nostri piccoli non correranno nessun rischio perché sanno perfettamente che sono due strumenti diversi e sanno persino in che situazioni utilizzarli.<br />
+            Non è sinonimo di fatica l'utilizzo di entrambe le lingue all'interno della stessa frase: è del tutto normale nell'apprendimento. Facciamo alcuni esempi:<br />
+            
+            "Andiamo via mamma? Torniamo a … maison?"<br />
+            Due lingue utilizzate: italiano (torniamo a) e francese (maison)<br />
+            In questo caso il bambino ha sfruttato un vocabolo francese per esprimere il significato di una parola che non sa nella lingua italiana o che non ricorda.<br /><br />
+            
+            "Voglio questo! Ho choosato quello blu"<br />
+            Due lingue utilizzate: italiano (la forma -ato per il participio passato) e inglese (il verbo “choose” che significa scegliere)<br />
+            Il bambino coniuga il verbo secondo le regole della lingua italiana, ma utilizza il verbo inglese "choose".<br /><br />
+            
+            Questi sono fenomeni che con il passare del tempo spariranno da soli quando il bambino avrà il pieno controllo di entrambe le lingue e sarà lui a decidere l'espressione più adatta da usare nelle diverse situazioni.<br /><br />
+            
+            Attenzione! Non c'è confusione tra le lingue, ma <span id="sub-title">è normale che ci sia qualche settimana</span> di silenzio in cui il bambino ascolta la nuova lingua: prima di provare qualcosa dobbiamo averla almeno osservata o ascoltata!<br /><br />
+            
+            BIBLIOGRAFIA: Marini et al., 2019
         `,
         image: `<img src="resources/images/BILINGUISMO.jpg" />`
     },
