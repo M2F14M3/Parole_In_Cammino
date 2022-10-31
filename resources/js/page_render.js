@@ -6,7 +6,7 @@ const indexes = [
         style: `style="background-color: #e5760d;"`,
         page: "index.html",
         content: `
-            <h1>Chi siamo e cos'è Parole in cammino?</h1>
+            <h1>Chi siamo e cos'è Parole In Cammino?</h1>
 
             Buongiorno!<br />
             Benvenuti in questo progetto di tesi.<br />
@@ -32,7 +32,7 @@ const indexes = [
             Lara Zerbi, realizzatrice delle illustrazioni di "Parole in Cammino"<br />
             Walter Crippa, graphic designer<br />
 
-            <h1>Lettera ai genitori e alle figure di riferimento</h1>
+            <h1>Letterea ai genitori e alle figure di riferimento</h1>
 
             Accompagnare e supportare la crescita di un bambino è uno dei compiti  più complicati e più belli che esistano.<br />
             I bambini crescono molto velocemente e devono imparare tantissime cose fin dai primi giorni di vita; in pochi anni arriveranno a parlare, a camminare, a correre, a osservare, a cercare, a domandare…<br />
@@ -120,7 +120,7 @@ const indexes = [
         style: `style="background-color: #354f0b;"`,
         page: "device.html",
         content: `
-            <h1 id="sub-title">TECNOLOGIA</h1>
+            <h1 id="sub-title">Tecnologia</h1>
 
             Gli strumenti tecnologici sono ormai entrati a far parte delle nostre vite, ma è importante prestare attenzione al modo in cui si usano.<br />
             Nel 2018 i pediatri italiani hanno preso posizione sull'<span id="sub-title">uso dei dispositivi tecnologici in età prescolare:</span><br />
@@ -168,7 +168,18 @@ const indexes = [
     }
 ]
 
-document.body.addEventListener("load", (menuRender(), contentRender()));
+document.body.addEventListener("load", (titleRender(), menuRender(), contentRender()));
+
+function titleRender() {
+    const data = document.querySelector(".title-site");
+    const content = document.createElement("a");
+    content.innerHTML = `
+        <a href="index.html">
+            PAROLE IN CAMMINO
+        </a>
+    `;
+    data.appendChild(content);
+}
 
 function menuRender() {
     const data = document.querySelector("#data");
@@ -199,7 +210,7 @@ function contentRender() {
     const pageName = document.title;
     switch (pageName) {
         case "Homepage - Parole In Cammino":
-            indexContent();
+            normalContent(0);
             break;
         case "3 anni - Parole In Cammino":
             threeYearsOldContent();
@@ -220,7 +231,7 @@ function contentRender() {
             bilinguismContent();
             break;
         case "Device - Parole In Cammino":
-            deviceContent();
+            normalContent(7);
             break;
         case "Dove altro guardare - Parole In Cammino":
             bibliography();
@@ -228,16 +239,16 @@ function contentRender() {
     }
 }
 
-function indexContent() {
+function normalContent(index) {
     const data = document.querySelector("#data");
     const content = document.createElement("div");
     content.id = "content";
     content.innerHTML = `
         <div id="p1">
-            ${indexes[0].content}
+            ${indexes[index].content}
         </div>
         <div id="image">
-            ${indexes[0].image}
+            ${indexes[index].image}
         </div>
     `;
     data.appendChild(content);
@@ -265,21 +276,6 @@ function readingContent() {
 
 function bilinguismContent() {
 
-}
-
-function deviceContent() {
-    const data = document.querySelector("#data");
-    const content = document.createElement("div");
-    content.id = "content";
-    content.innerHTML = `
-        <div id="p1">
-            ${indexes[7].content}
-        </div>
-        <div id="image">
-            ${indexes[7].image}
-        </div>
-    `;
-    data.appendChild(content);
 }
 
 function bibliography() {
