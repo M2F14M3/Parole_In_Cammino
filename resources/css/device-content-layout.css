@@ -1,6 +1,6 @@
 #content {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 62% 38%;
 }
 
 div#image {
@@ -10,15 +10,19 @@ div#image {
 }
 
 #instraction-cointaner {
-    border: 4px #447513 ridge;
+    border: 4px #354f0b ridge;
     padding: 10px 10px 10px 10px;
-    background-color: #254605;
-    color: #fff;
 }
 
 #sub-title {
-    color: #e5760d;
+    color: #354f0b;
     font-weight: bold;
+}
+
+#sub-title2 {
+    color: #354f0b;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {

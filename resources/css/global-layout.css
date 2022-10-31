@@ -80,14 +80,6 @@ div.menu-links>a {
   padding: auto 0% auto 0%;
 }
 
-/* aside>div:hover {
-  background-color: grey;
-}
-
-aside>div#active-page {
-  background-color: grey;
-} */
-
 aside>div:nth-child(1):hover {
   background-color: #e5760d;
 }
@@ -151,9 +143,8 @@ aside {
   text-decoration: underline;
 }
 
-#sub-title {
-  color: #c73d43;
-  font-weight: bold;
+h1 {
+  text-align: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {
