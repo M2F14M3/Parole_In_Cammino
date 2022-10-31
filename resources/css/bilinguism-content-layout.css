@@ -22,4 +22,10 @@ div#image {
         text-align: center;
     }
 
+    div#image {
+        display: inline;
+        zoom: 0.8;
+        justify-content: center;
+    }
+
 }
