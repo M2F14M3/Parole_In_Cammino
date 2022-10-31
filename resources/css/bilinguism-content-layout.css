@@ -1,0 +1,25 @@
+#content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+div#image {
+    display: inline;
+    zoom: 1.2;
+    padding-left: 10%
+}
+
+#sub-title {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
