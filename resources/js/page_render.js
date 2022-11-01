@@ -32,7 +32,7 @@ const indexes = [
             Lara Zerbi, realizzatrice delle illustrazioni di "Parole in Cammino"<br />
             Walter Crippa, graphic designer<br />
 
-            <h1>Letterea ai genitori e alle figure di riferimento</h1>
+            <h1 id="sub-title">Letterea ai genitori e alle figure di riferimento</h1>
 
             Accompagnare e supportare la crescita di un bambino è uno dei compiti  più complicati e più belli che esistano.<br />
             I bambini crescono molto velocemente e devono imparare tantissime cose fin dai primi giorni di vita; in pochi anni arriveranno a parlare, a camminare, a correre, a osservare, a cercare, a domandare…<br />
@@ -188,7 +188,7 @@ const indexes = [
     {
         id: 8,
         title: "Dove altro guardare - Parole In Cammino",
-        indexValue: "Dove altro guardare",
+        indexValue: "Dove altro<br /> guardare",
         style: `style="background-color: #e5760d;"`,
         page: "bibliography.html",
         content: ``,

@@ -78,6 +78,7 @@ a {
 
 div.menu-links>a {
   padding: auto 0% auto 0%;
+  text-align: center
 }
 
 aside>div:nth-child(1):hover {
@@ -153,7 +154,6 @@ h1 {
   aside {
     width: 100%;
     height: fit-content;
-    overflow: hidden;
   }
 
 }
