@@ -156,4 +156,31 @@ h1 {
     height: fit-content;
   }
 
+  html {
+    width: 114vw;
+  }
+
+  body {
+    height: auto;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  div#image {
+    display: inline;
+    zoom: 0.8;
+    justify-content: center;
+    padding-left: 0%
+  }
+
+  #instraction-cointaner {
+    padding: 5px 5px 5px 5px;
+  }
+
 }

@@ -13,19 +13,3 @@ div#image {
     color: #cc0000;
     font-weight: bold;
 }
-
-@media screen and (min-width: 0px) and (max-width: 1024px) {
-
-    #content {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    div#image {
-        display: inline;
-        zoom: 0.8;
-        justify-content: center;
-    }
-
-}
