@@ -5,6 +5,7 @@ const indexes = [
         indexValue: "Introduzione",
         style: `style="background-color: #e5760d;"`,
         page: "index.html",
+        image: `<img src="resources/images/INTRODUZIONE.png" />`,
         content: `
             <h1 id="sub-title">Chi siamo e cos'è Parole In Cammino?</h1>
 
@@ -56,8 +57,7 @@ const indexes = [
                 
                 <span id="sub-title">In grassetto sono riportate le competenze dei bambini</span>, <span id="sub-title2">mentre i consigli e le proposte di attività per l'adulto sono sottolineati.</span>
             </div>
-        `,
-        image: `<img src="resources/images/INTRODUZIONE.png" />`
+        `
     },
     {
         id: 1,
@@ -65,8 +65,8 @@ const indexes = [
         indexValue: "3 anni",
         style: `style="background-color: #8e1582;"`,
         page: "three_years_old.html",
-        content: ``,
-        image: ``
+        image: ``,
+        content: ``
     },
     {
         id: 2,
@@ -74,8 +74,8 @@ const indexes = [
         indexValue: "3-4 anni",
         style: `style="background-color: #e5760d;"`,
         page: "three_four_years_old.html",
-        content: ``,
-        image: `<img src="resources/images/" />`
+        image: `<img src="resources/images/" />`,
+        content: ``
     },
     {
         id: 3,
@@ -83,8 +83,8 @@ const indexes = [
         indexValue: "4-5 anni",
         style: `style="background-color: #44b513;"`,
         page: "four_five_years_old.html",
-        content: ``,
-        image: `<img src="resources/images/" />`
+        image: `<img src="resources/images/" />`,
+        content: ``
     },
     {
         id: 4,
@@ -92,8 +92,8 @@ const indexes = [
         indexValue: "5-6 anni",
         style: `style="background-color: #3b5bed;"`,
         page: "five_six_years_old.html",
-        content: ``,
-        image: `<img src="resources/images/" />`
+        image: `<img src="resources/images/" />`,
+        content: ``
     },
     {
         id: 5,
@@ -101,8 +101,49 @@ const indexes = [
         indexValue: "Lettura",
         style: `style="background-color: #8e1582;"`,
         page: "reading.html",
-        content: ``,
-        image: `<img src="resources/images/" />`
+        image: `<img src="resources/images/LIBRI.jpg" />`,
+        content: `
+            <h1 id="sub-title">LIBRI</h1>
+
+            C'era una volta … tanti piccoli bambini pronti a varcare le porte della scuola elementare, alla scoperta di un nuovo mondo. Qui apprenderanno le tabelline, l'inglese, la storia degli antichi egizi … ma, prima di tutto ciò, impareranno a leggere e a scrivere.<br />
+            Per prepararsi al meglio vi suggeriamo caldamente di ritagliare già dalla tenera età dei piccoli momenti da dedicare alla <span id="sub-title">lettura condivisa</span>. Questa preziosa attività permette di <span id="sub-title">creare un contesto intimo, privato e sereno</span> ed è un'ottima occasione per <span id="sub-title">apprendere la lingua</span>: ci sono frequenti ripetizioni, frasi complete e corrette e la possibilità di usare intonazioni diverse e divertenti.<br />
+            Il vantaggio che si guadagna dalla lettura è innegabile: non influisce tanto il fatto che sia mamma o papà o la tata a prendere in mano il libro, piuttosto risulta <span id="sub-title">fondamentale la costanza</span> con cui si riserva del tempo per leggere insieme.<br />
+            Ecco un semplice esempio di cosa succede durante la lettura quotidiana:<br />
+            <img src="resources/images/LEGGERE.png" id="libreria" /><br />
+            
+            E' importante fare <span id="sub-title">attenzione anche al "modo" in cui condividiamo i libri</span> con i nostri bambini: i nostri piccoli non dovranno avere solo il ruolo di ascoltatori, ma anche quello di curiosi narratori e sperimentatori.<br />
+            Provate ad accompagnare i momenti di lettura con questi <span id="sub-title">consigli</span>:<br />
+            ●	l'utilizzo di domande aperte rivolte al bambino<br />
+            "Cosa farà ora il povero protagonista?;<br />
+            ●	indicare le immagini e le parole mentre leggete ad alta voce<br />
+            "Guarda che bel vestito giallo che indossa Anna!";<br />
+            ●	la ripetizione frequente<br />
+            "Si girò e vide un ragno! … Un ragno?! Quell'animaletto nero con 8 zampe: è un ragno! Che paura! Un ragno nero!";<br />
+            ●	commentare quanto letto<br />
+            "Mi è proprio piaciuta questa storia. E tu? Cosa ne pensi? [...] Chi è il tuo personaggio preferito?"<br />
+            
+            I libri sono <span id="sub-title">fonte di conoscenza, ma anche di divertimento</span>!! Trasmettere il piacere della lettura consegnerà ai bambini uno strumento illimitato per conoscere il mondo e sé stessi.<br />
+            Ogni occasione è buona per <span id="sub-title">passare in Biblioteca Comunale o in Libreria</span> e far scegliere ai nostri bambini ciò che più li incuriosisce. Che luoghi stupendi e magici … tantissime  copertine colorate, pagine profumate e scaffali pieni zeppi di libri di tutte le dimensioni e di ogni genere.<br /><br />            
+            
+            BIBLIOGRAFIA: (D'Amico e Devescovi, 2013); (Nagy e Herman, 1987)<br /><br />
+
+            Qualche idea di lettura per l'età prescolare:<br />
+            ★	3 anni<br />
+            ❖	"Il piccolo principe" di Stefano Bordiglioni<br />
+            ❖	"Zeb e la scorta di baci" di Michel Gay (F Rocca, traduttore)<br />
+            ❖	"Evviva la scuola materna!" di Marianne Dubuc<br />
+            ❖	Poi c'è tutto il mondo della Pimpa o quello di Giulio Coniglio<br />
+            ★	4 anni<br />
+            ❖	"Le emozioni di Banù" di Aurélie Chien Chow Chine. E' una collana con un libretto per ogni emozione: sono felice, mi annoio, sono triste, ho paura …<br />
+            ❖	"Lo so fare. La prima guida pratica per diventare grandi" di Fabbri Editore<br />
+            ❖	"Segni e disegni con Barroux" di Barroux<br />
+            ❖	"Mamma, cucino da solo! Preparare dolci deliziosi in autonomia secondo il metodo Montessori" di katia Casprini e Roberta Guidotti<br />
+            ★	5 anni<br />
+            ❖	"Ad occhi aperti. Curiosando per il mondo" di Letizia Alippi,<br />
+            ❖	"Ma il sole quanti raggi ha? I grandi rispondo alle domande impossibili dei bambini" di Crealibri<br />
+            ❖	"Le emozioni. Il libro dei perché" di Lara Bryan<br />
+            ❖	"Il tesoro di Atlantide - Libro Game" di daVinciGames<br />
+        `
     },
     {
         id: 6,
@@ -110,10 +151,11 @@ const indexes = [
         indexValue: "Bilinguismo",
         style: `style="background-color: #cc0000;"`,
         page: "bilinguism.html",
+        image: `<img src="resources/images/BILINGUISMO.jpg" />`,
         content: `
             <h1 id="sub-title">Bilinguismo</h1>
 
-            Il bilinguismo sembra un fenomeno così lontano da noi! In realtà è molto più comune di quanto crediamo. Infatti le <span id="sub-title">persone che parlano più di una lingua nella propria giornata</span> sono molte: c’è la famiglia con la mamma italiana e il papà spagnolo, c’è la famiglia francese migrata in Cina, c’è chi usa quotidianamente l’inglese per lavoro e ci sono gli anziani che parlano il proprio dialetto durante le partite a bocce.<br /><br />
+            Il bilinguismo sembra un fenomeno così lontano da noi! In realtà è molto più comune di quanto crediamo. Infatti le <span id="sub-title">persone che parlano più di una lingua nella propria giornata</span> sono molte: c'è la famiglia con la mamma italiana e il papà spagnolo, c'è la famiglia francese migrata in Cina, c'è chi usa quotidianamente l'inglese per lavoro e ci sono gli anziani che parlano il proprio dialetto durante le partite a bocce.<br /><br />
             
             <span id="sub-title">Il bilinguismo costituisce un vantaggio o uno svantaggio per i nostri piccoli parlatori?</span>
             Non c'è ombra di dubbio … conoscere e riuscire ad utilizzare più lingue porta diversi <span id="sub-title">vantaggi</span>:<br />
@@ -130,7 +172,7 @@ const indexes = [
             In questo caso il bambino ha sfruttato un vocabolo francese per esprimere il significato di una parola che non sa nella lingua italiana o che non ricorda.<br /><br />
             
             "Voglio questo! Ho choosato quello blu"<br />
-            Due lingue utilizzate: italiano (la forma -ato per il participio passato) e inglese (il verbo “choose” che significa scegliere)<br />
+            Due lingue utilizzate: italiano (la forma -ato per il participio passato) e inglese (il verbo "choose" che significa scegliere)<br />
             Il bambino coniuga il verbo secondo le regole della lingua italiana, ma utilizza il verbo inglese "choose".<br /><br />
             
             Questi sono fenomeni che con il passare del tempo spariranno da soli quando il bambino avrà il pieno controllo di entrambe le lingue e sarà lui a decidere l'espressione più adatta da usare nelle diverse situazioni.<br /><br />
@@ -138,8 +180,7 @@ const indexes = [
             Attenzione! Non c'è confusione tra le lingue, ma <span id="sub-title">è normale che ci sia qualche settimana</span> di silenzio in cui il bambino ascolta la nuova lingua: prima di provare qualcosa dobbiamo averla almeno osservata o ascoltata!<br /><br />
             
             BIBLIOGRAFIA: Marini et al., 2019
-        `,
-        image: `<img src="resources/images/BILINGUISMO.jpg" />`
+        `
     },
     {
         id: 7,
@@ -147,6 +188,7 @@ const indexes = [
         indexValue: "Device",
         style: `style="background-color: #354f0b;"`,
         page: "device.html",
+        image: `<img src="resources/images/DEVICE.jpg" />`,
         content: `
             <h1 id="sub-title">Tecnologia</h1>
 
@@ -176,14 +218,13 @@ const indexes = [
             
             Qualche <span id="sub-title2">consiglio pratico per evitare la dipendenza dagli schermi</span>:<br />
             ★	quando prendiamo una scelta o imponiamo delle regole (soprattutto se si tratta di schermi), <span id="sub-title">spieghiamo al bambino il perché</span>. Cominceremo a renderli consapevoli.<br />
-            ★	in momenti di attesa fuori casa (al ristorante, dal dottore, dal dentista …) portiamo dei giochi specifici: uno zainetto con <span id="sub-title">attività che fanno raramente</span> (dei colori particolari, delle carte nuove …) e solo in quell’occasione di attesa. La “novità” potrebbe allontanarli facilmente dal telefonino.<br />
+            ★	in momenti di attesa fuori casa (al ristorante, dal dottore, dal dentista …) portiamo dei giochi specifici: uno zainetto con <span id="sub-title">attività che fanno raramente</span> (dei colori particolari, delle carte nuove …) e solo in quell'occasione di attesa. La "novità" potrebbe allontanarli facilmente dal telefonino.<br />
             ★	se attraverso i device emerge una passione del bambino (scopre i dinosauri grazie ai documentari, o gli piace il personaggio di un cartone, o adora un cantante …), <span id="sub-title">ampliamo questo argomento anche fuori dalla tecnologia</span>: cerchiamo dei libri inerenti, o dei personaggini giocattolo, piuttosto che gli stickers …<br />
             Così da enfatizzare e dare importanza alla sua passione e non al momento con il tablet.<br />
             ★	si può anche cercare di <span id="sub-title">non enfatizzare l'uso della tecnologia</span>: evitiamo di usarla come premio o di toglierla in caso di capricci (sembrerà che il dispositivo sia qualcosa di bello e desiderabile).<br /><br />
             
             BIBLIOGRAFIA: (Lavenia, 2019); (Chaibal S e Chaiyakul S., 2022); (Moon et al., 2019); (Yadav e Chakraborty, 2018); (Bozzola et al., 2018). 
-        `,
-        image: `<img src="resources/images/DEVICE.jpg" />`
+        `
     },
     {
         id: 8,
@@ -191,8 +232,47 @@ const indexes = [
         indexValue: "Dove altro<br /> guardare",
         style: `style="background-color: #e5760d;"`,
         page: "bibliography.html",
-        content: ``,
-        image: `<img src="resources/images/" />`
+        content: `
+            <h1 id="sub-title">Dove altro guardare</h1>
+            Due libretti online da leggere, condividere e ri-leggere:<br />
+            ➢	<span id="sub-title">PAROLE IN BOCCA</span>, riporta le principali tappe dello sviluppo comunicativo-linguistico e delle competenze alimentari nel bambino tra gli 0 e i 36 mesi<br />
+            <a href="https://issuu.com/peregolibribarzanolcitaly/docs/libretto_pediatri" id="sub-title2" target="blank">https://issuu.com/peregolibribarzanolcitaly/docs/libretto_pediatri</a><br />
+            ➢	<span id="sub-title">PAROLE IN VOLO</span>, una breve introduzione al mondo della balbuzie nei bambini<br />
+            <a href="https://www.logopediamilano.it/doc/libretto_PAROLE_IN_VOLO_pdf.pdf" id="sub-title2" target="blank">https://www.logopediamilano.it/doc/libretto_PAROLE_IN_VOLO_pdf.pdf</a><br /><br />
+            
+
+            Riportiamo anche la <span id="sub-title">BIBLIOGRAFIA</span> che abbiamo utilizzato per creare questo strumento informativo, potete approfondire tutti gli argomenti grazie a:<br />
+            Baumgartner E. (2010) Il gioco dei bambini. II edizione. Roma: Carocci editore.<br />
+            Bozzola E, Spina G, Ruggiero M, Memo L, Agostiniani R, Bozzola M, Corsello G, Villani A. (2018) 74th Congress of the Italian Society of Pediatrics, Italian Journal of Pediatric.<br />
+            Caselli M C, Bello A, Rinaldi P, Stefanini S, Pasqualetti P, “Il Primo Vocabolario del Bambino: Gesti, Parole e Frasi”, 2° ed.2015, FrancoAngeli.<br />
+            Chaibal S, Chaiyakul S. (2022) The association between smartphone and tablet usage and children development. Acta Psychol (Amst); 228:103646.<br />
+            D'Amico S e Devescovi A (2013) Psicologia dello sviluppo del linguaggio. il Mulino.<br />
+            Deny M (2020) Autonomi si diventa. Come stimolare i bambini per farli crescere forti e intraprendenti. Milano: Red Edizione.<br />
+            Dunn J, Kendrick C (1982). The speech of two- and three-years-olds to infant sibilings: “baby talk” and the context of communication. J Child Lang.; 9(3):579-95.<br />
+            Federico F e Cammisa M, (2022) Educare i bambini all'Autonomia: dai 6 mesi ai 6 anni [online]. Disponibile da: <a href="https://alimentazionebambini.e-coop.it/pedagogia/educare-bambini-allautonomia" id="sub-title2" target="blank">https://alimentazionebambini.e-coop.it/pedagogia/educare-bambini-allautonomia</a> [consultato l'11 agosto 2022].<br />
+            Girolametto L, Marotta L e Onofrio D, (2019) Crescere parlando nella scuola dell'infanzia. Edizione Centro Studi Erickson.<br />
+            Infant & Toddler Forum (2014) Developmental Stages in Infant and Toddler Feeding [online]. Disponibile da: <a href="https://infantandtoddlerforum.org/media/upload/pdf-downloads" id="sub-title2" target="blank">https://infantandtoddlerforum.org/media/upload/pdf-downloads</a> <span id="sub-title2">3.5_Developmental_Stages_in_Infant_and_Toddler_Feeding_NEW.pdf</span> [consultato l'8 agosto 2022].<br />
+            Lavenia Giuseppe, (2019) Mio figlio non riesce a stare senza smartphone. Giunti Edu.<br />
+            Marini A, Marotta L, Bulgheroni S, Fabbro F (2015) Batteria per la Valutazione del Linguaggio in Bambini dai 4 ai 12 anni (BVL 4-12). Giunti O.S. Psychometrics, Firenze.<br />
+            Marini A, Sperindé P, Ruta I, Savegnago C and Avanzini F (2019) Linguistic Skills in Bilingual Children With Developmental Language Disorders: A Pilot Study. Front. Psychol. 10:493.<br />
+            Moon JH, Cho SY, Lim SM, Roh JH, Koh MS, Kim YJ, Nam E. (2019) Smart device usage in early childhood is differentially associated with fine motor and language development. Acta Paediatr.; 108(5):903-910.<br />
+            Nagy WE, Anderson RC, Herman PA. (1987) Learning Word Meanings From Context During Normal Reading. American Educational Research Journal; 24(2):237-270.<br />
+            Pinton Alessandra, (2018) I disturbi fonetici e fonologici nell'età dello sviluppo. Carocci Faber.<br />
+            Schindler, O., Ruppolo, G. & Schindler, A., (2011). Deglutologia. II edizione. Torino: Omega edizioni.<br />
+            Tresoldi M, Barillari MR, Ambrogi F, Sai E, Barillari U, Tozzi E, Scarponi L, Schindler A. (2018). Normative and validation data of an articulation test for Italian-speaking children. Int J Pediatr Otorhinolaryngol.; 110:81-86.<br />            
+            Yadav S, Chakraborty P. (2018) Using smartphones with suitable apps can be safe and even useful if they are not misused or overused. Acta Paediatr.r; 107(3):384-387.<br /><br />
+            
+            Pagine Instagram che ci hanno ispirato:<br />
+            ●	<a href="https://www.instagram.com/bebicon_" id="sub-title2" target="blank">bebicon_</a> , Chiara Dallatomasina ed Elisa Riboni (Psicologhe Nueropsicologhe)<br />
+            ●	<a href="https://www.instagram.com/logopedista_stefaniapescantini" id="sub-title2" target="blank">logopedista_stefaniapescantini</a> , Stefania Pescantini (Logopedista)<br />
+            ●	<a href="https://www.instagram.com/artemente.laura.arteterapia" id="sub-title2" target="blank">artemente.laura.arteterapia</a> , Laura Casavecchia (Arteterapia)<br />
+            ●	<a href="https://www.instagram.com/logopedistagram" id="sub-title2" target="blank">logopesistagram</a> , Sofia Parma (Logopedista)<br />
+            ●	<a href="https://www.instagram.com/logotipstricks" id="sub-title2" target="blank">logotipstricks</a> , Giulia Puliga (Logopedista)<br />
+            ●	<a href="https://www.instagram.com/instalogopedia" id="sub-title2" target="blank">instalogopedia</a> , Giorgia Neri (Logopedista)<br />
+            ●	<a href="https://www.instagram.com/logopedistadeborahauteri" id="sub-title2" target="blank">logopedistadeborahauteri</a> , Deborah Auteri (Logopedista)<br />
+            ●	<a href="https://www.instagram.com/dott.ssa_martina_verdese_tnpee" id="sub-title2" target="blank">dott.ssa_martina_verdese_tnpee</a> , Martina Verdese (TNPEE)<br />
+            ●	<a href="https://www.instagram.com/logopedista_angelapaita" id="sub-title2" target="blank">logopedista_angelapaita</a> , Angela Paita (Logopedista)<br />
+        `
     }
 ]
 
@@ -253,7 +333,7 @@ function contentRender() {
             fiveSixYearsOldContent();
             break;
         case "Lettura - Parole In Cammino":
-            readingContent();
+            normalContent(5);
             break;
         case "Bilinguismo - Parole In Cammino":
             normalContent(6);
@@ -262,7 +342,7 @@ function contentRender() {
             normalContent(7);
             break;
         case "Dove altro guardare - Parole In Cammino":
-            bibliography();
+            normalContent(8);
             break;
     }
 }
@@ -275,10 +355,14 @@ function normalContent(index) {
         <div id="p1">
             ${indexes[index].content}
         </div>
-        <div id="image">
-            ${indexes[index].image}
-        </div>
     `;
+    if (indexes[index].image != undefined) {
+        content.innerHTML += `
+            <div id="image">
+                ${indexes[index].image}
+            </div>
+        `;
+    }
     data.appendChild(content);
 }
 

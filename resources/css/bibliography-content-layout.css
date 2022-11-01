@@ -1,0 +1,49 @@
+div#image {
+    display: inline;
+    zoom: 1.2;
+    padding-left: 10%
+}
+
+#sub-title {
+    color: #e5760d;
+    font-weight: bold;
+}
+
+#sub-title2 {
+    color: #e5760d;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+
+    html {
+        width: 114vw;
+    }
+
+    body {
+        height: auto;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    div#image {
+        display: inline;
+        zoom: 0.8;
+        justify-content: center;
+        padding-left: 0%
+    }
+
+    #instraction-cointaner {
+        padding: 5px 5px 5px 5px;
+    }
+
+    #libreria {
+        zoom: 0.5;
+    }
+}
