@@ -39,6 +39,10 @@ div#image {
         padding-left: 0%
     }
 
+    div#p1 {
+        word-break: break-all;
+    }
+
     #instraction-cointaner {
         padding: 5px 5px 5px 5px;
     }
