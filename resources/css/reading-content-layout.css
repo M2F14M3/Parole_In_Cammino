@@ -9,7 +9,7 @@ div#image {
     padding-left: 10%
 }
 
-#sub-title {
+.sub-title {
     color: #8e1582;
     font-weight: bold;
 }

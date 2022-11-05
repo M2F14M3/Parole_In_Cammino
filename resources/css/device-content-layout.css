@@ -14,12 +14,12 @@ div#image {
     padding: 10px 10px 10px 10px;
 }
 
-#sub-title {
+.sub-title {
     color: #354f0b;
     font-weight: bold;
 }
 
-#sub-title2 {
+.sub-title2 {
     color: #354f0b;
     font-weight: bold;
     text-decoration: underline;
