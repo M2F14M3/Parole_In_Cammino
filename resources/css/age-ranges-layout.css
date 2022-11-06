@@ -137,7 +137,7 @@ a.enabled {
         width: 90vw;
         height: fit-content;
         padding: 2% 3% 2% 3%;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .box:nth-child(1) {
