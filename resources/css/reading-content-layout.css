@@ -15,34 +15,28 @@ div#image {
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
-
-    html,
-    body {
-        width: auto;
-        height: auto;
+    html,body {
+        width: fit-content;
+        height: fit-content;
+        font-size: 1em;
     }
-
+    div#image {
+        display: inline;
+        zoom: 0.6;
+        justify-content: center;
+        padding-left: 0%
+    }
     #content {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
     }
-
-    div#image {
-        display: inline;
-        zoom: 0.8;
-        justify-content: center;
-        padding-left: 0%
-    }
-
     div#p1 {
         width: auto;
     }
 
     #libreria {
-        zoom: 0.3;
+        zoom: 0.5;
     }
 }
 
@@ -50,8 +44,8 @@ div#image {
 
     html,
     body {
-        width: auto;
-        height: auto;
+        width: fit-content;
+        height: fit-content;
     }
 
     #content {

@@ -117,8 +117,7 @@ a.enabled {
     color: #000;
     font-weight: 700;
 }
-
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 425px) {
     html,body {
         width: auto;
         height: auto;
@@ -135,7 +134,89 @@ a.enabled {
         width: 90vw;
         height: fit-content;
         padding: 2% 2% 2% 2%;
-        font-size: .9em;
+        font-size: .7em;
+    }
+
+    .box:nth-child(1) {
+        display: block;
+        justify-self: center;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .box:nth-child(2) {
+        display: block;
+        justify-self: center;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .box:nth-child(3) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin: 0%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .riga:nth-child(1) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 0%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        transform: translate(-5%, -5%);
+        height: fit-content;
+    }
+
+    .riga:nth-child(2) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 0%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        transform: translate(-5%, -5%);
+        height: fit-content;
+    }
+
+    .riga:nth-child(3) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 0%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        transform: translate(-5%, -5%);
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    html,body {
+        width: auto;
+        height: auto;
+    }
+    img {
+        zoom: 1.2;
+    }
+    div#value-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 90vw;
+        height: fit-content;
+        padding: 2% 2% 2% 2%;
+        font-size: .8em;
     }
 
     .box:nth-child(1) {

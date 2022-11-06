@@ -27,19 +27,35 @@ div#image {
     text-decoration: underline;
 }
 
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+    html,
+    body {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    div#image {
+        display: inline;
+        zoom: 0.6;
+        justify-content: center;
+        padding-left: 0%
+    }
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
-    html,body {
-        width: auto;
-        height: auto;
+    html,
+    body {
+        width: fit-content;
+        height: fit-content;
     }
 
     #content {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 0%;
     }
 
     div#image {
