@@ -97,7 +97,7 @@ const indexes = [
             </div>
         `,
         autonomie: `
-            <div id="value-content2">
+            <div id="value-content">
                 <h1 class="sub-title">AUTONOMIE</h1>
                 <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
 
@@ -213,7 +213,7 @@ const indexes = [
         style: `style="background-color: #e5760d;"`,
         page: "three_four_years_old.html",
         linguaggio: `
-            <div id="value-content3">
+            <div id="value-content">
                 <h1 class="sub-title">LINGUAGGIO</h1>
                 <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
 
@@ -255,7 +255,7 @@ const indexes = [
             </div>
         `,
         autonomie: `
-            <div id="value-content3">
+            <div id="value-content">
                 <h1 class="sub-title">AUTONOMIE</h1>
                 <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
 
@@ -318,7 +318,7 @@ const indexes = [
             </div>
         `,
         spunti: `
-            <div id="value-content3">
+            <div id="value-content">
                 <h1 class="sub-title">BOX SPUNTI:</h1>
                 <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
 
@@ -526,7 +526,7 @@ const indexes = [
             </div>
         `,
         autonomie: `
-            <div id="value-content2">
+            <div id="value-content">
                 <h1 class="sub-title">AUTONOMIE</h1>
                 <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
 
@@ -906,84 +906,57 @@ function ageRangeContent(index) {
     const data = document.querySelector("#data");
     const content = document.createElement("div");
     content.className = "destra-contenuto";
-    if (indexes[index].campanelli != undefined) {
-        content.innerHTML = `
-            <div class="riga">
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')">
-                        ${boxImages.linguaggio}
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')">
-                        ${boxImages.autonomie}
-                    </a>
-                </div>
+    const riga1 = document.createElement("div");
+    riga1.className = "riga";
+    const riga2 = document.createElement("div");
+    riga2.className = "riga";
+    const riga3 = document.createElement("div");
+    riga3.className = "riga";
+    riga1.innerHTML = `
+        <div class="box">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')">
+                ${boxImages.linguaggio}
+            </a>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')">
+                ${boxImages.autonomie}
+            </a>
+        </div>
+    `;
+    riga2.innerHTML = `
+        <div class="box">
+            <div id="testo"> 
+                <a href="javascript:void(0)" onclick="showText(${index}, 'centrale')">
+                    ${boxImages.centrale}
+                </a>
             </div>
-            <div class="riga">
-                <div class="box">
-                    <div id="testo"> 
-                        <a href="javascript:void(0)" onclick="showText(${index}, 'centrale')">
-                            ${boxImages.centrale}
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="riga">
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')">
-                        ${boxImages.campanelli}
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')">
-                        ${boxImages.spunti}
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')">
-                        ${boxImages.gioco}
-                    </a>
-                </div>
-            </div>
-        `;
-    } else {
-        content.innerHTML = `
-            <div class="riga">
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')">
-                        ${boxImages.linguaggio}
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')">
-                        ${boxImages.autonomie}
-                    </a>
-                </div>
-            </div>
-            <div class="riga">
-                <div class="box">
-                    <div id="testo"> 
-                        <a href="javascript:void(0)" onclick="showText(${index}, 'centrale')">
-                            ${boxImages.centrale}
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="riga">
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')">
-                        ${boxImages.spunti}
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')">
-                        ${boxImages.gioco}
-                    </a>
-                </div>
+        </div>
+    `;
+    if(indexes[index].campanelli != undefined) {
+        riga3.innerHTML = `
+            <div class="box">
+                <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')">
+                    ${boxImages.campanelli}
+                </a>
             </div>
         `;
     }
+    riga3.innerHTML += `
+        <div class="box">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')">
+                ${boxImages.spunti}
+            </a>
+        </div>
+        <div class="box">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')">
+                ${boxImages.gioco}
+            </a>
+        </div>
+    `;
+    content.appendChild(riga1);
+    content.appendChild(riga2);
+    content.appendChild(riga3);
     data.appendChild(content);
 }
 
@@ -991,7 +964,7 @@ function showText(index, value) {
     const data = document.body;
     const content = document.createElement("div");
     content.className = "content-years-range";
-    disableAllLinks(true);
+    disableAllLinks("disabled");
     switch (value) {
         case 'linguaggio':
             content.id = "linguaggio";
@@ -1036,18 +1009,12 @@ function showText(index, value) {
 function dontShowText() {
     const content = document.querySelector(".content-years-range");
     content.parentElement.removeChild(content);
-    disableAllLinks(false);
+    disableAllLinks("enabled");
 }
 
 function disableAllLinks(value) {
     const links = document.querySelectorAll("a");
-    if (value) {
-        links.forEach(link => {
-            link.className = "disabled";
-        });
-    } else {
-        links.forEach(link => {
-            link.className = "enabled";
-        });
-    }
+    links.forEach(link => {
+        link.className = value;
+    });
 }

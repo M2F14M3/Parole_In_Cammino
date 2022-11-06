@@ -84,34 +84,10 @@ div#value-content {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    width: fit-content;
+    width: 70vw;
     height: fit-content;
-    padding: 2% 5% 5% 5%;
+    padding: 2% 3% 2% 3%;
     font-size: 1.2em;
-}
-
-div#value-content2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    width: fit-content;
-    height: fit-content;
-    padding: 2% 5% 5% 5%;
-    font-size: 1.1em;
-}
-
-div#value-content3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    width: fit-content;
-    height: fit-content;
-    padding: 2% 5% 2% 5%;
-    font-size: 1em;
 }
 
 a.disabled {
