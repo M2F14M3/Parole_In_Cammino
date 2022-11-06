@@ -14,7 +14,7 @@ div#image {
     font-weight: bold;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
 
     html {
         width: 114vw;
