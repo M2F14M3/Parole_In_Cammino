@@ -118,7 +118,80 @@ a.enabled {
     font-weight: 700;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    html,body {
+        width: auto;
+        height: auto;
+    }
+    img {
+        zoom: 1.2;
+    }
+    div#value-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 90vw;
+        height: fit-content;
+        padding: 2% 2% 2% 2%;
+        font-size: .9em;
+    }
+
+    .box:nth-child(1) {
+        display: block;
+        justify-self: center;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .box:nth-child(2) {
+        display: block;
+        justify-self: center;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .box:nth-child(3) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin: 0%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .riga:nth-child(1) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 30%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .riga:nth-child(2) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 30%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .riga:nth-child(3) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 30%;
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
     html,body {
         width: auto;
@@ -139,6 +212,7 @@ a.enabled {
         height: fit-content;
         padding: 2% 3% 2% 3%;
         font-size: 1em;
+        overflow-y: scroll;
     }
 
     .box:nth-child(1) {

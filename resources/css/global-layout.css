@@ -144,7 +144,30 @@ h1 {
     margin-left: 1em;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    html,
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    #header {
+        font-size: 2em;
+        justify-content: space-around;
+    }
+
+    #data {
+        flex-direction: column;
+        width: 99.7%;
+    }
+
+    aside {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
     html,
     body {

@@ -16,11 +16,9 @@ div#image {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
 
-    html {
-        width: auto;
-    }
-
+    html,
     body {
+        width: auto;
         height: auto;
     }
 
@@ -49,11 +47,10 @@ div#image {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    html {
-        width: auto;
-    }
 
+    html,
     body {
+        width: auto;
         height: auto;
     }
 
