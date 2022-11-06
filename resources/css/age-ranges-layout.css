@@ -116,3 +116,75 @@ a.enabled {
     color: #000;
     font-weight: 700;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    html,
+    body {
+        overflow-y: scroll;
+    }
+
+    div#value-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 90vw;
+        height: fit-content;
+        padding: 2% 3% 2% 3%;
+        font-size: 1.1em;
+    }
+
+    .box:nth-child(1) {
+        display: block;
+        justify-self: center;
+        margin-left: 0%;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .box:nth-child(2) {
+        display: block;
+        justify-self: center;
+        margin-left: 0%;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .box:nth-child(3) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin: 0%;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .riga:nth-child(1) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 40%;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .riga:nth-child(2) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 40%;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .riga:nth-child(3) {
+        display: block;
+        justify-self: center;
+        padding: 0%;
+        margin-left: 40%;
+        width: 100vw;
+        height: fit-content;
+    }
+}
