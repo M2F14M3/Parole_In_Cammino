@@ -124,6 +124,10 @@ a.enabled {
         overflow-y: scroll;
     }
 
+    img {
+        zoom: 1.2;
+    }
+
     div#value-content {
         position: absolute;
         top: 50%;
