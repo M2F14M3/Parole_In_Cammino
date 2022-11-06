@@ -82,19 +82,19 @@ div.menu-links>a {
 }
 
 aside>div:nth-child(1):hover {
-   background-color: #e5760d;
+    background-color: #e5760d;
 }
 
 aside>div:nth-child(2):hover {
-   background-color: #8e1582;
+    background-color: #8e1582;
 }
 
 aside>div:nth-child(3):hover {
-   background-color: #e5760d;
+    background-color: #e5760d;
 }
 
 aside>div:nth-child(4):hover {
-   background-color: #44b513;
+    background-color: #44b513;
 }
 
 aside>div:nth-child(5):hover {
@@ -106,15 +106,15 @@ aside>div:nth-child(6):hover {
 }
 
 aside>div:nth-child(7):hover {
-   background-color: #cc0000;
+    background-color: #cc0000;
 }
 
 aside>div:nth-child(8):hover {
-   background-color: #354f0b;
+    background-color: #354f0b;
 }
 
 aside>div:nth-child(9):hover {
-   background-color: #e5760d;
+    background-color: #e5760d;
 }
 
 .link-spanner {
@@ -145,6 +145,13 @@ h1 {
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {
+
+    html,
+    body {
+        width: auto;
+        height: auto;
+    }
+
     #header {
         font-size: 2em;
         justify-content: space-around;

@@ -28,11 +28,8 @@ div#image {
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
-    html {
+    html,body {
         width: auto;
-    }
-
-    body {
         height: auto;
     }
 
