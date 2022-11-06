@@ -85,9 +85,10 @@ div#value-content {
     transform: translate(-50%, -50%);
     background-color: #fff;
     width: 70vw;
-    height: fit-content;
+    height: 90vh;
     padding: 2% 3% 2% 3%;
     font-size: 1.2em;
+    overflow-y: scroll;
 }
 
 a.disabled {
@@ -119,11 +120,6 @@ a.enabled {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    html,
-    body {
-        overflow-y: scroll;
-    }
-
     img {
         zoom: 1.2;
     }
@@ -144,7 +140,7 @@ a.enabled {
         display: block;
         justify-self: center;
         margin-left: 0%;
-        width: 100vw;
+        width: fit-content;
         height: fit-content;
     }
 
@@ -152,7 +148,7 @@ a.enabled {
         display: block;
         justify-self: center;
         margin-left: 0%;
-        width: 100vw;
+        width: fit-content;
         height: fit-content;
     }
 
@@ -161,7 +157,7 @@ a.enabled {
         justify-self: center;
         padding: 0%;
         margin: 0%;
-        width: 100vw;
+        width: fit-content;
         height: fit-content;
     }
 
@@ -170,7 +166,7 @@ a.enabled {
         justify-self: center;
         padding: 0%;
         margin-left: 40%;
-        width: 100vw;
+        width: fit-content;
         height: fit-content;
     }
 
@@ -179,7 +175,7 @@ a.enabled {
         justify-self: center;
         padding: 0%;
         margin-left: 40%;
-        width: 100vw;
+        width: fit-content;
         height: fit-content;
     }
 
@@ -188,7 +184,7 @@ a.enabled {
         justify-self: center;
         padding: 0%;
         margin-left: 40%;
-        width: 100vw;
+        width: fit-content;
         height: fit-content;
     }
 }
