@@ -67,7 +67,7 @@
     padding-left: 100px;
 }
 
-img:hover {
+#box:hover {
     zoom: 1.2;
 }
 
@@ -84,9 +84,9 @@ div#value-content {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    width: 70vw;
-    height: 90vh;
-    padding: 2% 3% 2% 3%;
+    width: fit-content;
+    height: 55vh;
+    padding: 0% 3% 2% 3%;
     font-size: 1.2em;
     overflow-y: scroll;
 }
@@ -103,13 +103,12 @@ a.enabled {
     position: absolute;
     width: 2em;
     height: 2em;
-    top: 1em;
-    right: 1em;
+    top: .5em;
+    right: -1em;
     border-radius: 50%;
     text-decoration: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 .close::after {
@@ -117,6 +116,25 @@ a.enabled {
     color: #000;
     font-weight: 700;
 }
+
+.download{
+    position: absolute;
+    top: .5em;
+    left: -1em;
+    display: flex;
+    justify-content: start;
+    zoom: .7;
+}
+
+#section-title {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    font-size: 1.2em;
+}
+
 @media screen and (min-width: 0px) and (max-width: 425px) {
     html,body {
         width: auto;
@@ -124,17 +142,6 @@ a.enabled {
     }
     img {
         zoom: 1.2;
-    }
-    div#value-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        width: 90vw;
-        height: fit-content;
-        padding: 2% 2% 2% 2%;
-        font-size: .7em;
     }
 
     .box:nth-child(1) {
@@ -197,6 +204,15 @@ a.enabled {
         transform: translate(-5%, -5%);
         height: fit-content;
     }
+
+    .close {
+        width: 1em;
+        height: .7em;
+    }
+
+    .download{
+        zoom: .4;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -206,17 +222,6 @@ a.enabled {
     }
     img {
         zoom: 1.2;
-    }
-    div#value-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        width: 90vw;
-        height: fit-content;
-        padding: 2% 2% 2% 2%;
-        font-size: .8em;
     }
 
     .box:nth-child(1) {
@@ -281,19 +286,6 @@ a.enabled {
 
     img {
         zoom: 1.2;
-    }
-
-    div#value-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        width: 90vw;
-        height: fit-content;
-        padding: 2% 3% 2% 3%;
-        font-size: 1em;
-        overflow-y: scroll;
     }
 
     .box:nth-child(1) {

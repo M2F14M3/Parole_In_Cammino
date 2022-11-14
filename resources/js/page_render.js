@@ -5,7 +5,63 @@ const boxImages = {
     campanelli: `<img src="resources/images/BOX_CAMPANELLI.jpg" title="Campanelli d'allarme" />`,
     spunti: `<img src="resources/images/BOX_SPUNTI.png" title="Spunti" />`,
     gioco: `<img src="resources/images/BOX_GIOCO.jpg" title="Gioco" />`,
+    parole_in_bocca: `<img src="resources/images/Parole_in_bocca.jpg" />`,
+    parole_in_volo: `<img src="resources/images/Parole_in_volo.jpg" />`,
+    download: `<img src="resources/images/download.png" />`
 };
+
+const boxNames = {
+    linguaggio: `LINGUAGGIO`,
+    autonomie: `AUTONOMIE`,
+    centrale: [
+        `PRIMA DI METTERSI IN CAMMINO, QUANDO SI SPENGONO LE CANDELINE DEI 3 ANNI: COSA MI PORTO NELLO ZAINO?`,
+        `DAI 3 AI 4 ANNI`,
+        `DAI 4 AI 5 ANNI`,
+        `DAI 5 AI 6 ANNI`
+    ],
+    campanelli: `CAMPANELLI DI ALLARME!`,
+    spunti: `BOX SPUNTI`,
+    gioco: `RELAZIONI SOCIALI - IL GIOCO`
+};
+
+const pdfDownloads = [
+    {
+        id: 0,
+        linguaggio: `<a href="javascript:void(0)" class="download" download="">${boxImages.download}</a>`,
+        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
+    },
+    {
+        id: 1,
+        linguaggio: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
+    },
+    {
+        id: 2,
+        linguaggio: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
+    },
+    {
+        id: 3,
+        linguaggio: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
+        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
+    }
+];
 
 const indexes = [
     {
@@ -78,8 +134,9 @@ const indexes = [
         page: "three_years_old.html",
         linguaggio: `
             <div id="value-content">
-                <h1 class="sub-title">LINGUAGGIO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "linguaggio")}
+                </div>
 
                 I nostri bambini iniziano a chiacchierare sempre di più: il linguaggio è il mezzo più rapido ed efficace, che consente di farsi comprendere velocemente.<br />
                 La maggior parte delle frasi dette dal bambino è composta da tre parole o più grazie alla comparsa di numerosi <span class="sub-title">verbi</span>.<br />
@@ -98,8 +155,9 @@ const indexes = [
         `,
         autonomie: `
             <div id="value-content">
-                <h1 class="sub-title">AUTONOMIE</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "autonomie")}
+                </div>
 
                 <span class="sub-title">1. Alimentazione</span><br />
                 <div class="list">
@@ -131,8 +189,9 @@ const indexes = [
         `,
         centrale: `
             <div id="value-content">
-                <h1 class="sub-title">PRIMA DI METTERSI IN CAMMINO,<br />QUANDO SI SPENGONO LE CANDELINE DEI 3 ANNI:<br />COSA MI PORTO NELLO ZAINO?</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "centrale")}
+                </div>
 
                 Che gioia! Abbiamo appena spento 3 candeline, è già il momento di andare all'asilo!<br />
                 I nostri piccini stanno crescendo e sono pronti per nuove avventure: nuova scuola, nuove maestre, nuovi compagni e tante nuove esperienze che riempiranno sempre di più il bagaglio delle loro abilità.<br />
@@ -144,8 +203,9 @@ const indexes = [
         `,
         campanelli: `
             <div id="value-content">
-                <h1 class="sub-title">CAMPANELLI DI ALLARME!</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "campanelli")}
+                </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
@@ -160,8 +220,9 @@ const indexes = [
         `,
         spunti: `
             <div id="value-content">
-                <h1 class="sub-title">BOX SPUNTI:</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "spunti")}
+                </div>
 
                 <div class="list">
                     -   <span class="sub-title">Niente frustrazioni … una strategia per dare coraggio</span><br />
@@ -194,8 +255,9 @@ const indexes = [
         `,
         gioco: `
             <div id="value-content">
-                <h1 class="sub-title">RELAZIONI SOCIALI - IL GIOCO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "gioco")}
+                </div>
 
                 Quante mattine e quanti pomeriggi a giocare con la mamma, con il papà, con i nonni, al parco, in casa…<br />
                 Quali giochi ha appreso il nostro bambino fino a questo momento del suo viaggio?<br />
@@ -214,8 +276,9 @@ const indexes = [
         page: "three_four_years_old.html",
         linguaggio: `
             <div id="value-content">
-                <h1 class="sub-title">LINGUAGGIO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(1, "linguaggio")}
+                </div>
 
                 La lingua corre sempre più veloce ed è sempre più precisa nei suoi movimenti: riesce anche a pronunciare suoni difficili, come quelli presenti in <span class="sub-title">GN</span>omo, <span class="sub-title">CI</span>ao, <span class="sub-title">GI</span>allo.<br /><br />
  
@@ -256,8 +319,9 @@ const indexes = [
         `,
         autonomie: `
             <div id="value-content">
-                <h1 class="sub-title">AUTONOMIE</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(1, "autonomie")}
+                </div>
 
                 <span class="sub-title">1. Alimentazione</span><br />
                 <div class="list">
@@ -295,8 +359,9 @@ const indexes = [
         `,
         centrale: `
             <div id="value-content">
-                <h1 class="sub-title">DAI 3 AI 4 ANNI</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(1, "centrale")}
+                </div>
 
                 Alcune mamme li chiamano scherzosamente i "Terribili Tre": hanno ormai imparato a correre e a parlare … Possono essere dei veri terremoti!<br />
                 Alla scuola dell'infanzia crescono ogni giorno di più e sono in continua ricerca di novità da imparare. La curiosità è il loro instancabile motore e chi di noi non ha pensato almeno una volta "Come si spegne questo bambino? Non si scaricano mai le batterie?!<br />
@@ -307,8 +372,9 @@ const indexes = [
         `,
         campanelli: `
             <div id="value-content">
-                <h1 class="sub-title">CAMPANELLI DI ALLARME!</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(1, "campanelli")}
+                </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
@@ -319,8 +385,9 @@ const indexes = [
         `,
         spunti: `
             <div id="value-content">
-                <h1 class="sub-title">BOX SPUNTI:</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(1, "spunti")}
+                </div>
 
                 <div class="list">
                     -	<span class="sub-title">Stimolare il linguaggio e imparare nuove parole</span>.<br />
@@ -364,8 +431,9 @@ const indexes = [
         `,
         gioco: `
             <div id="value-content">
-                <h1 class="sub-title">RELAZIONE SOCIALI - IL GIOCO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(1, "gioco")}
+                </div>
 
                 "Faccio finta che la spazzola sia un telefonino per chiamare la mamma in cucina!"<br />
                 Nonno: "Oggi è il compleanno di Peppa Pig, bisogna organizzare una festa! Caspita ci manca la torta"<br />
@@ -392,8 +460,9 @@ const indexes = [
         page: "four_five_years_old.html",
         linguaggio: `
             <div id="value-content">
-                <h1 class="sub-title">LINGUAGGIO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(2, "linguaggio")}
+                </div>
 
                 Accidenti! Il metro segna sempre qualche centimetro in più, i vestiti dell'anno prima sono diventati piccoli e la valigetta delle competenze dei nostri bambini pesa sempre di più. Compaiono altri suoni come quelli presenti in <span class="sub-title">SC</span>immia e <span class="sub-title">R</span>ana.<br />
                 Non c'è da preoccuparsi se la lettera /r/ non compare ai 4 anni: è un suono complesso e potrebbe creare difficoltà anche fino ai 6 anni!<br /><br />
@@ -409,8 +478,9 @@ const indexes = [
         `,
         autonomie: `
             <div id="value-content">
-                <h1 class="sub-title">AUTONOMIE</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(2, "autonomie")}
+                </div>
 
                 <span class="sub-title">1. Vestirsi</span><br />
                 <div class="list">
@@ -435,8 +505,9 @@ const indexes = [
         `,
         centrale: `
             <div id="value-content">
-                <h1 class="sub-title">DAI 4 AI 5 ANNI</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(2, "centrale")}
+                </div>
 
                 Che bello, i nostri bambini sono ormai dei veri e propri esploratori, curiosi e pieni di energia! Le loro giornate si riempiono sempre di più e c'è molto tempo da sfruttare, soprattutto ora che il sonnellino pomeridiano comincia a non essere più un'abitudine, ma un vecchio ricordo … ciao ciao nanna, stiamo diventando grandi!!<br /><br />
 
@@ -445,8 +516,9 @@ const indexes = [
         `,
         campanelli: `
             <div id="value-content">
-                <h1 class="sub-title">CAMPANELLI DI ALLARME!</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(0, "campanelli")}
+                </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
@@ -457,8 +529,9 @@ const indexes = [
         `,
         spunti: `
             <div id="value-content">
-                <h1 class="sub-title">BOX SPUNTI:</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(2, "spunti")}
+                </div>
 
                 <div class="list">
                     -   <span class="sub-title">Prepararsi ad affrontare gli ostacoli e i pericoli</span><br />
@@ -485,8 +558,9 @@ const indexes = [
         `,
         gioco: `
             <div id="value-content">
-                <h1 class="sub-title">RELAZIONI SOCIALI - IL GIOCO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(2, "gioco")}
+                </div>
 
                 Dai amici e amiche, giochiamo tutti insieme!<br />
                 La fantasia corre veloce e nei giochi i nostri bambini <span class="sub-title">si immedesimano in altri personaggi</span>:<br />
@@ -509,8 +583,9 @@ const indexes = [
         page: "five_six_years_old.html",
         linguaggio: `
             <div id="value-content">
-                <h1 class="sub-title">LINGUAGGIO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(3, "linguaggio")}
+                </div>
 
                 I nostri grandoni esplorano e imparano gli ultimi suoni come quelli delle parole "ro<span class="sub-title">S</span>a", "<span class="sub-title">S</span>ole", "fami<span class="sub-title">GLI</span>a".<br />
                 Anche in questo caso per questi suoni più difficili potrebbe volerci un po' di tempo.<br /><br />
@@ -527,8 +602,9 @@ const indexes = [
         `,
         autonomie: `
             <div id="value-content">
-                <h1 class="sub-title">AUTONOMIE</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(3, "autonomie")}
+                </div>
 
                 <span class="sub-title">1. Vestirsi</span><br />
                     <div class="list">
@@ -563,8 +639,9 @@ const indexes = [
         `,
         centrale: `
             <div id="value-content">
-                <h1 class="sub-title">DAI 5 AI 6 ANNI</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(3, "centrale")}
+                </div>
 
                 Li chiamano remigini!! Che emozione … ecco in arrivo l'ultimo anno di asilo! I nostri bambini sono ormai i grandi della classe e, in quanto tali, spesso hanno anche il compito di aiutare i più piccoli nelle attività scolastiche. Sanno di dover dare l’esempio agli altri bambini e si sentono dei giganti alla ricerca di avventure!<br />
                 Bisogna prepararsi al meglio e farsi le spalle larghe … l'anno prossimo bisognerà preparare un altro zaino e indossare nuovi grembiulini: finalmente si va a scuola!!<br /><br />
@@ -574,8 +651,9 @@ const indexes = [
         `,
         spunti: `
             <div id="value-content">
-                <h1 class="sub-title">BOX SPUNTI</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(3, "spunti")}
+                </div>
 
                 -	<span class="sub-title">Una cascata di emozioni</span><br />
                 <div class="list">
@@ -603,8 +681,9 @@ const indexes = [
         `,
         gioco: `
             <div id="value-content">
-                <h1 class="sub-title">RELAZIONI SOCIALI - IL GIOCO</h1>
-                <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+                <div id="section-title">
+                    ${titleBox(3, "gioco")}
+                </div>
 
                 Eccoci qua … è il momento di assistere o partecipare attivamente ai tornei dei <span class="sub-title">giochi in scatola</span>!<br />
                 Qui bisogna seguire il famoso foglietto delle istruzioni: tutti i partecipanti devono condividere e seguire le stesse regole affinché tutto funzioni correttamente.<br />
@@ -768,6 +847,10 @@ const indexes = [
         content: `
             <h1 class="sub-title">Dove altro guardare</h1>
             Due libretti online da leggere, condividere e ri-leggere:<br />
+            <div id="extra">
+                ${boxImages.parole_in_bocca}
+                ${boxImages.parole_in_volo}
+            </div>
             <div class="list">
                 ➢	<span class="sub-title">PAROLE IN BOCCA</span>, riporta le principali tappe dello sviluppo comunicativo-linguistico e delle competenze alimentari nel bambino tra gli 0 e i 36 mesi<br />
                 <span class="list"><a href="https://issuu.com/peregolibribarzanolcitaly/docs/libretto_pediatri" class="sub-title2" target="blank">https://issuu.com/peregolibribarzanolcitaly/docs/libretto_pediatri</a></span><br />
@@ -914,12 +997,12 @@ function ageRangeContent(index) {
     riga3.className = "riga";
     riga1.innerHTML = `
         <div class="box">
-            <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')" id="box">
                 ${boxImages.linguaggio}
             </a>
         </div>
         <div class="box">
-            <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')" id="box">
                 ${boxImages.autonomie}
             </a>
         </div>
@@ -927,7 +1010,7 @@ function ageRangeContent(index) {
     riga2.innerHTML = `
         <div class="box">
             <div id="testo"> 
-                <a href="javascript:void(0)" onclick="showText(${index}, 'centrale')">
+                <a href="javascript:void(0)" onclick="showText(${index}, 'centrale')" id="box">
                     ${boxImages.centrale}
                 </a>
             </div>
@@ -936,7 +1019,7 @@ function ageRangeContent(index) {
     if(indexes[index].campanelli != undefined) {
         riga3.innerHTML = `
             <div class="box">
-                <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')">
+                <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
                     ${boxImages.campanelli}
                 </a>
             </div>
@@ -944,12 +1027,12 @@ function ageRangeContent(index) {
     }
     riga3.innerHTML += `
         <div class="box">
-            <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')" id="box">
                 ${boxImages.spunti}
             </a>
         </div>
         <div class="box">
-            <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')" id="box">
                 ${boxImages.gioco}
             </a>
         </div>
@@ -1017,4 +1100,62 @@ function disableAllLinks(value) {
     links.forEach(link => {
         link.className = value;
     });
+}
+
+function titleBox(index, value) {
+    const content = document.createElement("div");
+    switch (value) {
+        case 'linguaggio':
+            content.innerHTML = `
+                ${pdfDownloads[index].linguaggio}
+                <h1 class="sub-title">
+                    ${boxNames.linguaggio}
+                </h1>
+            `;
+            break;
+        case 'autonomie':
+            content.innerHTML = `
+                ${pdfDownloads[index].autonomie}
+                <h1 class="sub-title">
+                    ${boxNames.autonomie}
+                </h1>
+            `;
+            break;
+        case 'centrale':
+            content.innerHTML = `
+                ${pdfDownloads[index].centrale}
+                <h1 class="sub-title">
+                    ${boxNames.centrale[index]}
+                </h1>
+            `;
+            break;
+        case 'campanelli':
+            content.innerHTML = `
+                ${pdfDownloads[index].campanelli}
+                <h1 class="sub-title">
+                    ${boxNames.campanelli}
+                </h1>
+            `;
+            break;
+        case 'spunti':
+            content.innerHTML = `
+                ${pdfDownloads[index].spunti}
+                <h1 class="sub-title">
+                    ${boxNames.spunti}
+                </h1>
+            `;
+            break;
+        case 'gioco':
+            content.innerHTML = `
+                ${pdfDownloads[index].gioco}
+                <h1 class="sub-title">
+                    ${boxNames.gioco}
+                </h1>
+            `;
+            break;
+    }
+    content.innerHTML += `
+        <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+    `;
+    return content.innerHTML;
 }
