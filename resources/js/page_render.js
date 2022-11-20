@@ -1108,49 +1108,61 @@ function titleBox(index, value) {
         case 'linguaggio':
             content.innerHTML = `
                 ${pdfDownloads[index].linguaggio}
-                <h1 class="sub-title">
-                    ${boxNames.linguaggio}
-                </h1>
+                <a href="#value-content">
+                    <h1 class="sub-title">
+                        ${boxNames.linguaggio}
+                    </h1>
+                </a>
             `;
             break;
         case 'autonomie':
             content.innerHTML = `
                 ${pdfDownloads[index].autonomie}
-                <h1 class="sub-title">
-                    ${boxNames.autonomie}
-                </h1>
+                <a href="#autonomie">
+                    <h1 class="sub-title">
+                        ${boxNames.autonomie}
+                    </h1>
+                </a>
             `;
             break;
         case 'centrale':
             content.innerHTML = `
                 ${pdfDownloads[index].centrale}
-                <h1 class="sub-title">
-                    ${boxNames.centrale[index]}
-                </h1>
+                <a href="#value-content">
+                    <h1 class="sub-title">
+                        ${boxNames.centrale[index]}
+                    </h1>
+                </a>
             `;
             break;
         case 'campanelli':
             content.innerHTML = `
                 ${pdfDownloads[index].campanelli}
-                <h1 class="sub-title">
-                    ${boxNames.campanelli}
-                </h1>
+                <a href="#value-content">
+                    <h1 class="sub-title">
+                        ${boxNames.campanelli}
+                    </h1>
+                </a>
             `;
             break;
         case 'spunti':
             content.innerHTML = `
                 ${pdfDownloads[index].spunti}
-                <h1 class="sub-title">
-                    ${boxNames.spunti}
-                </h1>
+                <a href="#value-content">
+                    <h1 class="sub-title">
+                        ${boxNames.spunti}
+                    </h1>
+                </a>
             `;
             break;
         case 'gioco':
             content.innerHTML = `
                 ${pdfDownloads[index].gioco}
-                <h1 class="sub-title">
-                    ${boxNames.gioco}
-                </h1>
+                <a href="#value-content">
+                    <h1 class="sub-title">
+                        ${boxNames.gioco}
+                    </h1>
+                </a>
             `;
             break;
     }
