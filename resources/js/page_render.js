@@ -899,13 +899,16 @@ document.body.addEventListener("load", (titleRender(), menuRender(), contentRend
 
 function titleRender() {
     const data = document.querySelector(".title-site");
-    const content = document.createElement("a");
-    content.innerHTML = `
-        <a href="index.html">
+    data.innerHTML = `
+        <a href="index.html" id="title-site">
             PAROLE IN CAMMINO
         </a>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     `;
-    data.appendChild(content);
 }
 
 function menuRender() {
@@ -931,6 +934,27 @@ function menuRender() {
         }
     });
     data.appendChild(menu);
+}
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector("aside");
+hamburger.addEventListener("click", function() {
+    classes = hamburger.className.split(" ");
+    if(classes.length == 1) {
+        mobileMenu();
+    } else {
+        closeMenu();
+    }
+});
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.add("active");
+}
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
 }
 
 function contentRender() {
@@ -1016,7 +1040,7 @@ function ageRangeContent(index) {
             </div>
         </div>
     `;
-    if(indexes[index].campanelli != undefined) {
+    if (indexes[index].campanelli != undefined) {
         riga3.innerHTML = `
             <div class="box">
                 <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">

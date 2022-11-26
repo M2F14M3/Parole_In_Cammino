@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body,
 head {
     width: 100%;
@@ -24,7 +32,33 @@ body {
 }
 
 .title-site {
-    width: fit-content;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#title-site {
+    display: inline-block;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 10px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
 }
 
 #data {
@@ -145,6 +179,7 @@ h1 {
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
+
     html,
     body {
         width: auto;
@@ -153,7 +188,7 @@ h1 {
 
     #header {
         font-size: 2em;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     #data {
@@ -162,9 +197,38 @@ h1 {
     }
 
     aside {
+        display: none;
+    }
+
+    aside.active {
+        display: block;
         width: 100%;
+        height: 100%;
+    }
+
+    aside>.menu-links {
         height: fit-content;
     }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -177,7 +241,7 @@ h1 {
 
     #header {
         font-size: 2em;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     #data {
@@ -186,7 +250,36 @@ h1 {
     }
 
     aside {
+        display: none;
+    }
+
+    aside.active {
+        display: block;
         width: 100%;
+        height: 100%;
+    }
+
+    aside>.menu-links {
         height: fit-content;
     }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
 }
