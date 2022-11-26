@@ -5,9 +5,8 @@ const boxImages = {
     campanelli: `<img src="resources/images/BOX_CAMPANELLI.jpg" title="Campanelli d'allarme" />`,
     spunti: `<img src="resources/images/BOX_SPUNTI.png" title="Spunti" />`,
     gioco: `<img src="resources/images/BOX_GIOCO.jpg" title="Gioco" />`,
-    parole_in_bocca: `<img src="resources/images/Parole_in_bocca.jpg" />`,
-    parole_in_volo: `<img src="resources/images/Parole_in_volo.jpg" />`,
-    download: `<img src="resources/images/download.png" />`
+    parole_in_bocca: `<img src="resources/images/Parole_in_bocca.jpg" title="Parole In Bocca" />`,
+    parole_in_volo: `<img src="resources/images/Parole_in_volo.jpg" title="Parole In Volo" />`,
 };
 
 const boxNames = {
@@ -25,42 +24,10 @@ const boxNames = {
 };
 
 const pdfDownloads = [
-    {
-        id: 0,
-        linguaggio: `<a href="javascript:void(0)" class="download" download="">${boxImages.download}</a>`,
-        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
-    },
-    {
-        id: 1,
-        linguaggio: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
-    },
-    {
-        id: 2,
-        linguaggio: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
-    },
-    {
-        id: 3,
-        linguaggio: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        autonomie: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        centrale: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        campanelli: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        spunti: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`,
-        gioco: `<a href="javascript:void(0)" class="download">${boxImages.download}</a>`
-    }
+    `<a href="javascript:void(0)" class="download" download=""></a>`,
+    `<a href="javascript:void(0)" class="download"></a>`,
+    `<a href="javascript:void(0)" class="download"></a>`,
+    `<a href="javascript:void(0)" class="download"></a>`,
 ];
 
 const indexes = [
@@ -70,7 +37,7 @@ const indexes = [
         indexValue: "Introduzione",
         style: `style="background-color: #e5760d;"`,
         page: "index.html",
-        image: `<img src="resources/images/INTRODUZIONE.png" />`,
+        image: `<img src="resources/images/INTRODUZIONE.png" title="Introduzione" />`,
         content: `
             <h1 class="sub-title">Chi siamo e cos'è Parole In Cammino?</h1>
 
@@ -701,7 +668,7 @@ const indexes = [
         indexValue: "Lettura",
         style: `style="background-color: #8e1582;"`,
         page: "reading.html",
-        image: `<img src="resources/images/LIBRI.jpg" />`,
+        image: `<img src="resources/images/LIBRI.jpg" title="Lettura" />`,
         content: `
             <h1 class="sub-title">LIBRI</h1>
 
@@ -755,7 +722,7 @@ const indexes = [
         indexValue: "Bilinguismo",
         style: `style="background-color: #cc0000;"`,
         page: "bilinguism.html",
-        image: `<img src="resources/images/BILINGUISMO.jpg" />`,
+        image: `<img src="resources/images/BILINGUISMO.jpg" title="Bilinguismo" />`,
         content: `
             <h1 class="sub-title">Bilinguismo</h1>
 
@@ -794,7 +761,7 @@ const indexes = [
         indexValue: "Device",
         style: `style="background-color: #354f0b;"`,
         page: "device.html",
-        image: `<img src="resources/images/DEVICE.jpg" />`,
+        image: `<img src="resources/images/DEVICE.jpg" title="Tecnologia"/>`,
         content: `
             <h1 class="sub-title">Tecnologia</h1>
 
@@ -938,9 +905,9 @@ function menuRender() {
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector("aside");
-hamburger.addEventListener("click", function() {
+hamburger.addEventListener("click", function () {
     classes = hamburger.className.split(" ");
-    if(classes.length == 1) {
+    if (classes.length == 1) {
         mobileMenu();
     } else {
         closeMenu();
@@ -1131,7 +1098,6 @@ function titleBox(index, value) {
     switch (value) {
         case 'linguaggio':
             content.innerHTML = `
-                ${pdfDownloads[index].linguaggio}
                 <a href="#value-content">
                     <h1 class="sub-title">
                         ${boxNames.linguaggio}
@@ -1141,7 +1107,6 @@ function titleBox(index, value) {
             break;
         case 'autonomie':
             content.innerHTML = `
-                ${pdfDownloads[index].autonomie}
                 <a href="#autonomie">
                     <h1 class="sub-title">
                         ${boxNames.autonomie}
@@ -1151,7 +1116,6 @@ function titleBox(index, value) {
             break;
         case 'centrale':
             content.innerHTML = `
-                ${pdfDownloads[index].centrale}
                 <a href="#value-content">
                     <h1 class="sub-title">
                         ${boxNames.centrale[index]}
@@ -1161,7 +1125,6 @@ function titleBox(index, value) {
             break;
         case 'campanelli':
             content.innerHTML = `
-                ${pdfDownloads[index].campanelli}
                 <a href="#value-content">
                     <h1 class="sub-title">
                         ${boxNames.campanelli}
@@ -1171,7 +1134,6 @@ function titleBox(index, value) {
             break;
         case 'spunti':
             content.innerHTML = `
-                ${pdfDownloads[index].spunti}
                 <a href="#value-content">
                     <h1 class="sub-title">
                         ${boxNames.spunti}
@@ -1181,7 +1143,6 @@ function titleBox(index, value) {
             break;
         case 'gioco':
             content.innerHTML = `
-                ${pdfDownloads[index].gioco}
                 <a href="#value-content">
                     <h1 class="sub-title">
                         ${boxNames.gioco}
