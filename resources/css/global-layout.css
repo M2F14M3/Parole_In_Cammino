@@ -189,6 +189,7 @@ h1 {
     #header {
         font-size: 2em;
         justify-content: center;
+        border-bottom: 1px black solid;
     }
 
     #data {
@@ -242,6 +243,7 @@ h1 {
     #header {
         font-size: 2em;
         justify-content: center;
+        border-bottom: 1px black solid;
     }
 
     #data {
