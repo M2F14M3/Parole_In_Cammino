@@ -1,7 +1,8 @@
 div#image {
     display: inline;
     zoom: 1.2;
-    padding-left: 10%
+    width: fit-content;
+    height: fit-content;
 }
 
 .sub-title {

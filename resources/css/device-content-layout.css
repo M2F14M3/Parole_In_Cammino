@@ -1,12 +1,14 @@
 #content {
     display: grid;
-    grid-template-columns: 62% 38%;
+    grid-template-columns: 65% 35%;
+    width: 100%;
 }
 
 div#image {
     display: inline;
     zoom: 1.2;
-    padding-left: 10%
+    width: fit-content;
+    height: fit-content;
 }
 
 #instraction-cointaner {

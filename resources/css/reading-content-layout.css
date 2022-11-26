@@ -1,17 +1,22 @@
 #content {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 65% 35%;
+    width: 100%;
 }
 
 div#image {
     display: inline;
-    zoom: 1.2;
-    padding-left: 10%
+    height: fit-content;
+    width: fit-content;
 }
 
 .sub-title {
     color: #8e1582;
     font-weight: bold;
+}
+
+#libreria {
+    zoom: 0.7;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
