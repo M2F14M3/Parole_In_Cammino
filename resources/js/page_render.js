@@ -155,8 +155,8 @@ const indexes = [
             </div>
         `,
         centrale: `
-            <div id="value-content">
-                <div id="section-title">
+            <div id="value-content-centrale">
+                <div>
                     ${titleBox(0, "centrale")}
                 </div>
 
@@ -325,8 +325,8 @@ const indexes = [
             </div>
         `,
         centrale: `
-            <div id="value-content">
-                <div id="section-title">
+            <div id="value-content-centrale">
+                <div>
                     ${titleBox(1, "centrale")}
                 </div>
 
@@ -471,8 +471,8 @@ const indexes = [
             </div>
         `,
         centrale: `
-            <div id="value-content">
-                <div id="section-title">
+            <div id="value-content-centrale">
+                <div>
                     ${titleBox(2, "centrale")}
                 </div>
 
@@ -605,8 +605,8 @@ const indexes = [
             </div>
         `,
         centrale: `
-            <div id="value-content">
-                <div id="section-title">
+            <div id="value-content-centrale">
+                <div>
                     ${titleBox(3, "centrale")}
                 </div>
 
@@ -980,57 +980,37 @@ function ageRangeContent(index) {
     const data = document.querySelector("#data");
     const content = document.createElement("div");
     content.className = "destra-contenuto";
-    const riga1 = document.createElement("div");
-    riga1.className = "riga";
-    const riga2 = document.createElement("div");
-    riga2.className = "riga";
-    const riga3 = document.createElement("div");
-    riga3.className = "riga";
-    riga1.innerHTML = `
-        <div class="box">
+    content.innerHTML = `
+        <div class="box-linguaggio">
             <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')" id="box">
                 ${boxImages.linguaggio}
             </a>
         </div>
-        <div class="box">
+        <div id="box-testo"> 
+            ${indexes[index].centrale}
+        </div>
+        <div class="box-autonomie">
             <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')" id="box">
                 ${boxImages.autonomie}
             </a>
         </div>
-    `;
-    riga2.innerHTML = `
-        <div class="box">
-            <div id="testo"> 
-                <a href="javascript:void(0)" onclick="showText(${index}, 'centrale')" id="box">
-                    ${boxImages.centrale}
-                </a>
-            </div>
+        
+        <div class="box-campanelli">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
+                ${boxImages.campanelli}
+            </a>
         </div>
-    `;
-    if (indexes[index].campanelli != undefined) {
-        riga3.innerHTML = `
-            <div class="box">
-                <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
-                    ${boxImages.campanelli}
-                </a>
-            </div>
-        `;
-    }
-    riga3.innerHTML += `
-        <div class="box">
+        <div class="box-spunti">
             <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')" id="box">
                 ${boxImages.spunti}
             </a>
         </div>
-        <div class="box">
+        <div class="box-gioco">
             <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')" id="box">
                 ${boxImages.gioco}
             </a>
         </div>
     `;
-    content.appendChild(riga1);
-    content.appendChild(riga2);
-    content.appendChild(riga3);
     data.appendChild(content);
 }
 
@@ -1098,61 +1078,51 @@ function titleBox(index, value) {
     switch (value) {
         case 'linguaggio':
             content.innerHTML = `
-                <a href="#value-content">
-                    <h1 class="sub-title">
-                        ${boxNames.linguaggio}
-                    </h1>
-                </a>
-            `;
-            break;
-        case 'autonomie':
-            content.innerHTML = `
-                <a href="#autonomie">
-                    <h1 class="sub-title">
-                        ${boxNames.autonomie}
-                    </h1>
-                </a>
+                <h1 class="sub-title">
+                    ${boxNames.linguaggio}
+                </h1>
             `;
             break;
         case 'centrale':
             content.innerHTML = `
-                <a href="#value-content">
-                    <h1 class="sub-title">
-                        ${boxNames.centrale[index]}
-                    </h1>
-                </a>
+                <h1 class="sub-title">
+                    ${boxNames.centrale[index]}
+                </h1>
+            `;
+            break;
+        case 'autonomie':
+            content.innerHTML = `
+                <h1 class="sub-title">
+                    ${boxNames.autonomie}
+                </h1>
             `;
             break;
         case 'campanelli':
             content.innerHTML = `
-                <a href="#value-content">
-                    <h1 class="sub-title">
-                        ${boxNames.campanelli}
-                    </h1>
-                </a>
+                <h1 class="sub-title">
+                    ${boxNames.campanelli}
+                </h1>
             `;
             break;
         case 'spunti':
             content.innerHTML = `
-                <a href="#value-content">
-                    <h1 class="sub-title">
-                        ${boxNames.spunti}
-                    </h1>
-                </a>
+                <h1 class="sub-title">
+                    ${boxNames.spunti}
+                </h1>
             `;
             break;
         case 'gioco':
             content.innerHTML = `
-                <a href="#value-content">
-                    <h1 class="sub-title">
-                        ${boxNames.gioco}
-                    </h1>
-                </a>
+                <h1 class="sub-title">
+                    ${boxNames.gioco}
+                </h1>
             `;
             break;
     }
-    content.innerHTML += `
-        <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
-    `;
+    if(value != "centrale") {
+        content.innerHTML += `
+            <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
+        `;
+    }
     return content.innerHTML;
 }

@@ -177,6 +177,7 @@ h1 {
 
 #p1 {
     padding-left: 1em;
+    padding-right: 1em;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
