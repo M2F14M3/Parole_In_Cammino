@@ -28,6 +28,10 @@ div#image {
     text-decoration: underline;
 }
 
+.sub-title3 {
+    font-style: italic;
+}
+
 @media screen and (min-width: 0px) and (max-width: 768px) {
 
     html,

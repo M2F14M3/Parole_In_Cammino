@@ -48,7 +48,7 @@ const indexes = [
             Abbiamo creato un sito all'interno del quale sono illustrate le principali tappe dello<span class="sub-title">sviluppo dei bambini tra i 3 e 5 anni.</span> Nello specifico abbiamo approfondito le aree del <span class="sub-title">linguaggio</span> e della <span class="sub-title">comunicazione</span>, delle <span class="sub-title">autonomie personali</span> e delle <span class="sub-title">relazioni sociali sviluppate all'interno del gioco</span>.<br />
             Di fondamentale importanza il contributo e la partecipazione del Presidente del CdL Professor Antonio Schindler, della docente del CdL Logopedista Raffaella Pozzoli, delle Logopediste Elena Giudici, Francesca Tombola, Alessandra Brunetti, Silvana Bresciani, dei genitori e delle figure che gravitano attorno ai bambini.<br /><br />
 
-            Parole in cammino è nato in seguito ad uno <span class="sub-title">studio osservazionale</span> che ha visto coinvolti genitori, figure professionali e non, che nella loro quotidianità si interfacciano con i bambini.<br />
+            <span class="sub-title3">Parole in Cammino</span> è nato in seguito ad uno <span class="sub-title">studio osservazionale</span> che ha visto coinvolti genitori, figure professionali e non, che nella loro quotidianità si interfacciano con i bambini.<br />
             A tutti coloro che hanno deciso di partecipare al progetto è stato proposto un questionario online anonimo con lo scopo di indagare le aree di sviluppo approfondite all'interno del libretto.<br />
             Per questo <span class="sub-title">ringraziamo tutti i partecipanti</span> che, rispondendo al questionario, ci hanno permesso di creare uno strumento informativo e di supporto per altri genitori e per tutti coloro che accompagnano i bambini nel loro percorso di crescita.<br /><br />
 
@@ -59,15 +59,15 @@ const indexes = [
             Logopedista Francesca Tombola<br />
             Logopedista Alessandra Brunetti<br />
             Logopedista Silvana Bresciani<br />
-            Psicologa Chiara Cantiani, Ricercatrici dell'Istituto La Nostra Famiglia, Bosisio Parini<br />
+            Psicologa Chiara Cantiani, Ricercatrice dell'Istituto La Nostra Famiglia, Bosisio Parini<br />
             Psicologa Sara Mascheretti, Ricercatrice del Dipartimento di Scienze del Sistema Nervoso e del Comportamento - Università degli Studi di Pavia<br />
             Lorenzo Solito, sviluppatore del sito<br />
             Lara Zerbi, realizzatrice delle illustrazioni di "Parole in Cammino"<br />
-            Walter Crippa, graphic designer<br />
+            Walter Crippa, graphic designer<br /><br />
 
-            <h1 class="sub-title">Letterea ai genitori e alle figure di riferimento</h1>
+            <h1 class="sub-title">Lettera ai genitori e alle figure di riferimento</h1>
 
-            Accompagnare e supportare la crescita di un bambino è uno dei compiti  più complicati e più belli che esistano.<br />
+            Accompagnare e supportare la crescita di un bambino è uno dei compiti più complicati e più belli che esistano.<br />
             I bambini crescono molto velocemente e devono imparare tantissime cose fin dai primi giorni di vita; in pochi anni arriveranno a parlare, a camminare, a correre, a osservare, a cercare, a domandare…<br />
             <span class="sub-title">Ogni bambino è unico e non esiste un manuale che contenga delle regole fisse</span> e prestabilite su come debba procedere la sua crescita e su come l'adulto debba accompagnare il suo cammino spesso tortuoso e in salita.<br />
             Dagli studi condotti fino ad oggi sappiamo che esistono delle <span class="sub-title">"tappe</span> che devono essere raggiunte entro un certo periodo di tempo e che sono influenzate in buona parte <span class="sub-title">dagli stimoli e dalle persone</span> che circondano il bambino.<br />
@@ -147,8 +147,8 @@ const indexes = [
                 <div class="list">
                     Maglietta gialla o rossa? Calze con i cuori o con i fiori?<br />
                     I nostri bambini iniziano a <span class="sub-title">vestirsi in autonomia</span>. Certo è ancora presto per fare tutto completamente da soli e ci sarà ancora qualche manica fuori posto, ma si può procedere per piccoli passi.<br />
-                    <span class="sub-title2">Possiamo aiutarlo nei primi step per poi incoraggiarlo a terminare da solo</span>.<br />
-                    Se il nostro bambino non riesce al primo tentativo proviamo a non essere precipitosi, anzi, <span class="sub-title2">sosteniamolo e sproniamolo</span>. In questo modo sentirà che gli stiamo dando fiducia e con i suoi tempi riuscirà a portare a termine il compito.<br /><br />
+                    <span class="sub-title2">Possiamo aiutarli nei primi step per poi incoraggiarli a terminare da soli</span>.<br />
+                    Se i nostri bambini non riescono al primo tentativo proviamo a non essere precipitosi, anzi, <span class="sub-title2">sosteniamoli e sproniamoli</span>. In questo modo sentiranno che stiamo dando loro fiducia e con i loro tempi riusciranno a portare a termine il compito.<br /><br />
                 </div>
 
                 Facciamo un esempio: possiamo arrotolare le gambe dei pantaloni, aiutare il bambino a infilare i piedini e incoraggiarlo “Dai forza! Finisci tu … tira su i pantaloni fino in alto”.
@@ -160,7 +160,7 @@ const indexes = [
                     ${titleBox(0, "centrale")}
                 </div>
 
-                Che gioia! Abbiamo appena spento 3 candeline, è già il momento di andare all'asilo!<br />
+                Che gioia! I nostri bambini hanno appena spento 3 candeline, è già il momento di andare all'asilo!<br />
                 I nostri piccini stanno crescendo e sono pronti per nuove avventure: nuova scuola, nuove maestre, nuovi compagni e tante nuove esperienze che riempiranno sempre di più il bagaglio delle loro abilità.<br />
                 È necessario prepararsi al meglio!<br />
                 Dobbiamo portare uno zaino bello pieno di entusiasmo, curiosità e coraggio; tutto ciò che hanno imparato fino ad ora sarà lo strumento che li sosterrà nel CAMMINO.<br /><br />
@@ -176,7 +176,8 @@ const indexes = [
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
-                -   La combinazione di meno di due parole.<br />
+                -   L'assenza della combinazione di almeno due parole (tendenza ad esprimersi con singole parole).<br />
+                <span class="list">Ad esempio: "bambola" invece di "voglio bambola" o "mamma voglio la bambola".</span><br />
                 -	Il rifiuto di cibi solidi, la perdita di cibo dalla bocca e la presenza di tosse causata da pezzettini di cibo che vanno di traverso.<br />
                 -	La ripetizione "a eco" delle domande degli adulti.<br />
                 -	Il peggioramento del linguaggio dopo che il bambino ha imparato a elaborare frasi di due parole.<br />
@@ -216,7 +217,7 @@ const indexes = [
                         3.	Spingere fuori dal naso l'aria.<br />
                         4.	Con il fazzoletto, chiudere prima una narice e poi l'altra.<br />
                     </div>
-                    All'inizio dovremo <span class="sub-title2">ricordargli</span> a voce la sequenza e <span class="sub-title2">aiutarlo anche fisicamente<br /> con l'ultimo passaggio.
+                    All'inizio dovremo <span class="sub-title2">ricordare</span> a voce la sequenza e <span class="sub-title2">aiutare anche fisicamente<br /> i nostri bambini anche con l'ultimo passaggio.
                 </div>
             </div>
         `,
@@ -226,7 +227,7 @@ const indexes = [
                     ${titleBox(0, "gioco")}
                 </div>
 
-                Quante mattine e quanti pomeriggi a giocare con la mamma, con il papà, con i nonni, al parco, in casa…<br />
+                Quante mattine e quanti pomeriggi a giocare con i nostri bambini al parco, in casa, in giardino...<br />
                 Quali giochi ha appreso il nostro bambino fino a questo momento del suo viaggio?<br />
                 Sicuramente nei primi mesi di vita i giochi preferiti riguardano <span class="sub-title">l'esplorazione</span> come ad esempio gattonare, lanciare oggetti, rotolarsi…<br />
                 Compaiono poi i <span class="sub-title">giochi di costruzione</span> (torri con i lego, pista delle macchinine…) e si intravede lo sviluppo del <span class="sub-title">gioco di finzione</span>: "Faccio finta di bere il tè dalla tazzina" oppure "Faccio finta di dare da mangiare alla bambola" …<br /><br />
@@ -259,7 +260,7 @@ const indexes = [
                 </div>
 
                 Le nuove parole apprese aumentano di numero ogni giorno che passa: basta pensare che dopo i 3 anni il vocabolario dei bambini ha raggiunto la quota di circa <span class="sub-title">1000 parole</span>!<br />
-                E non è finita qui … è possibile che i nostri giovani pionieri arrivino ad imparare dalle 5 alle 10 parole nuove al giorno.<br /><br />
+                E non è finita qui … è possibile che i nostri "giovani pionieri" arrivino ad imparare dalle 5 alle 10 parole nuove al giorno.<br /><br />
 
                 Non dimentichiamo di sfruttare ogni momento di condivisione con i nostri bambini <span class="sub-title2">proponendo sinonimi o parole che non hanno mai sentito</span> per arricchire la valigetta del vocabolario.<br />
                 <div class="list">
@@ -275,7 +276,7 @@ const indexes = [
                 In questa fascia di età ci sono degli errori tipici che riguardano la coniugazione dei <span class="sub-title">verbi</span> e che tenderanno a scomparire spontaneamente intorno ai 4 anni.<br />
                 Ad esempio "Leggio io il libro" oppure "Ho aprito la porta" diventeranno poi rispettivamente "Leggo io il libro" e "Ho aperto la porta".<br />
 
-                Facciamo il punto della situazione: gli articoli e le preposizioni sono sempre più stabili, i nomi e i verbi aumentano a dismisura, le frasi sono ben costruite … il bambino ha tutti gli strumenti necessari per <span class="sub-title">raccontare una storia</span>!<br />
+                Facciamo il punto della situazione: gli articoli e le preposizioni sono sempre più stabili, i nomi e i verbi aumentano a dismisura, le frasi sono ben costruite … i bambini hanno tutti gli strumenti necessari per <span class="sub-title">raccontare una storia</span>!<br />
                 Anche in questo caso si procede per step: i bambini ci raccontano le loro esperienze, presentandole più come un susseguirsi di eventi non collegati, senza uno scopo preciso né tanto meno un finale.<br />
                 "Papi ha guidato fino al mare, e ho mangiato la focaccia, il mare era pieno di pesci"<br /><br />
 
@@ -295,15 +296,15 @@ const indexes = [
                     Facciamo il punto della situazione di tutto quello che i nostri bambini sanno utilizzare a tavola: il bicchiere c'è, il cucchiaio lo abbiamo, forchetta presente … manca qualcosa …<br />
                     Ma certo, è proprio il <span class="sub-title">coltello</span>! E' ora che i bambini facciano esperienza e provino ad utilizzare anche il coltello con la punta arrotondata. Sicuramente saranno un po' impacciati, ma hanno solo bisogno di un pochino di tempo e di pratica.<br /><br />
 
-                    Possiamo aiutarli ad allenarsi <span class="sub-title2">mostrandogli i movimenti e guidandoli con pazienza</span>.<br /><br />
+                    Possiamo aiutarli ad allenarsi <span class="sub-title2">mostrando i movimenti e guidandoli con pazienza</span>.<br /><br />
 
-                    Quante volte qualcuno di noi ha dovuto ingegnarsi per fare in modo che i nostri piccoli terremoti stessero seduti a tavola? E' in arrivo una super notizia!<br />
+                    Quante volte qualcuno di noi ha dovuto ingegnarsi per fare in modo che i "nostri piccoli terremoti" stessero seduti a tavola? E' in arrivo una super notizia!<br />
                     In questo anno i bambini dovrebbero cominciare a partecipare attivamente al momento del pasto:<br />
                     <div class="list">
                         ●	Diminuiranno sempre di più le occasioni in cui sarà necessario l'aiuto dei giochi o della televisione.<br />
                         ●	Aumenteranno gradualmente le situazioni in cui i nostri piccoli staranno seduti correttamente e converseranno con chi è presente.<br /><br />
                     </div>
-                    Ovviamente non c'è la pretesa che rispettino i tempi degli adulti, ma nel frattempo possiamo invogliarli a rimanere a tavola <span class="sub-title2">proponendo argomenti di loro interesse e commentando le azioni che si compiono a tavola</span>: "contiamo insieme i mirtilli che ci sono nella ciotola!" oppure "tagliamo la pizza a forma di triangolo".<br /><br />
+                    Ovviamente non c'è la pretesa che rispettino i tempi degli adulti, ma nel frattempo possiamo invogliarli a rimanere a tavola <span class="sub-title2">proponendo argomenti di loro interesse e commentando le azioni che si compiono a tavola</span>: <span class="sub-title3">"contiamo insieme i mirtilli che ci sono nella ciotola!" oppure "tagliamo la pizza a forma di triangolo"</span>.<br /><br />
 
                     Parlando del momento del pasto, non dimentichiamo che a quest'età i nostri bambini possono aiutarci ad <span class="sub-title">apparecchiare e sparecchiare la tavola.</span><br />
                     Questo potrebbe diventare un piccolo appuntamento fisso nel corso della giornata che aiuta i nostri piccoli a farsi carico di un compito che ai loro occhi è un lavoro da grandi. Possiamo renderlo un momento di condivisione divertente, istituendo delle vere e proprie <span class="sub-title2">catene di montaggio</span>!<br /><br />
@@ -318,7 +319,7 @@ const indexes = [
 
                 <span class="sub-title">3. Momenti di svago</span><br />
                 <div class="list">
-                    "Giochiamo con il trenino? Ora giochiamo con le costruzioni? Adesso invece giochiamo a fare gli chef con la cucina?" Certo! Ma  prima un po' di ORDINE!<br />
+                    "Giochiamo con il trenino? Ora giochiamo con le costruzioni? Adesso invece giochiamo a fare gli chef con la cucina?" Certo! Ma prima un po' di ORDINE!<br />
                     E' importante che i bambini comincino a <span class="sub-title">gestire gli spazi</span> in cui vivono durante la giornata e inizino a rispettare una nuova regolina: quando un gioco è terminato prima di prenderne uno nuovo si sistema e si <span class="sub-title">mette in ordine</span> quello che si stava usando!<br />
                     Inizialmente potrebbe essere utile <span class="sub-title2">ricordare</span> più volte ai nostri bambini <span class="sub-title2">questa semplice regola</span>, ma con il tempo impareranno a farlo anche da soli.
                 </div>
@@ -330,7 +331,7 @@ const indexes = [
                     ${titleBox(1, "centrale")}
                 </div>
 
-                Alcune mamme li chiamano scherzosamente i "Terribili Tre": hanno ormai imparato a correre e a parlare … Possono essere dei veri terremoti!<br />
+                Alcune mamme li chiamano scherzosamente i "Terribili Tre": i bambini hanno ormai imparato a correre e a parlare … Possono essere dei veri terremoti!<br />
                 Alla scuola dell'infanzia crescono ogni giorno di più e sono in continua ricerca di novità da imparare. La curiosità è il loro instancabile motore e chi di noi non ha pensato almeno una volta "Come si spegne questo bambino? Non si scaricano mai le batterie?!<br />
                 La "cattiva notizia" è che non esiste nessun pulsante OFF, ma la "buona notizia" è che, con pazienza e giuste strategie, è possibile gestire la vivacità di questi bambini!!<br /><br />
 
@@ -346,7 +347,7 @@ const indexes = [
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
                 -   Il rifiuto di comunicare.<br />
-                <span class="list">Quando il bambino non riesce a farsi comprendere, potrebbe scoraggiarsi nell’intraprendere relazioni e contatti; se per qualsiasi motivo il suo linguaggio non gli permette di comunicare, potrebbe decidere di non utilizzarlo più.</span>
+                <span class="list">Quando il bambino non riesce a farsi comprendere, potrebbe scoraggiarsi e rinunciare ad avere relazioni e contatti con altri; se per qualsiasi motivo il suo linguaggio non gli permette di comunicare, potrebbe decidere di non utilizzarlo più.</span>
                 </div>
             </div>
         `,
@@ -359,10 +360,10 @@ const indexes = [
                 <div class="list">
                     -	<span class="sub-title">Stimolare il linguaggio e imparare nuove parole</span>.<br />
                     <div class="list">
-                        Per stimolare e incuriosire il linguaggio dei bambini sono di grande aiuto le <span class="sub-title">filastrocche e le canzoni</span> di qualsiasi genere, perché al loro interno ci sono parole che si ripetono molte volte e permettono di imparare giocando e divertendosi.<br />
-                        La <span class="sub-title2">ripetizione</span> dell'adulto è fondamentale: la strategia è che SENTA le parole più volte.<br /><br />
+                        Per stimolare e aumentare il linguaggio dei bambini sono di grande aiuto le <span class="sub-title">filastrocche e le canzoni</span> di qualsiasi genere, perché al loro interno ci sono parole che si ripetono molte volte e permettono di imparare giocando e divertendosi.<br />
+                        La <span class="sub-title2">ripetizione</span> dell'adulto è fondamentale: la strategia è che i bambini SENTANO le parole più volte.<br /><br />
                     
-                    Un altro modo per mettere la spunta sulla casellina "parole acquisite" è <span class="sub-title2">renderle pratiche e viverle nella quotidianità</span>.<br />
+                    Un altro modo per mettere la spunta sulla casellina "parole acquisite" è <span class="sub-title2">rendere questa parole pratiche e viverle nella quotidianità</span>.<br />
                     Fare esperienze, attività e giochi li aiuterà ad arricchire il loro vocabolario: facciamo giri alle mostre, andiamo al cinema, organizziamo un picnic nel parco, andiamo in barca, visitiamo l'acquario o lo zoo, entriamo in negozi che non hanno mai visto … le attività sono davvero infinite.<br /><br />
                     </div>
 
@@ -432,7 +433,7 @@ const indexes = [
                 </div>
 
                 Accidenti! Il metro segna sempre qualche centimetro in più, i vestiti dell'anno prima sono diventati piccoli e la valigetta delle competenze dei nostri bambini pesa sempre di più. Compaiono altri suoni come quelli presenti in <span class="sub-title">SC</span>immia e <span class="sub-title">R</span>ana.<br />
-                Non c'è da preoccuparsi se la lettera /r/ non compare ai 4 anni: è un suono complesso e potrebbe creare difficoltà anche fino ai 6 anni!<br /><br />
+                Non c'è da preoccuparsi se la lettera /r/ ancora non c'è o stenta a uscire: è un suono un po' complesso da produrre e serve pazienza!<br /><br />
 
                 Nei racconti dei bambini possiamo riconoscere l'Ambiente, l'Evento iniziale e le Conseguenze. Inoltre le storie vengono costruite con un ordine tipico:<br />
                 <span class="list">"Prima…" "...dopo…", "...alla fine"</span><br /><br />
@@ -452,21 +453,21 @@ const indexes = [
                 <span class="sub-title">1. Vestirsi</span><br />
                 <div class="list">
                     Driiin! La sveglia suona, è ora di aprire gli occhi. Un nuovo giorno è cominciato, chissà quale avventura attende oggi i nostri bambini!<br />
-                    Forza, non perdiamo tempo: togliamo il pigiama e … tutti a  vestirsi.<br />
+                    Forza, non perdiamo tempo: togliamo il pigiama e … tutti a vestirsi.<br />
                     Ora i nostri piccoli ometti e le nostre piccole fanciulle <span class="sub-title">si vestono da soli</span>.<br />
                     I nostri bambini hanno imparato ad infilare i pantaloni e la maglietta, a mettere e togliere le calze e le scarpe. Con un po' di concentrazione e di pazienza avranno dimestichezza anche con le zip e con i bottoni.<br /><br />
                     
-                    Noi cosa possiamo fare? <span class="sub-title2">Essere un modello</span> e <span class="sub-title2">non sostituirli nello svolgere questa attività</span>. I bambini, osservandoci, prenderanno esempio e proveranno a ripetere i nostri stessi gesti, facendo tesoro delle piccole strategie che abbiamo adoperato. Dobbiamo avere pazienza e lasciare ai nostri piccoli il tempo per sperimentare e non anticiparli.<br /><br />
+                    Noi cosa possiamo fare? <span class="sub-title2">Essere un modello</span> e <span class="sub-title2">non sostituirli nello svolgere questa attività</span>. I bambini, osservandoci, prenderanno esempio e proveranno a ripetere i nostri stessi gesti, facendo tesoro delle piccole strategie che abbiamo adoperato. Dobbiamo avere pazienza e lasciare ai nostri piccoli il tempo per sperimentare e senza anticiparli.<br /><br />
                     
-                    Se il nostro piccolo è interessato <span class="sub-title2">proponiamo la scelta</span> tra alcuni capi di abbigliamento e lasciamo che sia lui a decidere quale indossare: per il bambino sarà un momento divertente da condividere con l'adulto!<br /><br />
+                    Se i nostri piccoli sono interessati <span class="sub-title2">proponiamo la scelta</span> tra alcuni capi di abbigliamento e lasciamo che siano loro a decidere quale indossare: per i bambini sarà un momento divertente da condividere con l'adulto!<br /><br />
                 </div>
 
                 <span class="sub-title">2. Bagno e igiene</span><br />
                 <div class="list">
                     Alla fine di una giornata intensa, in cui i nostri bambini sono andati all'asilo, hanno colorato con le tempere, hanno giocato con la sabbia al parco … serve assolutamente una bella doccia o un bagno rigenerante!<br />
-                    <span class="sub-title">Insaponarsi e sciacquarsi</span> è già un compito che possono svolgere da soli, pur sapendo che in qualsiasi momento possono chiederci aiuto, che noi gli <span class="sub-title2">daremo con qualche consiglio</span>.<br />
+                    <span class="sub-title">Insaponarsi e sciacquarsi</span> è già un compito che possono svolgere da soli, pur sapendo che in qualsiasi momento possono chiederci aiuto. In questi casi il nostro compito sarà quello di <span class="sub-title2">dare loro qualche consiglio</span>.<br />
                     Ovviamente se combiniamo tra di loro una serie di elementi come la vivacità dei nostri bambini, i giochi con l'acqua e l'euforia del momento, possiamo immaginare che acqua e schiuma saranno un po' ovunque. Va bene così!<br />
-                    Inizialmente l'importante è che siano invogliati nello svolgere questo nuovo compito in autonomia e che ne capiscano l'importanza. In un secondo momento, invece, potremo dare dei consigli e delle dritte in modo tale che anche i nostri piccoli pesciolini diano il loro contributo nel mantenere pulizia e ordine.
+                    Inizialmente l'importante è che siano invogliati nello svolgere questo nuovo compito in autonomia e che ne capiscano l'importanza. In un secondo momento, invece, potremo dare dei consigli e delle dritte in modo tale che anche i "nostri piccoli pesciolini" diano il loro contributo nel mantenere pulizia e ordine.
                 </div>
             </div>
         `,
@@ -529,7 +530,7 @@ const indexes = [
                     ${titleBox(2, "gioco")}
                 </div>
 
-                Dai amici e amiche, giochiamo tutti insieme!<br />
+                Quanto è bello vedere i nostri bambini che giocano insieme agli amici e alle amiche!<br />
                 La fantasia corre veloce e nei giochi i nostri bambini <span class="sub-title">si immedesimano in altri personaggi</span>:<br />
                 <div class="list">
                     "Facciamo finta che io ero il cavaliere e tu la principessa da salvare".<br />
@@ -537,7 +538,7 @@ const indexes = [
                 </div>
                 Caspita, l'immaginazione dei nostri bambini non ha limiti! Adesso non solo ci raccontano delle storie, ma le mettono anche in scena, diventando allo stesso tempo registi e attori di un vero e proprio spettacolo teatrale. Ognuno ha il suo personaggio e si decide insieme il copione da seguire.<br /><br />
 
-                Quale potrebbe essere il nostro ruolo all'interno di questi mini spettacoli teatrali?<br />
+                Quale potrebbe essere il nostro ruolo all'interno di questi "mini spettacoli teatrali"?<br />
                 Noi potremmo essere gli <span class="sub-title2">addetti alla sicurezza</span>: dobbiamo fare in modo che i nostri bambini giochino in autonomia, ma anche in sicurezza. Assicuriamoci che gli ambienti, i giochi e gli oggetti che hanno a disposizione siano tanti ma non pericolosi.
             </div>
         `
@@ -554,7 +555,7 @@ const indexes = [
                     ${titleBox(3, "linguaggio")}
                 </div>
 
-                I nostri grandoni esplorano e imparano gli ultimi suoni come quelli delle parole "ro<span class="sub-title">S</span>a", "<span class="sub-title">S</span>ole", "fami<span class="sub-title">GLI</span>a".<br />
+                I nostri "grandoni" esplorano e imparano gli ultimi suoni come quelli delle parole "ro<span class="sub-title">S</span>a", "<span class="sub-title">S</span>ole", "fami<span class="sub-title">GLI</span>a".<br />
                 Anche in questo caso per questi suoni più difficili potrebbe volerci un po' di tempo.<br /><br />
 
                 Scompaiono le difficoltà nelle parole con <span class="sub-title">consonanti vicine</span>, come "a<span class="sub-title2">nc</span>ora, <span class="sub-title2">gr</span>a<span class="sub-title2">nd</span>e, se<span class="sub-title2">nz</span>a, ma<span class="sub-title2">ng</span>ia, …". Tutte le lettere che compongono una parola si possono distinguere chiaramente … check precisione: si sente tutto bene? Forte e chiaro!<br /><br />
@@ -590,14 +591,14 @@ const indexes = [
                         Ovviamente la richiesta non è quella di far brillare ogni angolo della casa o di tirare le coperte alla perfezione … sarebbe fin troppo noioso e inadatto ai nostri bambini!<br />
                         Si partirà dal sistemare solo il cuscino, per poi piegare anche il pigiama e infine le coperte. Quello che conta è l'impegno e la partecipazione di ognuno nel prendersi cura dell'ambiente in cui vive.<br /><br />
 
-                        Si tratta pur sempre di nuove esperienze e non vedranno l'ora di mostrarci i loro progressi. Nessuna esitazione … <span class="sub-title2">dimostriamoci entusiasti del lavoro svolto</span>!!<br /><br />
+                        Si tratta pur sempre di nuove esperienze e i nostri bambini non vedranno l'ora di mostrarci i loro progressi. Nessuna esitazione … <span class="sub-title2">dimostriamoci entusiasti del lavoro svolto</span>!!<br /><br />
                     </div>
 
                 <span class="sub-title">3. Momenti di svago</span><br />
                     <div class="list">
                         In una bella giornata di sole cosa c'è di meglio di andare al parco con gli amici?<br />
-                        Evviva, tutti sullo scivolo! E ora proviamo la carrucola!<br />
-                        I nostri bambini sono diventati più <span class="sub-title">responsabili</span>, più <span class="sub-title">autonomi</span> e sono a <span class="sub-title">conoscenza dei pericoli</span> che li circondano. Per questo sarà più facile scambiare quattro chiacchiere con le altre mamme al parco.<br />
+                        "Evviva, tutti sullo scivolo! E ora proviamo la carrucola!"<br />
+                        I nostri bambini sono diventati più <span class="sub-title">responsabili</span>, più <span class="sub-title">autonomi</span> e sono a <span class="sub-title">conoscenza dei pericoli</span> che li circondano. Per questo sarà più facile scambiare quattro chiacchiere con gli altri genitori al parco.<br />
                         Certamente sarà ancora necessario che qualcuno li accompagni e che abbia un occhio di riguardo nei loro confronti, ma potremo stare più tranquilli.<br /><br />
 
                         E' questo il  momento per <span class="sub-title2">verificare che abbiano appreso</span> quali sono le situazioni di potenziale pericolo da evitare (ad esempio: non ci si spinge, non si va in piedi sullo scivolo…).
@@ -610,10 +611,24 @@ const indexes = [
                     ${titleBox(3, "centrale")}
                 </div>
 
-                Li chiamano remigini!! Che emozione … ecco in arrivo l'ultimo anno di asilo! I nostri bambini sono ormai i grandi della classe e, in quanto tali, spesso hanno anche il compito di aiutare i più piccoli nelle attività scolastiche. Sanno di dover dare l’esempio agli altri bambini e si sentono dei giganti alla ricerca di avventure!<br />
+                Li chiamano "remigini"!! Che emozione … ecco in arrivo l'ultimo anno di asilo! I nostri bambini sono ormai i grandi della classe e, in quanto tali, spesso hanno anche il compito di aiutare i più piccoli nelle attività scolastiche. Sanno di dover dare l’esempio agli altri bambini e si sentono dei giganti alla ricerca di avventure!<br />
                 Bisogna prepararsi al meglio e farsi le spalle larghe … l'anno prossimo bisognerà preparare un altro zaino e indossare nuovi grembiulini: finalmente si va a scuola!!<br /><br />
 
                 BIBLIOGRAFIA: (D'Amico e Devescovi, 2013); (BVL); (Girolametto et al, 2019); (Tresoldi et al, 2015); (Pinton, 2018); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010)
+            </div>
+        `,
+        campanelli: `
+            <div id="value-content">
+                <div id="section-title">
+                    ${titleBox(3, "campanelli")}
+                </div>
+
+                <span class="sub-title">Segnalate al pediatra se notate:</span><br />
+                <div class="list">
+                    -	L'assenza di alcuni suoni della lingua all'inizio della scuola primaria<br />
+                    <span class="list">All'inizio della scuola primaria è fondamentale che siano presenti tutti i suoni caratteristici della lingua parlata.<br />
+                    Se persistono difficoltà nella pronuncia di alcuni suoni o addirittura l'assenza di questi è consigliato il consulto di diverse figure professionali, tra cui il pediatra e il logopedista.</span>
+                </div>
             </div>
         `,
         spunti: `
@@ -627,14 +642,14 @@ const indexes = [
                     Le emozioni sono ciò che permettono di vivere quello che abbiamo attorno e ci rendono uomini in quanto tali.<br />
                     Ogni tanto, però, <span class="sub-title">può capitare che siano travolgenti</span>, come dei fiumi in piena che ci trasportano via e ci fanno perdere il controllo: questo è molto più evidente nei bambini che negli adulti, perché in giovane età non si conoscono ancora le strategie per comprendere e gestire i sentimenti da cui si è inondati. Ad esempio:<br />
                     <div class="list">
-                        ●	 Alti livelli di felicità potrebbero portarli a giocare con troppa foga insieme a un amico.<br />
-                        ●	Alti livelli di rabbia possono fargli dire parole che davvero non pensano.<br />
-                        ●	Alti livelli di paura possono fargli perdere l'occasione di scoprire cose nuove.<br /><br />
+                        ●	Alti livelli di felicità potrebbero portarli a giocare con troppa foga insieme a un amico.<br />
+                        ●	Alti livelli di rabbia possono far dire loro parole che davvero non pensano.<br />
+                        ●	Alti livelli di paura possono far perdere loro l'occasione di scoprire cose nuove.<br /><br />
                     </div>
 
                     Come possiamo aiutare i nostri bambini a gestire questo carico di emozioni?<br />
                     Non è per niente facile e tante volte ci sembra di essere a corto di idee o addirittura di non sapere nemmeno da dove partire.<br />
-                    Il <span class="sub-title2">primo consiglio</span> è di <span class="sub-title2">dare un nome a queste emozioni</span>: per conoscere qualcosa devo dargli il suo nome.<br />
+                    Il <span class="sub-title2">primo consiglio</span> è di <span class="sub-title2">dare un nome a queste emozioni</span>: per conoscere qualcosa bisogna dargli il suo nome.<br />
                     <div class="list">
                         ●   "Vedo che sei arriabbiato".<br />
                         ●   "Caspita! Sei molto felice oggi".<br />
@@ -653,8 +668,8 @@ const indexes = [
                 </div>
 
                 Eccoci qua … è il momento di assistere o partecipare attivamente ai tornei dei <span class="sub-title">giochi in scatola</span>!<br />
-                Qui bisogna seguire il famoso foglietto delle istruzioni: tutti i partecipanti devono condividere e seguire le stesse regole affinché tutto funzioni correttamente.<br />
-                Quale bambino non ama le novità? Saranno entusiasti dei loro nuovi giochi e non vedranno l'ora di coinvolgere amici e parenti in lunghe partite … che vinca il migliore!<br />
+                In questi giochi bisogna seguire il famoso foglietto delle istruzioni: tutti i partecipanti devono condividere e seguire le stesse regole affinché tutto funzioni correttamente.<br />
+                Quale bambino non ama le novità? I nostri bambini saranno entusiasti dei loro nuovi giochi e non vedranno l'ora di coinvolgere amici e parenti in lunghe partite … che vinca il migliore!<br />
                 E' proprio negli stessi giochi che prendono vita le discussioni senza fine tra i nostri accaniti giocatori: "Hai barato!", "No, non si gioca così!" …<br /><br />
                 
                 E' proprio in questi momenti che possiamo intervenire per <span class="sub-title2">ripristinare un clima sereno</span>, invitando a leggere tutti insieme le istruzioni e risolvere qualsiasi dubbio esistente.<br />
@@ -679,13 +694,13 @@ const indexes = [
             <img src="resources/images/LEGGERE.png" id="libreria" /><br />
             
             E' importante fare <span class="sub-title">attenzione anche al "modo" in cui condividiamo i libri</span> con i nostri bambini: i nostri piccoli non dovranno avere solo il ruolo di ascoltatori, ma anche quello di curiosi narratori e sperimentatori.<br />
-            Provate ad accompagnare i momenti di lettura con questi <span class="sub-title">consigli</span>:<br />
+            Ecco alcuni <span class="sub-title">consigli</span> per accompagnare i momenti di lettura:<br />
             <div class="list">
-                ●	l'utilizzo di domande aperte rivolte al bambino<br />
+                ●	utilizzare domande aperte rivolte al bambino<br />
                 <span class="list">"Cosa farà ora il povero protagonista?;</span><br />
                 ●	indicare le immagini e le parole mentre leggete ad alta voce<br />
                 <span class="list">"Guarda che bel vestito giallo che indossa Anna!";</span><br />
-                ●	la ripetizione frequente<br />
+                ●	sfruttare la ripetizione frequente<br />
                 <span class="list">"Si girò e vide un ragno! … Un ragno?! Quell'animaletto nero con 8 zampe: è un ragno! Che paura! Un ragno nero!";</span><br />
                 ●	commentare quanto letto<br />
                 <span class="list">"Mi è proprio piaciuta questa storia. E tu? Cosa ne pensi? [...] Chi è il tuo personaggio preferito?"</span><br />
@@ -699,20 +714,17 @@ const indexes = [
             Qualche idea di lettura per l'età prescolare:<br />
             <div class="list">
                 ★	3 anni<br />
-                <span class="list">❖	"Il piccolo principe" di Stefano Bordiglioni.</span><br />
-                <span class="list">❖	"Zeb e la scorta di baci" di Michel Gay (F Rocca, traduttore).</span><br />
-                <span class="list">❖	"Evviva la scuola materna!" di Marianne Dubuc.</span><br />
-                <span class="list">❖	Poi c'è tutto il mondo della Pimpa o quello di Giulio Coniglio.</span><br />
+                <span class="list">❖	"Tre piccoli gufi" di Martin Waddell.</span><br />
+                <span class="list">❖	"Orso, buco!" di Nicola Grossi.</span><br />
+                <span class="list">❖	"Il piccolo bruco Maisazio" di Eric Carle.</span><br />
                 ★	4 anni<br />
-                <span class="list">❖	"Le emozioni di Banù" di Aurélie Chien Chow Chine. E' una collana con un libretto per ogni emozione: sono felice, mi annoio, sono triste, ho paura …</span><br />
-                <span class="list">❖	"Lo so fare. La prima guida pratica per diventare grandi" di Fabbri Editore.</span><br />
-                <span class="list">❖	"Segni e disegni con Barroux" di Barroux.</span><br />
-                <span class="list">❖	"Mamma, cucino da solo! Preparare dolci deliziosi in autonomia secondo il metodo Montessori" di katia Casprini e Roberta Guidotti.</span><br />
+                <span class="list">❖	"A caccia dell'orso" di Michael Rosen</span><br />
+                <span class="list">❖	"Oh! Un libro che fa dei suoni" o tutti i libri di Hervé Tullet.</span><br />
+                <span class="list">❖	"Il ladro di foglie" di Alice Hemming.</span><br />
                 ★	5 anni<br />
-                <span class="list">❖	"Ad occhi aperti. Curiosando per il mondo" di Letizia Alippi.</span><br />
-                <span class="list">❖	"Ma il sole quanti raggi ha? I grandi rispondo alle domande impossibili dei bambini" di Crealibri.</span><br />
-                <span class="list">❖	"Le emozioni. Il libro dei perché" di Lara Bryan.</span><br />
-                <span class="list">❖	"Il tesoro di Atlantide - Libro Game" di daVinciGames.</span><br />
+                <span class="list">❖	"In punta di piedi" di Christine Schneider.</span><br />
+                <span class="list">❖	"La piccola principessa e il segreto del drago" di Jutta Langreuter.</span><br />
+                <span class="list">❖	"Amy e Louis" di Libby Gleeson.</span><br />
             </div>
         `
     },
@@ -737,7 +749,7 @@ const indexes = [
             </div>
             
             <span class="sub-title">La presenza di due lingue diverse può confondere i nostri bambini?<br />
-            Assolutamente no!</span> I nostri piccoli non correranno nessun rischio perché sanno perfettamente che sono due strumenti diversi e sanno persino in che situazioni utilizzarli.<br />
+            Assolutamente no!</span> I nostri piccoli non correranno nessun rischio perché sanno perfettamente che le lingue conosciute sono strumenti diversi e sanno persino in che situazioni utilizzarle.<br />
             Non è sinonimo di fatica l'utilizzo di entrambe le lingue all'interno della stessa frase: è del tutto normale nell'apprendimento. Facciamo alcuni esempi:<br />
             
             "Andiamo via mamma? Torniamo a … maison?"<br />
@@ -788,18 +800,18 @@ const indexes = [
             <span class="sub-title2">Quali rischi potrebbero derivare da un eccessivo utilizzo?</span><br />
             Se il tempo dedicato all'uso della tecnologia è elevato nella vita di tutti i giorni la posizione rigida tenuta dai bambini potrebbe essere causa di <span class="sub-title">dolori muscolari</span> alle spalle e al collo.<br />
             La sedentarietà legata ai device potrebbe inoltre causare un <span class="sub-title">aumento di peso e un'irregolarità del sonno</span>: i bambini dormono meno ore per notte e si addormentano con maggiore fatica.<br />
-            Un ultimo problema che è opportuno segnalare riguarda le stimolazioni eccessive: la luminosità degli schermi e i suoni troppo elevati possono <span class="sub-title">danneggiare la vista e l'udito</span>, che sono ancora in via di sviluppo durante questa età.<br />
+            Un altro problema che è opportuno segnalare riguarda le stimolazioni eccessive: la luminosità degli schermi e i suoni troppo elevati possono <span class="sub-title">danneggiare la vista e l'udito</span>, che sono ancora in via di sviluppo durante questa età.<br />
             Per non parlare della <span class="sub-title">facile dipendenza</span> che può essere provocata dalla prolungata esposizione alla tecnologia, con conseguenti comportamenti insistenti e capricciosi per ottenere quegli schermi.<br /><br />
             
             Quindi…utilizzati con i <span class="sub-title">tempi e le modalità adeguate</span> all'età dei bambini, i dispositivi elettronici possono offrire l'opportunità di imparare in modo giocoso e divertente, MA è <span class="sub-title">indispensabile che l'adulto affianchi il bambino</span> per commentare e portare nella quotidianità gli stimoli ascoltati: un bambino che utilizza in solitaria la tecnologia (subendo in modo passivo lo strumento) NON sarà in grado di apprendere!<br /><br />
             
             Qualche <span class="sub-title2">consiglio pratico per evitare la dipendenza dagli schermi</span>:<br />
             <div class="list">
-                ★	quando prendiamo una scelta o imponiamo delle regole (soprattutto se si tratta di schermi), <span class="sub-title">spieghiamo al bambino il perché</span>. Cominceremo a renderli consapevoli.<br />
-                ★	in momenti di attesa fuori casa (al ristorante, dal dottore, dal dentista …) portiamo dei giochi specifici: uno zainetto con <span class="sub-title">attività che fanno raramente</span> (dei colori particolari, delle carte nuove …) e solo in quell'occasione di attesa. La "novità" potrebbe allontanarli facilmente dal telefonino.<br />
+                ★	quando prendiamo una scelta o imponiamo delle regole (soprattutto se si tratta di schermi), <span class="sub-title">spieghiamo ai bambini il perché</span>. Cominceremo a renderli consapevoli.<br />
+                ★	in momenti di attesa fuori casa (al ristorante, dal dottore, dal dentista …) portiamo dei giochi specifici: uno zainetto con <span class="sub-title">attività che i bambini fanno raramente</span> (dei colori particolari, delle carte nuove …) e solo in quell'occasione di attesa. La "novità" potrebbe allontanarli facilmente dal telefonino.<br />
                 ★	se attraverso i device emerge una passione del bambino (scopre i dinosauri grazie ai documentari, o gli piace il personaggio di un cartone, o adora un cantante …), <span class="sub-title">ampliamo questo argomento anche fuori dalla tecnologia</span>: cerchiamo dei libri inerenti, o dei personaggini giocattolo, piuttosto che gli stickers …<br />
-                <span class="list">Così da enfatizzare e dare importanza alla sua passione e non al momento con il tablet.</span><br />
-                ★	si può anche cercare di <span class="sub-title">non enfatizzare l'uso della tecnologia</span>: evitiamo di usarla come premio o di toglierla in caso di capricci (sembrerà che il dispositivo sia qualcosa di bello e desiderabile).<br /><br />
+                <span class="list">In questo modo enfatizzeremo e daremo importanza alla sua passione e non al momento con il tablet.</span><br />
+                ★	si può anche cercare di <span class="sub-title">non enfatizzare l'uso della tecnologia</span>: evitiamo di usarla come premio o di toglierla in caso di capricci perchè così facendo potrebbe sembrare che il dispositivo sia qualcosa di bello e desiderabile.<br /><br />
             </div>
             
             BIBLIOGRAFIA: (Lavenia, 2019); (Chaibal S e Chaiyakul S., 2022); (Moon et al., 2019); (Yadav e Chakraborty, 2018); (Bozzola et al., 2018). 
@@ -823,7 +835,14 @@ const indexes = [
                 <span class="list"><a href="https://issuu.com/peregolibribarzanolcitaly/docs/libretto_pediatri" class="sub-title2" target="blank">https://issuu.com/peregolibribarzanolcitaly/docs/libretto_pediatri</a></span><br />
                 ➢	<span class="sub-title">PAROLE IN VOLO</span>, una breve introduzione al mondo della balbuzie nei bambini<br />
                 <span class="list"><a href="https://www.logopediamilano.it/doc/libretto_PAROLE_IN_VOLO_pdf.pdf" class="sub-title2" target="blank">https://www.logopediamilano.it/doc/libretto_PAROLE_IN_VOLO_pdf.pdf</a></span><br /><br />
-            </div>            
+            </div>
+            Altri spunti per approfondire:
+            <div class="list">
+                ●	Baumgartner E. (2010) Il gioco dei bambini. II edizione. Roma: Carocci editore.<br />
+                ●	Deny M (2020) Autonomi si diventa. Come stimolare i bambini per farli crescere forti e intraprendenti. Milano: Red Edizione.<br />
+                ●	Girolametto L, Marotta L e Onofrio D, (2019) Crescere parlando nella scuola dell'infanzia. Edizione Centro Studi Erickson.<br />
+                ●	Lavenia Giuseppe, (2019) Mio figlio non riesce a stare senza smartphone. Giunti Edu.<br />
+            </div><br />
 
             Riportiamo anche la <span class="sub-title">BIBLIOGRAFIA</span> che abbiamo utilizzato per creare questo strumento informativo, potete approfondire tutti gli argomenti grazie a:<br />
             Baumgartner E. (2010) Il gioco dei bambini. II edizione. Roma: Carocci editore.<br />
@@ -845,19 +864,6 @@ const indexes = [
             Schindler, O., Ruppolo, G. & Schindler, A., (2011). Deglutologia. II edizione. Torino: Omega edizioni.<br />
             Tresoldi M, Barillari MR, Ambrogi F, Sai E, Barillari U, Tozzi E, Scarponi L, Schindler A. (2018). Normative and validation data of an articulation test for Italian-speaking children. Int J Pediatr Otorhinolaryngol.; 110:81-86.<br />            
             Yadav S, Chakraborty P. (2018) Using smartphones with suitable apps can be safe and even useful if they are not misused or overused. Acta Paediatr.r; 107(3):384-387.<br /><br />
-            
-            Pagine Instagram che ci hanno ispirato:<br />
-            <div class="list">
-                ●	<a href="https://www.instagram.com/bebicon_" class="sub-title2" target="blank">bebicon_</a> , Chiara Dallatomasina ed Elisa Riboni (Psicologhe Nueropsicologhe).<br />
-                ●	<a href="https://www.instagram.com/logopedista_stefaniapescantini" class="sub-title2" target="blank">logopedista_stefaniapescantini</a> , Stefania Pescantini (Logopedista).<br />
-                ●	<a href="https://www.instagram.com/artemente.laura.arteterapia" class="sub-title2" target="blank">artemente.laura.arteterapia</a> , Laura Casavecchia (Arteterapia).<br />
-                ●	<a href="https://www.instagram.com/logopedistagram" class="sub-title2" target="blank">logopesistagram</a> , Sofia Parma (Logopedista).<br />
-                ●	<a href="https://www.instagram.com/logotipstricks" class="sub-title2" target="blank">logotipstricks</a> , Giulia Puliga (Logopedista).<br />
-                ●	<a href="https://www.instagram.com/instalogopedia" class="sub-title2" target="blank">instalogopedia</a> , Giorgia Neri (Logopedista).<br />
-                ●	<a href="https://www.instagram.com/logopedistadeborahauteri" class="sub-title2" target="blank">logopedistadeborahauteri</a> , Deborah Auteri (Logopedista).<br />
-                ●	<a href="https://www.instagram.com/dott.ssa_martina_verdese_tnpee" class="sub-title2" target="blank">dott.ssa_martina_verdese_tnpee</a> , Martina Verdese (TNPEE).<br />
-                ●	<a href="https://www.instagram.com/logopedista_angelapaita" class="sub-title2" target="blank">logopedista_angelapaita</a> , Angela Paita (Logopedista).<br />
-            </div>
         `
     }
 ]
