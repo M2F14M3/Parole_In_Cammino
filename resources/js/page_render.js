@@ -25,6 +25,7 @@ const boxNames = {
 
 const pdfDownloads = [
     `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
     `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
     `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
     `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
@@ -78,6 +79,8 @@ const indexes = [
             Speriamo che questo strumento possa essere utile e interessante, che possa incuriosirvi e lasciarvi qualche spunto di riflessione; non abbiamo la presunzione di essere esaustive, perché ogni bambino è un mondo e la sua crescita è un Cammino lungo una vita.<br />
             <span class="sub-title">Vorremmo augurare a tutti gli uomini e le donne di domani un avventuroso viaggio</span>.<br />
             Un soddisfacente Cammino!<br /><br />
+
+            Clicca qui per scaricare il libretto completo in formato pdf: ${pdfDownloads[0]}<br /><br />
             
             <div id="instraction-cointaner">
                 <span class="sub-title">COME E' STRUTTURATO IL SITO</span><br />
@@ -166,7 +169,7 @@ const indexes = [
                 Dobbiamo portare uno zaino bello pieno di entusiasmo, curiosità e coraggio; tutto ciò che hanno imparato fino ad ora sarà lo strumento che li sosterrà nel CAMMINO.<br /><br />
 
                 BIBLIOGRAFIA: (Girolametto et al, 2019); (Caselli et al, 2015); (Schindler, et al., 2011); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner E., 2018).<br />
-                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[0]}
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[1]}
             </div>
         `,
         campanelli: `
@@ -337,7 +340,7 @@ const indexes = [
                 La "cattiva notizia" è che non esiste nessun pulsante OFF, ma la "buona notizia" è che, con pazienza e giuste strategie, è possibile gestire la vivacità di questi bambini!!<br /><br />
 
                 BIBLIOGRAFIA: (Tresoldi et al, 2015); (Girolametto et al, 2019); (D'Amico e Devescovi, 2013); (Schindler, et al., 2011); (Infant & Toddler Forum, 2014); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner, 2010).<br />
-                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[1]}
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[2]}
             </div>
         `,
         campanelli: `
@@ -482,7 +485,7 @@ const indexes = [
                 Che bello, i nostri bambini sono ormai dei veri e propri esploratori, curiosi e pieni di energia! Le loro giornate si riempiono sempre di più e c'è molto tempo da sfruttare, soprattutto ora che il sonnellino pomeridiano comincia a non essere più un'abitudine, ma un vecchio ricordo … ciao ciao nanna, stiamo diventando grandi!!<br /><br />
 
                 BIBLIOGRAFIA: (Marini et al., 2015); (Girolametto et al, 2019); (Tresoldi et al, 2018); (D’Amico e Devescovi, 2013); (Dunn e Kendrick, 1982); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
-                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[2]}
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[3]}
             </div>
         `,
         campanelli: `
@@ -618,7 +621,7 @@ const indexes = [
                 Bisogna prepararsi al meglio e farsi le spalle larghe … l'anno prossimo bisognerà preparare un altro zaino e indossare nuovi grembiulini: finalmente si va a scuola!!<br /><br />
 
                 BIBLIOGRAFIA: (D'Amico e Devescovi, 2013); (BVL); (Girolametto et al, 2019); (Tresoldi et al, 2015); (Pinton, 2018); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
-                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[3]}
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[4]}
             </div>
         `,
         campanelli: `
