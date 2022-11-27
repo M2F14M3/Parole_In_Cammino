@@ -16,6 +16,18 @@
     height: fit-content;
 }
 
+figure {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: -10%;
+    left: 20%;
+}
+
+figcaption {
+    text-align: center;
+}
+
 #box:hover {
     zoom: 1.2;
 }
@@ -64,15 +76,6 @@ a.enabled {
     content: 'X';
     color: #000;
     font-weight: 700;
-}
-
-.download{
-    position: absolute;
-    top: .5em;
-    left: -1em;
-    display: flex;
-    justify-content: start;
-    zoom: .7;
 }
 
 #section-title {

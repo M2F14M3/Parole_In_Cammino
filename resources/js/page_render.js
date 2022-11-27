@@ -24,10 +24,10 @@ const boxNames = {
 };
 
 const pdfDownloads = [
-    `<a href="javascript:void(0)" class="download" download=""></a>`,
-    `<a href="javascript:void(0)" class="download"></a>`,
-    `<a href="javascript:void(0)" class="download"></a>`,
-    `<a href="javascript:void(0)" class="download"></a>`,
+    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
 ];
 
 const indexes = [
@@ -165,7 +165,8 @@ const indexes = [
                 È necessario prepararsi al meglio!<br />
                 Dobbiamo portare uno zaino bello pieno di entusiasmo, curiosità e coraggio; tutto ciò che hanno imparato fino ad ora sarà lo strumento che li sosterrà nel CAMMINO.<br /><br />
 
-                BIBLIOGRAFIA: (Girolametto et al, 2019); (Caselli et al, 2015); (Schindler, et al., 2011); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner E., 2018).
+                BIBLIOGRAFIA: (Girolametto et al, 2019); (Caselli et al, 2015); (Schindler, et al., 2011); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner E., 2018).<br />
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[0]}
             </div>
         `,
         campanelli: `
@@ -335,7 +336,8 @@ const indexes = [
                 Alla scuola dell'infanzia crescono ogni giorno di più e sono in continua ricerca di novità da imparare. La curiosità è il loro instancabile motore e chi di noi non ha pensato almeno una volta "Come si spegne questo bambino? Non si scaricano mai le batterie?!<br />
                 La "cattiva notizia" è che non esiste nessun pulsante OFF, ma la "buona notizia" è che, con pazienza e giuste strategie, è possibile gestire la vivacità di questi bambini!!<br /><br />
 
-                BIBLIOGRAFIA: (Tresoldi et al, 2015); (Girolametto et al, 2019); (D'Amico e Devescovi, 2013); (Schindler, et al., 2011); (Infant & Toddler Forum, 2014); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner, 2010).
+                BIBLIOGRAFIA: (Tresoldi et al, 2015); (Girolametto et al, 2019); (D'Amico e Devescovi, 2013); (Schindler, et al., 2011); (Infant & Toddler Forum, 2014); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner, 2010).<br />
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[1]}
             </div>
         `,
         campanelli: `
@@ -479,7 +481,8 @@ const indexes = [
 
                 Che bello, i nostri bambini sono ormai dei veri e propri esploratori, curiosi e pieni di energia! Le loro giornate si riempiono sempre di più e c'è molto tempo da sfruttare, soprattutto ora che il sonnellino pomeridiano comincia a non essere più un'abitudine, ma un vecchio ricordo … ciao ciao nanna, stiamo diventando grandi!!<br /><br />
 
-                BIBLIOGRAFIA: (Marini et al., 2015); (Girolametto et al, 2019); (Tresoldi et al, 2018); (D’Amico e Devescovi, 2013); (Dunn e Kendrick, 1982); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).
+                BIBLIOGRAFIA: (Marini et al., 2015); (Girolametto et al, 2019); (Tresoldi et al, 2018); (D’Amico e Devescovi, 2013); (Dunn e Kendrick, 1982); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[2]}
             </div>
         `,
         campanelli: `
@@ -614,7 +617,8 @@ const indexes = [
                 Li chiamano "remigini"!! Che emozione … ecco in arrivo l'ultimo anno di asilo! I nostri bambini sono ormai i grandi della classe e, in quanto tali, spesso hanno anche il compito di aiutare i più piccoli nelle attività scolastiche. Sanno di dover dare l’esempio agli altri bambini e si sentono dei giganti alla ricerca di avventure!<br />
                 Bisogna prepararsi al meglio e farsi le spalle larghe … l'anno prossimo bisognerà preparare un altro zaino e indossare nuovi grembiulini: finalmente si va a scuola!!<br /><br />
 
-                BIBLIOGRAFIA: (D'Amico e Devescovi, 2013); (BVL); (Girolametto et al, 2019); (Tresoldi et al, 2015); (Pinton, 2018); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010)
+                BIBLIOGRAFIA: (D'Amico e Devescovi, 2013); (BVL); (Girolametto et al, 2019); (Tresoldi et al, 2015); (Pinton, 2018); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
+                Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[3]}
             </div>
         `,
         campanelli: `
@@ -987,35 +991,49 @@ function ageRangeContent(index) {
     const content = document.createElement("div");
     content.className = "destra-contenuto";
     content.innerHTML = `
-        <div class="box-linguaggio">
+        <figure class="box-linguaggio">
             <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')" id="box">
                 ${boxImages.linguaggio}
             </a>
-        </div>
+            <figcaption>
+                1.${boxNames.linguaggio}
+            </figcaption>
+        </figure>
         <div id="box-testo"> 
             ${indexes[index].centrale}
         </div>
-        <div class="box-autonomie">
+        <figure class="box-autonomie">
             <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')" id="box">
                 ${boxImages.autonomie}
             </a>
-        </div>
-        
-        <div class="box-campanelli">
+            <figcaption>
+                2.${boxNames.autonomie}
+            </figcaption>
+        </figure>
+        <figure class="box-campanelli">
             <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
                 ${boxImages.campanelli}
             </a>
-        </div>
-        <div class="box-spunti">
+            <figcaption>
+                5.${boxNames.campanelli}
+            </figcaption>
+        </figure>
+        <figure class="box-spunti">
             <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')" id="box">
                 ${boxImages.spunti}
             </a>
-        </div>
-        <div class="box-gioco">
+            <figcaption>
+                4.${boxNames.spunti}
+            </figcaption>
+        </figure>
+        <figure class="box-gioco">
             <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')" id="box">
                 ${boxImages.gioco}
             </a>
-        </div>
+            <figcaption>
+                3.${boxNames.gioco}
+            </figcaption>
+        </figure>
     `;
     data.appendChild(content);
 }
