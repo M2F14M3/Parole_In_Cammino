@@ -26,9 +26,9 @@ const boxNames = {
 const pdfDownloads = [
     `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
     `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
+    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
 ];
 
 const indexes = [
@@ -159,7 +159,7 @@ const indexes = [
         `,
         centrale: `
             <div id="value-content-centrale">
-                <div>
+                <div id="title-centrale">
                     ${titleBox(0, "centrale")}
                 </div>
 
