@@ -870,7 +870,7 @@ const indexes = [
             Pinton Alessandra, (2018) I disturbi fonetici e fonologici nell'età dello sviluppo. Carocci Faber.<br />
             Schindler, O., Ruppolo, G. & Schindler, A., (2011). Deglutologia. II edizione. Torino: Omega edizioni.<br />
             Tresoldi M, Barillari MR, Ambrogi F, Sai E, Barillari U, Tozzi E, Scarponi L, Schindler A. (2018). Normative and validation data of an articulation test for Italian-speaking children. Int J Pediatr Otorhinolaryngol.; 110:81-86.<br />            
-            Yadav S, Chakraborty P. (2018) Using smartphones with suitable apps can be safe and even useful if they are not misused or overused. Acta Paediatr.r; 107(3):384-387.<br /><br />
+            Yadav S, Chakraborty P. (2018) Using smartphones with suitable apps can be safe and even useful if they are not misused or overused. Acta Paediatr.r; 107(3):384-387.
         `
     }
 ]
