@@ -16,12 +16,32 @@
     height: fit-content;
 }
 
+.box-linguaggio,
+.box-autonomie {
+    position: relative;
+    left: 15%;
+}
+
+.box-gioco {
+    position: relative;
+    bottom: 15%;
+}
+
+.box-spunti {
+    position: relative;
+    bottom: 15%;
+    left: 30%;
+}
+
+.box-campanelli {
+    position: relative;
+    bottom: 15%;
+    left: 20%;
+}
+
 figure {
     height: fit-content;
     width: fit-content;
-    position: relative;
-    top: -10%;
-    left: 20%;
 }
 
 figcaption {
@@ -87,14 +107,11 @@ a.enabled {
     font-size: 1.2em;
 }
 
-@media screen and (min-width: 0px) and (max-width: 425px) {
-}
+@media screen and (min-width: 0px) and (max-width: 425px) {}
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-}
+@media screen and (min-width: 426px) and (max-width: 768px) {}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
 @media screen and (min-width: 1025px) and (max-width: 1520px) {
     #value-content-centrale {
