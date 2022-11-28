@@ -42,7 +42,7 @@ div#image {
     }
 
     div#p1 {
-        word-break: break-all;
+        word-break: break-word;
     }
 
     #instraction-cointaner {

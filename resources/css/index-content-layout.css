@@ -36,8 +36,7 @@ div#image {
 
     html,
     body {
-        width: fit-content;
-        height: fit-content;
+        width: 95vw;
     }
 
     div#image {
@@ -52,8 +51,7 @@ div#image {
 
     html,
     body {
-        width: fit-content;
-        height: fit-content;
+        width: 100vw;
     }
 
     #content {

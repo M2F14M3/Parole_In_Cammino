@@ -12,6 +12,7 @@ head {
     height: 100vh;
     color: #000;
     background-color: #fff;
+    word-wrap: break-word;
 }
 
 body {
@@ -34,6 +35,7 @@ body {
     height: fit-content;
     display: flex;
     justify-content: center;
+    word-wrap: break-word;
 }
 
 #title-site {

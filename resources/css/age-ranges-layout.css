@@ -107,11 +107,78 @@ a.enabled {
     font-size: 1.2em;
 }
 
-@media screen and (min-width: 0px) and (max-width: 425px) {}
+/* @media screen and (min-width: 0px) and (max-width: 425px) {}
 
-@media screen and (min-width: 426px) and (max-width: 768px) {}
+@media screen and (min-width: 426px) and (max-width: 768px) {} */
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .destra-contenuto {
+        height: 100vh;
+        width: 95vw;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 22.5vh 55vh 22.5vh 25vh;
+        grid-template-areas:
+            'linguaggio autonomie'
+            'centrale centrale'
+            'gioco spunti'
+            'campanelli campanelli';
+    }
+
+    .box-linguaggio {
+        grid-area: linguaggio;
+        justify-self: center;
+        left: 0;
+    }
+
+    .box-autonomie {
+        grid-area: autonomie;
+        justify-self: center;   
+        left: 0;
+    }
+
+    #box-testo {
+        position: relative;
+        width: 90vw;
+        height: fit-content;
+        top: 20%;
+        left: 10%;
+        break-inside: break-word;
+    }
+
+    .box-gioco {
+        grid-area: gioco;
+        justify-self: center;
+        left: 0;
+    }
+
+    .box-spunti {
+        grid-area: spunti;
+        justify-self: center;
+        left: 0;
+    }
+
+    .box-campanelli {
+        grid-area: campanelli;
+        justify-self: center;
+        left: 0;
+    }
+
+    div#value-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: fit-content;
+        height: 80vh;
+        width: 80vw;
+        padding: 0% 3% 2% 3%;
+        font-size: 1.2em;
+        overflow-y: scroll;
+    }
+
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1520px) {
     #value-content-centrale {
