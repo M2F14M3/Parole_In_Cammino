@@ -62,9 +62,9 @@ const indexes = [
             Logopedista Silvana Bresciani<br />
             Psicologa Chiara Cantiani, Ricercatrice dell'Istituto La Nostra Famiglia, Bosisio Parini<br />
             Psicologa Sara Mascheretti, Ricercatrice del Dipartimento di Scienze del Sistema Nervoso e del Comportamento - Università degli Studi di Pavia<br />
-            Lorenzo Solito, web developer<br />
+            Lorenzo Solito, Web Developer<br />
             Lara Zerbi, realizzatrice delle illustrazioni di "Parole in Cammino"<br />
-            Walter Crippa, graphic designer<br /><br />
+            Walter Crippa, Graphic Designer<br /><br />
 
             <h1 class="sub-title">Lettera ai genitori e alle figure di riferimento</h1>
 
