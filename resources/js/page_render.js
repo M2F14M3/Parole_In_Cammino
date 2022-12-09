@@ -24,14 +24,17 @@ const boxNames = {
 };
 
 const pdfDownloads = [
-    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
-    `<a href="javascript:void(0)" class="sub-title2" download="">Download</a>`,
+    `<a href="resources/pdf/Parole in Cammino completo.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/3 anni.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/3-4 anni.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/4-5 anni.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/5-6 anni.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/Lettura condivisa.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/Bilinguismo.pdf" class="sub-title2" download target=_blank>Download</a>`,
+    `<a href="resources/pdf/Device.pdf" class="sub-title2" download target=_blank>Download</a>`,
 ];
 
-const indexes = [
+const pages = [
     {
         id: 0,
         title: "Homepage - Parole In Cammino",
@@ -236,7 +239,7 @@ const indexes = [
                 Sicuramente nei primi mesi di vita i giochi preferiti riguardano <span class="sub-title">l'esplorazione</span> come ad esempio gattonare, lanciare oggetti, rotolarsi…<br />
                 Compaiono poi i <span class="sub-title">giochi di costruzione</span> (torri con i lego, pista delle macchinine…) e si intravede lo sviluppo del <span class="sub-title">gioco di finzione</span>: "Faccio finta di bere il tè dalla tazzina" oppure "Faccio finta di dare da mangiare alla bambola" …<br /><br />
 
-                E' importante <span class="sub-title2">giocare insieme</span> ai nostri bambini <span class="sub-title">lasciando che siano loro a condurre il gioco</span> e a decidere le regole che più gli piacciono.
+                E' importante <span class="sub-title2">giocare insieme</span> ai nostri bambini <span class="sub-title2">lasciando che siano loro a condurre il gioco</span> e a decidere le regole che più gli piacciono.
             </div>
         `
     },
@@ -732,7 +735,8 @@ const indexes = [
                 <span class="list">❖	"In punta di piedi" di Christine Schneider.</span><br />
                 <span class="list">❖	"La piccola principessa e il segreto del drago" di Jutta Langreuter.</span><br />
                 <span class="list">❖	"Amy e Louis" di Libby Gleeson.</span><br />
-            </div>
+            </div><br />
+            Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[5]}
         `
     },
     {
@@ -759,11 +763,11 @@ const indexes = [
             Assolutamente no!</span> I nostri piccoli non correranno nessun rischio perché sanno perfettamente che le lingue conosciute sono strumenti diversi e sanno persino in che situazioni utilizzarle.<br />
             Non è sinonimo di fatica l'utilizzo di entrambe le lingue all'interno della stessa frase: è del tutto normale nell'apprendimento. Facciamo alcuni esempi:<br />
             
-            "Andiamo via mamma? Torniamo a … maison?"<br />
+            "Andiamo via mamma? Torniamo a … <span class="sub-title3">maison</span>?"<br />
             Due lingue utilizzate: italiano (torniamo a) e francese (maison)<br />
             In questo caso il bambino ha sfruttato un vocabolo francese per esprimere il significato di una parola che non sa nella lingua italiana o che non ricorda.<br /><br />
             
-            "Voglio questo! Ho choosato quello blu"<br />
+            "Voglio questo! Ho <span class="sub-title3">choosato</span> quello blu"<br />
             Due lingue utilizzate: italiano (la forma -ato per il participio passato) e inglese (il verbo "choose" che significa scegliere)<br />
             Il bambino coniuga il verbo secondo le regole della lingua italiana, ma utilizza il verbo inglese "choose".<br /><br />
             
@@ -771,7 +775,8 @@ const indexes = [
             
             Attenzione! Non c'è confusione tra le lingue, ma <span class="sub-title">è normale che ci sia qualche settimana</span> di silenzio in cui il bambino ascolta la nuova lingua: prima di provare qualcosa dobbiamo averla almeno osservata o ascoltata!<br /><br />
             
-            BIBLIOGRAFIA: Marini et al., 2019
+            BIBLIOGRAFIA: Marini et al., 2019<br /><br />
+            Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[6]}
         `
     },
     {
@@ -797,7 +802,7 @@ const indexes = [
                 </div>
             </div><br />
             
-            Ecco alcuni consigli da poter attuare quando si parla di strumenti tecnologici:<br />
+            Ecco alcuni <span class="sub-title2">consigli</span> da poter attuare quando si parla di strumenti tecnologici:<br />
             <div class="list">
                 -	è importante <span class="sub-title">limitare l'uso prolungato</span> degli schermi.<br />
                 -	nei brevi momenti in cui questi strumenti vengono utilizzati è utile <span class="sub-title">dare il buon esempio</span> su un uso consapevole.<br />
@@ -821,7 +826,8 @@ const indexes = [
                 ★	si può anche cercare di <span class="sub-title">non enfatizzare l'uso della tecnologia</span>: evitiamo di usarla come premio o di toglierla in caso di capricci perchè così facendo potrebbe sembrare che il dispositivo sia qualcosa di bello e desiderabile.<br /><br />
             </div>
             
-            BIBLIOGRAFIA: (Lavenia, 2019); (Chaibal S e Chaiyakul S., 2022); (Moon et al., 2019); (Yadav e Chakraborty, 2018); (Bozzola et al., 2018). 
+            BIBLIOGRAFIA: (Lavenia, 2019); (Chaibal S e Chaiyakul S., 2022); (Moon et al., 2019); (Yadav e Chakraborty, 2018); (Bozzola et al., 2018).<br /><br />
+            Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[7]}
         `
     },
     {
@@ -894,7 +900,7 @@ function titleRender() {
 function menuRender() {
     const data = document.querySelector("#data");
     const menu = document.createElement("aside");
-    indexes.forEach(index => {
+    pages.forEach(index => {
         if (document.title == index.title) {
             menu.innerHTML += `
                 <div class="menu-links" ${index.style}>
@@ -976,13 +982,13 @@ function normalContent(index) {
     content.id = "content";
     content.innerHTML = `
         <div id="p1">
-            ${indexes[index].content}
+            ${pages[index].content}
         </div>
     `;
-    if (indexes[index].image != undefined) {
+    if (pages[index].image != undefined) {
         content.innerHTML += `
             <div id="image">
-                ${indexes[index].image}
+                ${pages[index].image}
             </div>
         `;
     }
@@ -998,43 +1004,43 @@ function ageRangeContent(index) {
             <a href="javascript:void(0)" onclick="showText(${index}, 'linguaggio')" id="box">
                 ${boxImages.linguaggio}
             </a>
-            <figcaption>
-                1.${boxNames.linguaggio}
+            <figcaption class="sub-title">
+                1. ${boxNames.linguaggio}
             </figcaption>
         </figure>
         <div id="box-testo"> 
-            ${indexes[index].centrale}
+            ${pages[index].centrale}
         </div>
         <figure class="box-autonomie">
             <a href="javascript:void(0)" onclick="showText(${index}, 'autonomie')" id="box">
                 ${boxImages.autonomie}
             </a>
-            <figcaption>
-                2.${boxNames.autonomie}
+            <figcaption class="sub-title">
+                2. ${boxNames.autonomie}
             </figcaption>
         </figure>
         <figure class="box-campanelli">
             <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
                 ${boxImages.campanelli}
             </a>
-            <figcaption>
-                5.${boxNames.campanelli}
+            <figcaption class="sub-title">
+                5. ${boxNames.campanelli}
             </figcaption>
         </figure>
         <figure class="box-spunti">
             <a href="javascript:void(0)" onclick="showText(${index}, 'spunti')" id="box">
                 ${boxImages.spunti}
             </a>
-            <figcaption>
-                4.${boxNames.spunti}
+            <figcaption class="sub-title">
+                4. ${boxNames.spunti}
             </figcaption>
         </figure>
         <figure class="box-gioco">
             <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')" id="box">
                 ${boxImages.gioco}
             </a>
-            <figcaption>
-                3.${boxNames.gioco}
+            <figcaption class="sub-title">
+                3. ${boxNames.gioco}
             </figcaption>
         </figure>
     `;
@@ -1050,37 +1056,37 @@ function showText(index, value) {
         case 'linguaggio':
             content.id = "linguaggio";
             content.innerHTML = `
-                ${indexes[index].linguaggio}
+                ${pages[index].linguaggio}
             `;
             break;
         case 'autonomie':
             content.id = "autonomie";
             content.innerHTML = `
-                ${indexes[index].autonomie}
+                ${pages[index].autonomie}
             `;
             break;
         case 'centrale':
             content.id = "centrale";
             content.innerHTML = `
-                ${indexes[index].centrale}
+                ${pages[index].centrale}
             `;
             break;
         case 'campanelli':
             content.id = "campanelli";
             content.innerHTML = `
-                ${indexes[index].campanelli}
+                ${pages[index].campanelli}
             `;
             break;
         case 'spunti':
             content.id = "spunti";
             content.innerHTML = `
-                ${indexes[index].spunti}
+                ${pages[index].spunti}
             `;
             break;
         case 'gioco':
             content.id = "gioco";
             content.innerHTML = `
-                ${indexes[index].gioco}
+                ${pages[index].gioco}
             `;
             break;
     }

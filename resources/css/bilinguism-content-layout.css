@@ -15,6 +15,16 @@ div#image {
     font-weight: bold;
 }
 
+.sub-title2 {
+    color: #cc0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sub-title3 {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 0px) and (max-width: 768px) {
     html,body {
         width: fit-content;
