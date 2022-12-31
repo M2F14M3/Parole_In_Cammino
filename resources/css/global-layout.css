@@ -198,7 +198,7 @@ h1 {
         width: 100vw;
         height: fit-content;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         word-wrap: break-word;
         font-size: 1.6rem;
     }
