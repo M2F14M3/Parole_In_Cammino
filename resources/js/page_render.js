@@ -57,17 +57,19 @@ const pages = [
             Per questo <span class="sub-title">ringraziamo tutti i partecipanti</span> che, rispondendo al questionario, ci hanno permesso di creare uno strumento informativo e di supporto per altri genitori e per tutti coloro che accompagnano i bambini nel loro percorso di crescita.<br /><br />
 
             Ringraziamo di cuore per il supporto e la preziosa collaborazione:<br />
-            Prof. Antonio Schindler, Presidente del Corso di Laurea in Logopedia dell'Università degli Studi di Milano<br />
-            Logopedista Raffaella Pozzoli, Docente del Corso di Laurea in Logopedia dell'Università degli Studi di Milano<br />
-            Logopedista Elena Giudici<br />
-            Logopedista Francesca Tombola<br />
-            Logopedista Alessandra Brunetti<br />
-            Logopedista Silvana Bresciani<br />
-            Psicologa Chiara Cantiani, Ricercatrice dell'Istituto La Nostra Famiglia, Bosisio Parini<br />
-            Psicologa Sara Mascheretti, Ricercatrice del Dipartimento di Scienze del Sistema Nervoso e del Comportamento - Università degli Studi di Pavia<br />
-            Lorenzo Solito, Web Developer<br />
-            Lara Zerbi, realizzatrice delle illustrazioni di "Parole in Cammino"<br />
-            Walter Crippa, Graphic Designer<br /><br />
+            <div class="list">
+                - Prof. Antonio Schindler, Presidente del Corso di Laurea in Logopedia dell'Università degli Studi di Milano<br />
+                - Logopedista Raffaella Pozzoli, Docente del Corso di Laurea in Logopedia dell'Università degli Studi di Milano<br />
+                - Logopedista Elena Giudici<br />
+                - Logopedista Francesca Tombola<br />
+                - Logopedista Alessandra Brunetti<br />
+                - Logopedista Silvana Bresciani<br />
+                - Psicologa Chiara Cantiani, Ricercatrice dell'Istituto La Nostra Famiglia, Bosisio Parini<br />
+                - Psicologa Sara Mascheretti, Ricercatrice del Dipartimento di Scienze del Sistema Nervoso e del Comportamento - Università degli Studi di Pavia<br />
+                - Lorenzo Solito, Web Developer<br />
+                - Lara Zerbi, realizzatrice delle illustrazioni di "Parole in Cammino"<br />
+                - Walter Crippa, Graphic Designer<br /><br />
+            </div>
 
             <h1 class="sub-title">Lettera ai genitori e alle figure di riferimento</h1>
 

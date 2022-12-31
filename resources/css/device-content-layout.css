@@ -1,7 +1,8 @@
 #content {
-    display: grid;
-    grid-template-columns: 65% 35%;
-    width: 100%;
+    display: flex;
+    max-width: 100%;
+    align-content: flex-start;
+    margin: 1rem;
 }
 
 div#image {
@@ -16,6 +17,10 @@ div#image {
     padding: 10px 10px 10px 10px;
 }
 
+#title-site {
+    color: #354f0b;
+}
+
 .sub-title {
     color: #354f0b;
     font-weight: bold;
@@ -27,30 +32,34 @@ div#image {
     text-decoration: underline;
 }
 
-
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
-    html,body {
+    html,
+    body {
         width: auto;
-        height: auto;
     }
 
     #content {
         display: flex;
         flex-direction: column;
+        padding: 0%;
+        width: fit-content;
         text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
     }
 
     div#image {
         display: inline;
         zoom: 0.8;
         justify-content: center;
-        padding-left: 0%
+        padding-left: 0%;
+    }
+
+    img {
+        max-width: 100%;
     }
 
     #instraction-cointaner {
         padding: 5px 5px 5px 5px;
+        text-align: start;
     }
 }

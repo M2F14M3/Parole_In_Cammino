@@ -5,6 +5,10 @@ div#image {
     height: fit-content;
 }
 
+#title-site {
+    color: #e5760d;
+}
+
 .sub-title {
     color: #e5760d;
     font-weight: bold;
@@ -20,7 +24,7 @@ div#image {
     justify-content: space-around;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (min-width: 0px) and (max-width: 425px) {
 
     html,body {
         width: fit-content;
@@ -32,24 +36,57 @@ div#image {
         flex-direction: column;
         text-align: center;
         padding: 0%;
+        width: 100vw;
     }
 
     div#image {
         display: inline;
-        zoom: 0.8;
+        justify-content: center;
+        padding-left: 0%;
+        zoom: 0.3;
+    }
+
+    div#p1 {
+        word-break: break-word;
+        max-width: 100vw;
+    }
+
+    #instraction-cointaner {
+        padding: 5px 5px 5px 5px;
+    }
+    #extra {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+
+    html,body {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0%;
+        width: 100vw;
+    }
+
+    div#image {
+        display: inline;
         justify-content: center;
         padding-left: 0%
     }
 
     div#p1 {
         word-break: break-word;
+        max-width: 100vw;
     }
 
     #instraction-cointaner {
         padding: 5px 5px 5px 5px;
     }
 
-    #libreria {
-        zoom: 0.5;
-    }
 }

@@ -1,6 +1,8 @@
 #content {
-    display: grid;
-    grid-template-columns: 65% 35%;
+    display: flex;
+    max-width: 100%;
+    align-content: flex-start;
+    margin: 1rem;
 }
 
 div#image {
@@ -8,6 +10,7 @@ div#image {
     zoom: 1.2;
     width: fit-content;
     height: fit-content;
+    max-width: 100%;
 }
 
 #instraction-cointaner {
@@ -15,6 +18,10 @@ div#image {
     padding: 10px 10px 10px 10px;
     background-color: #254605;
     color: #fff;
+}
+
+#title-site {
+    color: #e5760d;
 }
 
 .sub-title {
@@ -32,43 +39,34 @@ div#image {
     font-style: italic;
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
-
-    html,
-    body {
-        width: 95vw;
-    }
-
-    div#image {
-        display: inline;
-        zoom: 0.6;
-        justify-content: center;
-        padding-left: 0%
-    }
-}
-
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
     html,
     body {
-        width: 100vw;
+        width: auto;
     }
 
     #content {
         display: flex;
         flex-direction: column;
-        text-align: center;
         padding: 0%;
+        width: fit-content;
+        text-align: center;
     }
 
     div#image {
         display: inline;
         zoom: 0.8;
         justify-content: center;
-        padding-left: 0%
+        padding-left: 0%;
+    }
+
+    img {
+        max-width: 100%;
     }
 
     #instraction-cointaner {
         padding: 5px 5px 5px 5px;
+        text-align: start;
     }
 }

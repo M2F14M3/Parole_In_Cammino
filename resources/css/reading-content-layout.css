@@ -10,6 +10,10 @@ div#image {
     width: fit-content;
 }
 
+#title-site {
+    color: #8e1582;
+}
+
 .sub-title {
     color: #8e1582;
     font-weight: bold;
@@ -43,11 +47,11 @@ div#image {
         text-align: center;
     }
     div#p1 {
-        width: auto;
+        max-width: 100vw;
     }
 
     #libreria {
-        zoom: 0.5;
+        max-width: 100vw;
     }
 }
 
