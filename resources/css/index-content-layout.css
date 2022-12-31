@@ -2,7 +2,6 @@
     display: flex;
     max-width: 100%;
     align-content: flex-start;
-    margin: 1rem;
 }
 
 div#image {
@@ -18,6 +17,7 @@ div#image {
     padding: 10px 10px 10px 10px;
     background-color: #254605;
     color: #fff;
+    width: max-content;
 }
 
 #title-site {

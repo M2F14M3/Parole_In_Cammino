@@ -2,7 +2,6 @@
     display: flex;
     max-width: 100%;
     align-content: flex-start;
-    margin: 1rem;
 }
 
 div#image {
@@ -15,6 +14,7 @@ div#image {
 #instraction-cointaner {
     border: 4px #354f0b ridge;
     padding: 10px 10px 10px 10px;
+    width: max-content;
 }
 
 #title-site {

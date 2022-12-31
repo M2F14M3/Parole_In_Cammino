@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr;
-    grid-template-areas: 'header''data';
+    grid-template-areas: 'header' 'data';
 }
 
 #header {
@@ -172,6 +172,14 @@ aside {
 
 h1 {
     text-align: center;
+}
+
+#p1 {
+    margin: 1rem;
+}
+
+.list {
+    margin-left: 1rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {

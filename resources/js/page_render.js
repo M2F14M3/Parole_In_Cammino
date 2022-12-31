@@ -726,17 +726,22 @@ const pages = [
             Qualche idea di lettura per l'età prescolare:<br />
             <div class="list">
                 ★	3 anni<br />
-                <span class="list">❖	"Tre piccoli gufi" di Martin Waddell.</span><br />
-                <span class="list">❖	"Orso, buco!" di Nicola Grossi.</span><br />
-                <span class="list">❖	"Il piccolo bruco Maisazio" di Eric Carle.</span><br />
+                <div class="list">
+                    ❖	"Tre piccoli gufi" di Martin Waddell.<br />
+                    ❖	"Orso, buco!" di Nicola Grossi.<br />
+                    ❖	"Il piccolo bruco Maisazio" di Eric Carle.
+                </div>
                 ★	4 anni<br />
-                <span class="list">❖	"A caccia dell'orso" di Michael Rosen</span><br />
-                <span class="list">❖	"Oh! Un libro che fa dei suoni" o tutti i libri di Hervé Tullet.</span><br />
-                <span class="list">❖	"Il ladro di foglie" di Alice Hemming.</span><br />
+                <div class="list">
+                    ❖	"A caccia dell'orso" di Michael Rosen<br />
+                    ❖	"Oh! Un libro che fa dei suoni" o tutti i libri di Hervé Tullet.<br />
+                    ❖	"Il ladro di foglie" di Alice Hemming.
+                </div>
                 ★	5 anni<br />
-                <span class="list">❖	"In punta di piedi" di Christine Schneider.</span><br />
-                <span class="list">❖	"La piccola principessa e il segreto del drago" di Jutta Langreuter.</span><br />
-                <span class="list">❖	"Amy e Louis" di Libby Gleeson.</span><br />
+                <div class="list">
+                    ❖	"In punta di piedi" di Christine Schneider.<br />
+                    ❖	"La piccola principessa e il segreto del drago" di Jutta Langreuter.<br />
+                    ❖	"Amy e Louis" di Libby Gleeson.
             </div><br />
             Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[5]}
         `
