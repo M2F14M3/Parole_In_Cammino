@@ -1,15 +1,3 @@
-#content {
-    display: grid;
-    grid-template-columns: 65% 35%;
-    width: 100%;
-}
-
-div#image {
-    display: inline;
-    height: fit-content;
-    width: fit-content;
-}
-
 #title-site {
     color: #8e1582;
 }
@@ -26,7 +14,7 @@ div#image {
 }
 
 #libreria {
-    zoom: 0.7;
+    transform: scale(0.8);
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {

@@ -1,23 +1,10 @@
-#content {
-    display: flex;
-    max-width: 100%;
-    align-content: flex-start;
-}
-
-div#image {
-    display: inline;
-    zoom: 1.2;
-    width: fit-content;
-    height: fit-content;
-    max-width: 100%;
-}
-
 #instraction-cointaner {
     border: 4px #447513 ridge;
     padding: 10px 10px 10px 10px;
     background-color: #254605;
     color: #fff;
     width: max-content;
+    max-width: 90vw;
 }
 
 #title-site {
@@ -46,27 +33,12 @@ div#image {
         width: auto;
     }
 
-    #content {
-        display: flex;
-        flex-direction: column;
-        padding: 0%;
-        width: fit-content;
-        text-align: center;
-    }
-
-    div#image {
-        display: inline;
-        zoom: 0.8;
-        justify-content: center;
-        padding-left: 0%;
-    }
-
-    img {
-        max-width: 100%;
+    #image {
+        max-width: 100vw;
+        display: none;
     }
 
     #instraction-cointaner {
         padding: 5px 5px 5px 5px;
-        text-align: start;
     }
 }
