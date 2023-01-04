@@ -72,8 +72,7 @@ body {
 #content {
     display: flex;
     box-sizing: border-box;
-    flex-direction: column;
-    flex-wrap: wrap;
+    word-wrap: normal;
     max-width: 100vw;
 }
 
@@ -160,7 +159,7 @@ aside>div:nth-child(9):hover {
 
 aside {
     grid-area: aside;
-    width: 15%;
+    width: 20%;
     height: 100%;
     display: grid;
     font-size: 1.3em;
@@ -176,7 +175,6 @@ h1 {
     margin: 1rem;
     text-align: start;
     height: fit-content;
-    max-width: 100vw;
 }
 
 .list {
@@ -193,6 +191,7 @@ h1 {
 
     #header {
         border-bottom: 1px black solid;
+        justify-content: flex-start;
     }
 
     .title-site {

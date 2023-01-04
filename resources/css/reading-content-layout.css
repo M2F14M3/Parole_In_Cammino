@@ -15,25 +15,39 @@
 
 #libreria {
     transform: scale(0.8);
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#image{
+    display: flex;
+    margin: auto;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
-    html,body {
+
+    html,
+    body {
         width: fit-content;
         height: fit-content;
         font-size: 1em;
     }
+
     div#image {
         display: inline;
         zoom: 0.6;
         justify-content: center;
-        padding-left: 0%
+        padding-left: 0%;
+        margin: auto;
     }
+
     #content {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+
     div#p1 {
         max-width: 100vw;
     }
