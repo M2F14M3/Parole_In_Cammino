@@ -151,10 +151,10 @@ a.enabled {
     }
 
     div#value-content {
-        min-width: 80vw;
+        min-width: 90vw;
         max-width: 100vw;
         height: fit-content;
-        max-height: 70vh;
+        max-height: 90%;
         overflow-y: scroll;
         z-index: 99999;
     }
