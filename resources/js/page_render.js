@@ -173,8 +173,7 @@ const pages = [
                 Che gioia! I nostri bambini hanno appena spento 3 candeline, è già il momento di andare all'asilo!<br />
                 I nostri piccini stanno crescendo e sono pronti per nuove avventure: nuova scuola, nuove maestre, nuovi compagni e tante nuove esperienze che riempiranno sempre di più il bagaglio delle loro abilità.<br />
                 È necessario prepararsi al meglio!<br />
-                Dobbiamo portare uno zaino bello pieno di entusiasmo, curiosità e coraggio; tutto ciò che hanno imparato fino ad ora sarà lo strumento che li sosterrà nel CAMMINO.<br /><br />
-
+                Dobbiamo portare uno zaino bello pieno di entusiasmo, curiosità e coraggio; tutto ciò che hanno imparato fino ad ora sarà lo strumento che li sosterrà nel CAMMINO.<br />
                 BIBLIOGRAFIA: (Girolametto et al, 2019); (Caselli et al, 2015); (Schindler, et al., 2011); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner E., 2018).<br />
                 Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[1]}
             </div>
@@ -349,8 +348,7 @@ const pages = [
 
                 Alcune mamme li chiamano scherzosamente i "Terribili Tre": i bambini hanno ormai imparato a correre e a parlare … Possono essere dei veri terremoti!<br />
                 Alla scuola dell'infanzia crescono ogni giorno di più e sono in continua ricerca di novità da imparare. La curiosità è il loro instancabile motore e chi di noi non ha pensato almeno una volta "Come si spegne questo bambino? Non si scaricano mai le batterie?!<br />
-                La "cattiva notizia" è che non esiste nessun pulsante OFF, ma la "buona notizia" è che, con pazienza e giuste strategie, è possibile gestire la vivacità di questi bambini!!<br /><br />
-
+                La "cattiva notizia" è che non esiste nessun pulsante OFF, ma la "buona notizia" è che, con pazienza e giuste strategie, è possibile gestire la vivacità di questi bambini!!<br />
                 BIBLIOGRAFIA: (Tresoldi et al, 2015); (Girolametto et al, 2019); (D'Amico e Devescovi, 2013); (Schindler, et al., 2011); (Infant & Toddler Forum, 2014); (Deny M., 2020); (Federico e Cammisa, 2022); (Baumgartner, 2010).<br />
                 Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[2]}
             </div>
@@ -499,9 +497,8 @@ const pages = [
                     ${titleBox(2, "centrale", "")}
                 </div>
 
-                Che bello, i nostri bambini sono ormai dei veri e propri esploratori, curiosi e pieni di energia! Le loro giornate si riempiono sempre di più e c'è molto tempo da sfruttare, soprattutto ora che il sonnellino pomeridiano comincia a non essere più un'abitudine, ma un vecchio ricordo … ciao ciao nanna, stiamo diventando grandi!!<br /><br />
-
-                BIBLIOGRAFIA: (Marini et al., 2015); (Girolametto et al, 2019); (Tresoldi et al, 2018); (D’Amico e Devescovi, 2013); (Dunn e Kendrick, 1982); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
+                Che bello, i nostri bambini sono ormai dei veri e propri esploratori, curiosi e pieni di energia! Le loro giornate si riempiono sempre di più e c'è molto tempo da sfruttare, soprattutto ora che il sonnellino pomeridiano comincia a non essere più un'abitudine, ma un vecchio ricordo … ciao ciao nanna, stiamo diventando grandi!!<br />
+                BIBLIOGRAFIA: (Marini et al., 2015); (Girolametto et al, 2019); (Tresoldi et al, 2018); (D'Amico e Devescovi, 2013); (Dunn e Kendrick, 1982); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
                 Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[3]}
             </div>
         `,
@@ -640,8 +637,7 @@ const pages = [
                 </div>
 
                 Li chiamano "remigini"!! Che emozione … ecco in arrivo l'ultimo anno di asilo! I nostri bambini sono ormai i grandi della classe e, in quanto tali, spesso hanno anche il compito di aiutare i più piccoli nelle attività scolastiche. Sanno di dover dare l’esempio agli altri bambini e si sentono dei giganti alla ricerca di avventure!<br />
-                Bisogna prepararsi al meglio e farsi le spalle larghe … l'anno prossimo bisognerà preparare un altro zaino e indossare nuovi grembiulini: finalmente si va a scuola!!<br /><br />
-
+                Bisogna prepararsi al meglio e farsi le spalle larghe … l'anno prossimo bisognerà preparare un altro zaino e indossare nuovi grembiulini: finalmente si va a scuola!!<br />
                 BIBLIOGRAFIA: (D'Amico e Devescovi, 2013); (BVL); (Girolametto et al, 2019); (Tresoldi et al, 2015); (Pinton, 2018); (Federico e Cammisa, 2022); (Deny M., 2020); (Baumgartner, 2010).<br />
                 Clicca qui per scaricare il pdf del capitolo: ${pdfDownloads[4]}
             </div>
