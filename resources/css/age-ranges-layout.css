@@ -109,6 +109,8 @@ a.enabled {
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     #value-content-centrale {
@@ -124,25 +126,28 @@ a.enabled {
     .box-autonomie {
         margin: auto;
         left: unset;
+        margin-top: 2rem;
     }
 
     .box-gioco {
         margin: auto;
         left: unset;
         bottom: unset;
-
+        margin-top: 2rem;
     }
 
     .box-spunti {
         margin: auto;
         bottom: unset;
         left: unset;
+        margin-top: 2rem;
     }
 
     .box-campanelli {
         margin: auto;
         bottom: unset;
         left: unset;
+        margin-top: 2rem;
     }
 
     div#value-content {
