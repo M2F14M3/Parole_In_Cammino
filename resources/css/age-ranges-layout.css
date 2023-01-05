@@ -107,9 +107,6 @@ a.enabled {
     font-size: 1.2em;
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {}
 
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}

@@ -9,6 +9,10 @@ div#image {
     color: #e5760d;
 }
 
+.menu-background {
+    background-color: #e5760d;
+}
+
 .sub-title {
     color: #e5760d;
     font-weight: bold;
@@ -26,7 +30,8 @@ div#image {
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
 
-    html,body {
+    html,
+    body {
         width: fit-content;
         height: fit-content;
     }
@@ -53,14 +58,17 @@ div#image {
     #instraction-cointaner {
         padding: 5px 5px 5px 5px;
     }
+
     #extra {
         display: flex;
         flex-direction: column;
     }
 }
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
 
-    html,body {
+    html,
+    body {
         width: fit-content;
         height: fit-content;
     }
