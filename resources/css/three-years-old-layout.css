@@ -17,6 +17,21 @@
     text-decoration: underline;
 }
 
+.sub-title-section {
+    color: #8e1582;
+}
+
 #title-centrale {
     font-size: 0.8em;
+}
+
+.button1 {
+    background-color: white;
+    color: #8e1582;
+    border: 2px solid #8e1582;
+}
+
+.button1:hover {
+    color: white;
+    background-color: #8e1582;
 }

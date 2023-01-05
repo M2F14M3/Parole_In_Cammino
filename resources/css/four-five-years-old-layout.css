@@ -16,3 +16,18 @@
     font-weight: bold;
     text-decoration: underline;
 }
+
+.sub-title-section {
+    color: #44b513;
+}
+
+.button1 {
+    background-color: white;
+    color: #44b513;
+    border: 2px solid #44b513;
+}
+
+.button1:hover {
+    color: black;
+    background-color: #44b513;
+}

@@ -110,7 +110,7 @@ const pages = [
         linguaggio: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(0, "linguaggio")}
+                    ${titleBox(0, "linguaggio", "-section")}
                 </div>
 
                 I nostri bambini iniziano a chiacchierare sempre di più: il linguaggio è il mezzo più rapido ed efficace, che consente di farsi comprendere velocemente.<br />
@@ -125,13 +125,14 @@ const pages = [
                 Possiamo stimolare il linguaggio anche durante il gioco: ricordiamoci di <span class="sub-title2">descrivere quello che succede</span>, enfatizzando le azioni compiute!<br />
                 Ad esempio: "Stai lavando la bambola … guarda come è pulita!"<br /><br />
 
-                I nostri piccoli fanciulli e fanciulle sono pronti per arricchire il loro linguaggio, rendendolo sempre più simile a quello di un adulto.
+                I nostri piccoli fanciulli e fanciulle sono pronti per arricchire il loro linguaggio, rendendolo sempre più simile a quello di un adulto.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         autonomie: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(0, "autonomie")}
+                    ${titleBox(0, "autonomie", "-section")}
                 </div>
 
                 <span class="sub-title">1. Alimentazione</span><br />
@@ -159,13 +160,14 @@ const pages = [
                     Se i nostri bambini non riescono al primo tentativo proviamo a non essere precipitosi, anzi, <span class="sub-title2">sosteniamoli e sproniamoli</span>. In questo modo sentiranno che stiamo dando loro fiducia e con i loro tempi riusciranno a portare a termine il compito.<br /><br />
                 </div>
 
-                Facciamo un esempio: possiamo arrotolare le gambe dei pantaloni, aiutare il bambino a infilare i piedini e incoraggiarlo “Dai forza! Finisci tu … tira su i pantaloni fino in alto”.
+                Facciamo un esempio: possiamo arrotolare le gambe dei pantaloni, aiutare il bambino a infilare i piedini e incoraggiarlo “Dai forza! Finisci tu … tira su i pantaloni fino in alto”.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         centrale: `
             <div id="value-content-centrale">
                 <div id="title-centrale">
-                    ${titleBox(0, "centrale")}
+                    ${titleBox(0, "centrale", "")}
                 </div>
 
                 Che gioia! I nostri bambini hanno appena spento 3 candeline, è già il momento di andare all'asilo!<br />
@@ -180,7 +182,7 @@ const pages = [
         campanelli: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(0, "campanelli")}
+                    ${titleBox(0, "campanelli", "-section")}
                 </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
@@ -192,13 +194,14 @@ const pages = [
                 -	Il peggioramento del linguaggio dopo che il bambino ha imparato a elaborare frasi di due parole.<br />
                 -	La difficoltà del bambino nel comprendere ciò che gli viene detto (anche richieste semplici).<br />
                 <span class="list">Ad esempio durante il gioco richieste del tipo "metti la mucca nella stalla e dai da mangiare al cavallo".</span>
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         spunti: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(0, "spunti")}
+                    ${titleBox(0, "spunti", "-section")}
                 </div>
 
                 <div class="list">
@@ -227,13 +230,14 @@ const pages = [
                         4.	Con il fazzoletto, chiudere prima una narice e poi l'altra.<br />
                     </div>
                     All'inizio dovremo <span class="sub-title2">ricordare</span> a voce la sequenza e <span class="sub-title2">aiutare anche fisicamente<br /> i nostri bambini anche con l'ultimo passaggio.
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         gioco: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(0, "gioco")}
+                    ${titleBox(0, "gioco", "-section")}
                 </div>
 
                 Quante mattine e quanti pomeriggi a giocare con i nostri bambini al parco, in casa, in giardino...<br />
@@ -241,7 +245,8 @@ const pages = [
                 Sicuramente nei primi mesi di vita i giochi preferiti riguardano <span class="sub-title">l'esplorazione</span> come ad esempio gattonare, lanciare oggetti, rotolarsi…<br />
                 Compaiono poi i <span class="sub-title">giochi di costruzione</span> (torri con i lego, pista delle macchinine…) e si intravede lo sviluppo del <span class="sub-title">gioco di finzione</span>: "Faccio finta di bere il tè dalla tazzina" oppure "Faccio finta di dare da mangiare alla bambola" …<br /><br />
 
-                E' importante <span class="sub-title2">giocare insieme</span> ai nostri bambini <span class="sub-title2">lasciando che siano loro a condurre il gioco</span> e a decidere le regole che più gli piacciono.
+                E' importante <span class="sub-title2">giocare insieme</span> ai nostri bambini <span class="sub-title2">lasciando che siano loro a condurre il gioco</span> e a decidere le regole che più gli piacciono.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `
     },
@@ -254,7 +259,7 @@ const pages = [
         linguaggio: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(1, "linguaggio")}
+                    ${titleBox(1, "linguaggio", "-section")}
                 </div>
 
                 La lingua corre sempre più veloce ed è sempre più precisa nei suoi movimenti: riesce anche a pronunciare suoni difficili, come quelli presenti in <span class="sub-title">GN</span>omo, <span class="sub-title">CI</span>ao, <span class="sub-title">GI</span>allo.<br /><br />
@@ -291,13 +296,14 @@ const pages = [
 
                 Come possiamo interagire e prendere parte a questi dialoghi un po' bizzarri?<br />
                 Non c'è una regola scritta che ci dice quali risposte dare e come comunicare; una delle strategie migliori è quella di <span class="sub-title2">mostrare interesse</span> per quello che i nostri piccoli hanno da raccontarci...ne saranno entusiasti e si sentiranno ascoltati!<br />
-                Dal primo anno della scuola dell'Infanzia parte la sperimentazione del "raccontare storie", ma ci vorrà un po' di pazienza perché risulti efficace e funzionale.
+                Dal primo anno della scuola dell'Infanzia parte la sperimentazione del "raccontare storie", ma ci vorrà un po' di pazienza perché risulti efficace e funzionale.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         autonomie: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(1, "autonomie")}
+                    ${titleBox(1, "autonomie", "-section")}
                 </div>
 
                 <span class="sub-title">1. Alimentazione</span><br />
@@ -331,13 +337,14 @@ const pages = [
                     "Giochiamo con il trenino? Ora giochiamo con le costruzioni? Adesso invece giochiamo a fare gli chef con la cucina?" Certo! Ma prima un po' di ORDINE!<br />
                     E' importante che i bambini comincino a <span class="sub-title">gestire gli spazi</span> in cui vivono durante la giornata e inizino a rispettare una nuova regolina: quando un gioco è terminato prima di prenderne uno nuovo si sistema e si <span class="sub-title">mette in ordine</span> quello che si stava usando!<br />
                     Inizialmente potrebbe essere utile <span class="sub-title2">ricordare</span> più volte ai nostri bambini <span class="sub-title2">questa semplice regola</span>, ma con il tempo impareranno a farlo anche da soli.
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         centrale: `
             <div id="value-content-centrale">
                 <div>
-                    ${titleBox(1, "centrale")}
+                    ${titleBox(1, "centrale", "")}
                 </div>
 
                 Alcune mamme li chiamano scherzosamente i "Terribili Tre": i bambini hanno ormai imparato a correre e a parlare … Possono essere dei veri terremoti!<br />
@@ -351,20 +358,21 @@ const pages = [
         campanelli: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(1, "campanelli")}
+                    ${titleBox(1, "campanelli", "-section")}
                 </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
                 -   Il rifiuto di comunicare.<br />
                 <span class="list">Quando il bambino non riesce a farsi comprendere, potrebbe scoraggiarsi e rinunciare ad avere relazioni e contatti con altri; se per qualsiasi motivo il suo linguaggio non gli permette di comunicare, potrebbe decidere di non utilizzarlo più.</span>
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         spunti: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(1, "spunti")}
+                    ${titleBox(1, "spunti", "-section")}
                 </div>
 
                 <div class="list">
@@ -404,13 +412,14 @@ const pages = [
                         E' consigliabile che i coltelli utilizzati abbiano una <span class="sub-title">punta arrotondata</span>, un'<span class="sub-title">impugnatura antiscivolo</span> che faciliti la presa e <span class="sub-title">denti non affilati</span>.<br />
                         Se scelti con cura questi strumenti migliorano i movimenti, la coordinazione e l'indipendenza di ogni bambino.
                     </div>
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         gioco: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(1, "gioco")}
+                    ${titleBox(1, "gioco", "-section")}
                 </div>
 
                 "Faccio finta che la spazzola sia un telefonino per chiamare la mamma in cucina!"<br />
@@ -426,7 +435,8 @@ const pages = [
                 Inizialmente sarà richiesta maggiormente la presenza dell'adulto, ma passo dopo passo aumenteranno sempre di più le situazioni in <span class="sub-title">cui si cercheranno a vicenda per giocare insieme</span>.<br />
                 Non possiamo di certo pretendere che scompaiano del tutto i diverbi tra i nostri piccoli. Qualche conflitto è del tutto normale, ma li aiuterà a confrontarsi e a trovare un punto di incontro per tornare a giocare insieme in tutta tranquillità e serenità!<br /><br />
 
-                A volte può essere utile un piccolo sostegno da parte nostra per <span class="sub-title2">aiutarli a ragionare</span> su quanto accaduto e <span class="sub-title2">trovare una soluzione</span> che soddisfi tutti quanti. E' fondamentale <span class="sub-title2">ascoltare il punto di vista di ciascun bambino</span> dando il giusto spazio a ognuno per poi aiutarli a fare chiarezza sulla situazione.
+                A volte può essere utile un piccolo sostegno da parte nostra per <span class="sub-title2">aiutarli a ragionare</span> su quanto accaduto e <span class="sub-title2">trovare una soluzione</span> che soddisfi tutti quanti. E' fondamentale <span class="sub-title2">ascoltare il punto di vista di ciascun bambino</span> dando il giusto spazio a ognuno per poi aiutarli a fare chiarezza sulla situazione.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `
     },
@@ -439,7 +449,7 @@ const pages = [
         linguaggio: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(2, "linguaggio")}
+                    ${titleBox(2, "linguaggio", "-section")}
                 </div>
 
                 Accidenti! Il metro segna sempre qualche centimetro in più, i vestiti dell'anno prima sono diventati piccoli e la valigetta delle competenze dei nostri bambini pesa sempre di più. Compaiono altri suoni come quelli presenti in <span class="sub-title">SC</span>immia e <span class="sub-title">R</span>ana.<br />
@@ -451,13 +461,14 @@ const pages = [
                 Per allenare l'<span class="sub-title">ordine temporale</span> della narrazione potremmo <span class="sub-title2">chiedere ai nostri piccoli cosa hanno fatto durante la loro giornata</span> con domande del tipo: "Cosa hai fatto dopo pranzo?", "Dove sei andato ieri?", "E poi, cosa è successo?" …<br />
                 Saranno facilitati nel racconto di esperienze quotidiane o di eventi passati rilevanti: quelli a valenza negativa saranno per lo più piccoli incidenti, mentre quelli a valenza positiva riguarderanno le nuove scoperte e attività.<br /><br />
 
-                Già dai 4 anni i nostri bambini sono in grado di <span class="sub-title">adattare il loro linguaggio</span> in base alla persona con cui stanno parlando: con i bambini più piccoli o con gli animali useranno frasi semplici e brevi con molte ripetizioni.
+                Già dai 4 anni i nostri bambini sono in grado di <span class="sub-title">adattare il loro linguaggio</span> in base alla persona con cui stanno parlando: con i bambini più piccoli o con gli animali useranno frasi semplici e brevi con molte ripetizioni.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         autonomie: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(2, "autonomie")}
+                    ${titleBox(2, "autonomie", "-section")}
                 </div>
 
                 <span class="sub-title">1. Vestirsi</span><br />
@@ -478,13 +489,14 @@ const pages = [
                     <span class="sub-title">Insaponarsi e sciacquarsi</span> è già un compito che possono svolgere da soli, pur sapendo che in qualsiasi momento possono chiederci aiuto. In questi casi il nostro compito sarà quello di <span class="sub-title2">dare loro qualche consiglio</span>.<br />
                     Ovviamente se combiniamo tra di loro una serie di elementi come la vivacità dei nostri bambini, i giochi con l'acqua e l'euforia del momento, possiamo immaginare che acqua e schiuma saranno un po' ovunque. Va bene così!<br />
                     Inizialmente l'importante è che siano invogliati nello svolgere questo nuovo compito in autonomia e che ne capiscano l'importanza. In un secondo momento, invece, potremo dare dei consigli e delle dritte in modo tale che anche i "nostri piccoli pesciolini" diano il loro contributo nel mantenere pulizia e ordine.
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         centrale: `
             <div id="value-content-centrale">
                 <div>
-                    ${titleBox(2, "centrale")}
+                    ${titleBox(2, "centrale", "")}
                 </div>
 
                 Che bello, i nostri bambini sono ormai dei veri e propri esploratori, curiosi e pieni di energia! Le loro giornate si riempiono sempre di più e c'è molto tempo da sfruttare, soprattutto ora che il sonnellino pomeridiano comincia a non essere più un'abitudine, ma un vecchio ricordo … ciao ciao nanna, stiamo diventando grandi!!<br /><br />
@@ -496,20 +508,21 @@ const pages = [
         campanelli: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(0, "campanelli")}
+                    ${titleBox(0, "campanelli", "-section")}
                 </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
                 <div class="list">
                     -	L'assenza di alcuni suoni<br />
                     <span class="list">Man mano che i bambini crescono riescono a pronunciare suoni sempre più difficili. In questa fascia d'età devono essere presenti i suoni che compaiono per primi nello sviluppo: 'P', 'T', 'M', 'N', 'B', 'L', 'D', 'C' (di "cane"), 'F'.</span>
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         spunti: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(2, "spunti")}
+                    ${titleBox(2, "spunti", "-section")}
                 </div>
 
                 <div class="list">
@@ -532,13 +545,14 @@ const pages = [
                         Ad esempio si può ricordare ai nostri piccoli che prima non riuscivano a infilare le scarpe, poi hanno imparato. Se non riescono serve un po' di pazienza e un filo di concentrazione in più.<br />
                         <span class="sub-title2">Rassicuriamoli</span>, infine, sul fatto che sappiamo che sono capaci e siamo certi che ce la possono fare con un po' di determinazione!
                     </div>
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         gioco: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(2, "gioco")}
+                    ${titleBox(2, "gioco", "-section")}
                 </div>
 
                 Quanto è bello vedere i nostri bambini che giocano insieme agli amici e alle amiche!<br />
@@ -550,7 +564,8 @@ const pages = [
                 Caspita, l'immaginazione dei nostri bambini non ha limiti! Adesso non solo ci raccontano delle storie, ma le mettono anche in scena, diventando allo stesso tempo registi e attori di un vero e proprio spettacolo teatrale. Ognuno ha il suo personaggio e si decide insieme il copione da seguire.<br /><br />
 
                 Quale potrebbe essere il nostro ruolo all'interno di questi "mini spettacoli teatrali"?<br />
-                Noi potremmo essere gli <span class="sub-title2">addetti alla sicurezza</span>: dobbiamo fare in modo che i nostri bambini giochino in autonomia, ma anche in sicurezza. Assicuriamoci che gli ambienti, i giochi e gli oggetti che hanno a disposizione siano tanti ma non pericolosi.
+                Noi potremmo essere gli <span class="sub-title2">addetti alla sicurezza</span>: dobbiamo fare in modo che i nostri bambini giochino in autonomia, ma anche in sicurezza. Assicuriamoci che gli ambienti, i giochi e gli oggetti che hanno a disposizione siano tanti ma non pericolosi.<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `
     },
@@ -563,7 +578,7 @@ const pages = [
         linguaggio: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(3, "linguaggio")}
+                    ${titleBox(3, "linguaggio", "-section")}
                 </div>
 
                 I nostri "grandoni" esplorano e imparano gli ultimi suoni come quelli delle parole "ro<span class="sub-title">S</span>a", "<span class="sub-title">S</span>ole", "fami<span class="sub-title">GLI</span>a".<br />
@@ -576,13 +591,14 @@ const pages = [
 
                 Le storie dei nostri bambini iniziano con "C'era una volta" e spesso si concludono con "Basta", "Finita", "Fine della storia"...<br />
                 All'interno dei racconti i personaggi compiono determinate azioni perché hanno uno <span class="sub-title">scopo ben preciso</span>, come ad esempio la ricerca di un tesoro o di un luogo incantato.<br />
-                Cominciano a fare capolino anche le <span class="sub-title">emozioni</span> e gli stati d'animo dei protagonisti delle storie: i bambini scoprono che tutti proviamo paura, felicità, rabbia, affetto, tristezza, coraggio!
+                Cominciano a fare capolino anche le <span class="sub-title">emozioni</span> e gli stati d'animo dei protagonisti delle storie: i bambini scoprono che tutti proviamo paura, felicità, rabbia, affetto, tristezza, coraggio!<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         autonomie: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(3, "autonomie")}
+                    ${titleBox(3, "autonomie", "-section")}
                 </div>
 
                 <span class="sub-title">1. Vestirsi</span><br />
@@ -613,13 +629,14 @@ const pages = [
                         Certamente sarà ancora necessario che qualcuno li accompagni e che abbia un occhio di riguardo nei loro confronti, ma potremo stare più tranquilli.<br /><br />
 
                         E' questo il  momento per <span class="sub-title2">verificare che abbiano appreso</span> quali sono le situazioni di potenziale pericolo da evitare (ad esempio: non ci si spinge, non si va in piedi sullo scivolo…).
-                    </div>
+                    </div><br />
+                    <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         centrale: `
             <div id="value-content-centrale">
                 <div>
-                    ${titleBox(3, "centrale")}
+                    ${titleBox(3, "centrale", "")}
                 </div>
 
                 Li chiamano "remigini"!! Che emozione … ecco in arrivo l'ultimo anno di asilo! I nostri bambini sono ormai i grandi della classe e, in quanto tali, spesso hanno anche il compito di aiutare i più piccoli nelle attività scolastiche. Sanno di dover dare l’esempio agli altri bambini e si sentono dei giganti alla ricerca di avventure!<br />
@@ -632,7 +649,7 @@ const pages = [
         campanelli: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(3, "campanelli")}
+                    ${titleBox(3, "campanelli", "-section")}
                 </div>
 
                 <span class="sub-title">Segnalate al pediatra se notate:</span><br />
@@ -640,13 +657,14 @@ const pages = [
                     -	L'assenza di alcuni suoni della lingua all'inizio della scuola primaria<br />
                     <span class="list">All'inizio della scuola primaria è fondamentale che siano presenti tutti i suoni caratteristici della lingua parlata.<br />
                     Se persistono difficoltà nella pronuncia di alcuni suoni o addirittura l'assenza di questi è consigliato il consulto di diverse figure professionali, tra cui il pediatra e il logopedista.</span>
-                </div>
+                </div><br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         spunti: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(3, "spunti")}
+                    ${titleBox(3, "spunti", "-section")}
                 </div>
 
                 -	<span class="sub-title">Una cascata di emozioni</span><br />
@@ -671,12 +689,14 @@ const pages = [
                     <span class="sub-title2">Secondo consiglio</span>: <span class="sub-title2">non c'è motivo per sminuire quello che sentiamo</span> e quello che siamo. Ogni nostro stato d'animo ci rappresenta in quel momento e può insegnarci, proteggerci e stimolarci: trattiamo quindi tutte le emozioni in egual modo.<br />
                     <span class="sub-title2">Ultimo consiglio</span>, ma non per importanza: i nostri bambini imparano tantissimo attraverso l'osservazione e l'imitazione. <span class="sub-title2">Se noi stessi sapremo vivere, comprendere e gestire al meglio le nostre emozioni, anche loro, prendendo esempio, saranno incentivati a farlo</span>!
                 </div>
+                <br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `,
         gioco: `
             <div id="value-content">
                 <div id="section-title">
-                    ${titleBox(3, "gioco")}
+                    ${titleBox(3, "gioco", "-section")}
                 </div>
 
                 Eccoci qua … è il momento di assistere o partecipare attivamente ai tornei dei <span class="sub-title">giochi in scatola</span>!<br />
@@ -685,7 +705,8 @@ const pages = [
                 E' proprio negli stessi giochi che prendono vita le discussioni senza fine tra i nostri accaniti giocatori: "Hai barato!", "No, non si gioca così!" …<br /><br />
                 
                 E' proprio in questi momenti che possiamo intervenire per <span class="sub-title2">ripristinare un clima sereno</span>, invitando a leggere tutti insieme le istruzioni e risolvere qualsiasi dubbio esistente.<br />
-                <span class="sub-title2">Ricordiamo sempre ai nostri bambini che l'importante è partecipare</span>!
+                <span class="sub-title2">Ricordiamo sempre ai nostri bambini che l'importante è partecipare</span>!<br />
+                <button class="button button1" onclick="dontShowText()">Clicca qui per chiudere</button>
             </div>
         `
     },
@@ -1026,12 +1047,12 @@ function ageRangeContent(index) {
                 2. ${boxNames.autonomie}
             </figcaption>
         </figure>
-        <figure class="box-campanelli">
-            <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
-                ${boxImages.campanelli}
+        <figure class="box-gioco">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')" id="box">
+                ${boxImages.gioco}
             </a>
             <figcaption class="sub-title">
-                5. ${boxNames.campanelli}
+                3. ${boxNames.gioco}
             </figcaption>
         </figure>
         <figure class="box-spunti">
@@ -1042,12 +1063,12 @@ function ageRangeContent(index) {
                 4. ${boxNames.spunti}
             </figcaption>
         </figure>
-        <figure class="box-gioco">
-            <a href="javascript:void(0)" onclick="showText(${index}, 'gioco')" id="box">
-                ${boxImages.gioco}
+        <figure class="box-campanelli">
+            <a href="javascript:void(0)" onclick="showText(${index}, 'campanelli')" id="box">
+                ${boxImages.campanelli}
             </a>
             <figcaption class="sub-title">
-                3. ${boxNames.gioco}
+                5. ${boxNames.campanelli}
             </figcaption>
         </figure>
     `;
@@ -1113,56 +1134,55 @@ function disableAllLinks(value) {
     });
 }
 
-function titleBox(index, value) {
+function titleBox(index, value, extra) {
     const content = document.createElement("div");
     switch (value) {
         case 'linguaggio':
             content.innerHTML = `
-                <h1 class="sub-title">
+                <h1 class="sub-title${extra}">
                     ${boxNames.linguaggio}
                 </h1>
             `;
             break;
         case 'centrale':
             content.innerHTML = `
-                <h1 class="sub-title">
+                <h1 class="sub-title${extra}">
                     ${boxNames.centrale[index]}
                 </h1>
             `;
             break;
         case 'autonomie':
             content.innerHTML = `
-                <h1 class="sub-title">
+                <h1 class="sub-title${extra}">
                     ${boxNames.autonomie}
                 </h1>
             `;
             break;
         case 'campanelli':
             content.innerHTML = `
-                <h1 class="sub-title">
+                <h1 class="sub-title${extra}">
                     ${boxNames.campanelli}
                 </h1>
             `;
             break;
         case 'spunti':
             content.innerHTML = `
-                <h1 class="sub-title">
+                <h1 class="sub-title${extra}">
                     ${boxNames.spunti}
                 </h1>
             `;
             break;
         case 'gioco':
             content.innerHTML = `
-                <h1 class="sub-title">
+                <h1 class="sub-title${extra}">
                     ${boxNames.gioco}
                 </h1>
             `;
             break;
     }
-    if(value != "centrale") {
-        content.innerHTML += `
-            <a href="javascript:void(0)" class="close" onclick=dontShowText()></a>
-        `;
-    }
     return content.innerHTML;
 }
+
+// function closeButton() {
+//     return `<a href="javascript:void(0)" class="close" onclick=dontShowText()></a>`;
+// }

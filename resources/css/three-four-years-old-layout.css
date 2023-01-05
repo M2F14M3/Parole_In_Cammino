@@ -20,3 +20,18 @@
 .sub-title3 {
     font-style: italic;
 }
+
+.sub-title-section {
+    color: #e5760d;
+}
+
+.button1 {
+    background-color: white;
+    color: #e5760d;
+    border: 2px solid #e5760d;
+}
+
+.button1:hover {
+    color: white;
+    background-color: #e5760d;
+}

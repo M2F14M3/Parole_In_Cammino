@@ -3,7 +3,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 60% 40%;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 25% 55% 15%;
 }
 
 .destra-contenuto>div {
@@ -14,6 +14,7 @@
 #value-content-centrale {
     transform: translate(0%, 10%);
     height: fit-content;
+    padding-left: 1rem;
 }
 
 .box-linguaggio,
@@ -24,18 +25,19 @@
 
 .box-gioco {
     position: relative;
-    bottom: 15%;
+    left: 15%;
+    bottom: 0;
 }
 
 .box-spunti {
     position: relative;
-    bottom: 15%;
     left: 30%;
+    bottom: 0;
 }
 
 .box-campanelli {
     position: relative;
-    bottom: 15%;
+    bottom: 0;
     left: 20%;
 }
 
@@ -46,10 +48,6 @@ figure {
 
 figcaption {
     text-align: center;
-}
-
-#box:hover {
-    zoom: 1.2;
 }
 
 div.content-years-range {
@@ -70,6 +68,7 @@ div#value-content {
     padding: 0% 3% 2% 3%;
     font-size: 1.2em;
     overflow-y: scroll;
+    z-index: 99999;
 }
 
 a.disabled {
@@ -80,24 +79,6 @@ a.enabled {
     pointer-events: all;
 }
 
-.close {
-    position: absolute;
-    width: 2em;
-    height: 2em;
-    top: .5em;
-    right: -1em;
-    border-radius: 50%;
-    text-decoration: none;
-    display: flex;
-    justify-content: end;
-}
-
-.close::after {
-    content: 'X';
-    color: #000;
-    font-weight: 700;
-}
-
 #section-title {
     position: sticky;
     top: 0;
@@ -105,8 +86,77 @@ a.enabled {
     width: 100%;
     background-color: #fff;
     font-size: 1.2em;
+    height: fit-content;
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: auto;
+}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .destra-contenuto {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #value-content-centrale {
+        transform: unset;
+        width: 100vw;
+        height: fit-content;
+        margin: 0;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .box-linguaggio,
+    .box-autonomie {
+        margin: auto;
+        left: unset;
+    }
+
+    .box-gioco {
+        margin: auto;
+        left: unset;
+        bottom: unset;
+
+    }
+
+    .box-spunti {
+        margin: auto;
+        bottom: unset;
+        left: unset;
+    }
+
+    .box-campanelli {
+        margin: auto;
+        bottom: unset;
+        left: unset;
+    }
+
+    div#value-content {
+        min-width: 80vw;
+        max-width: 100vw;
+        height: fit-content;
+        max-height: 70vh;
+        overflow-y: scroll;
+        z-index: 99999;
+    }
+
+    .sub-title-section {
+        font-size: 1.8em;
+        display: flex;
+        text-align: start;
+    }
+}
