@@ -159,4 +159,29 @@ a.enabled {
         display: flex;
         text-align: start;
     }
+
+    .destra-contenuto>:nth-child(1) {
+        order: 2;
+    }
+
+    .destra-contenuto>:nth-child(2) {
+        order: 1;
+    }
+
+    .destra-contenuto>:nth-child(3) {
+        order: 3;
+    }
+
+    .destra-contenuto>:nth-child(4) {
+        order: 4;
+    }
+
+    .destra-contenuto>:nth-child(5) {
+        order: 5;
+    }
+
+    .destra-contenuto>:nth-child(6) {
+        order: 6;
+    }
+
 }
